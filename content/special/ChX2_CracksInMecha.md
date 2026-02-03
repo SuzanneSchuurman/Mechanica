@@ -42,9 +42,10 @@ Various vortex knots, each represents another element. From [Wikimedia Commons](
 :width: 30%
 :align: center
 
-Lord Kelvin (1824-1907). From [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Sir_William_Thomson,_Baron_Kelvin,_1824_-_1907._Scientist,_resting_on_a_binnacle_and_holding_a_marine_azimuth_mirror.jpg), public domain.
+Lord Kelvin (1824-1907). From [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Sir_William_Thomson,_Baron_Kelvin,_1824_-_1907._Scientist,_resting_on_a_binnacle_and_holding_a_marine_azimuth_mirror.jpg), public domain.<br>
+Lord Kelvin working on the vortex theory of the atom.
 ```
-Lord Kelvin working on the vortex theory of the atom
+
 ````
 
 At the end of the nineteenth century, in 1897, Joseph John Thomson discovered the electron. It allowed him to further refine the scientific model of the atom and ended the vortex theory. In Thomson's view, an atom has internal structure: the electrons are moving in it. As electrons have a negative charge and atoms are neutral, there must be a balancing positive charge in an atom as well. Thomson had no idea what that would be. He figured that the positive charge was everywhere in the atom (that he thought of as being a sphere), with the electrons moving inside that sphere as tiny particles. From this picture, the Thomson model got its name: *the plum pudding model*, although it is a bit misleading as the idea was that the positively charged sphere was more a liquid in which the electrons 'float' than a solid. 
@@ -64,9 +65,10 @@ Plum pudding model according to Joseph Thomson. From [Wikimedia Commons](https:/
 :width: 30%
 :align: center
 
-Joseph John Thomson (1856-1940). From [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:J.J_Thomson.jpg), public domain.
-```
+Joseph John Thomson (1856-1940). From [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:J.J_Thomson.jpg), public domain.<br>
 Thomson refined the idea of the atomic model: electrons moving within the atom, though the atom is still neutral in charge.
+```
+
 ````
 
 The model did not hold very long as we will see in the next paragraph. Nevertheless, it marks the start of physicist becoming really interested in an atom theory.
@@ -83,6 +85,7 @@ The plum pudding model was abandoned in 1911. That year Ernest Rutherford (1871-
 :align: center
 
 Marie Curie (1867-1934). From [Wikimedia Commons](https://en.wikipedia.org/wiki/File:Marie_Curie_c._1920s.jpg), public domain.
+
 ```
 
 Rutherford, in cooperation with Hans Geiger (one of the inventors of what we now call the Geiger counter) and Ernest Masden, built an apparatus that could count the $\alpha$-particles. Moreover, he showed that the $\alpha$-particles were He-nuclei with a positive charge of $2e$. In 1917, he showed that Nitrogen could become Oxygen by bombarding it with the $\alpha$-particles. This was the first time that someone succeeded in artificially changing one element into another.
@@ -91,7 +94,7 @@ Rutherford, in cooperation with Hans Geiger (one of the inventors of what we now
 
 As mentioned, Rutherford is responsible for overthrowing the plum pudding model and replacing it by our modern view: an atom is made of a tiny, positively charged nucleus with the electrons orbiting around it. 
 
-The start of this paradigm-shift was formed by Rutherford's observation that some of the $\alpha$-particles were deflected by a thin metal sheet in front of his $\alpha$-counter. This puzzled him as the plum pudding model could not explain this: when using that model the particles were either colliding or passing straight. Rutherford, Geiger and Marsden thus set up an experiment in which they led the $\alpha$-particles scatter at a very thin gold foil to investigate further. 
+The start of this paradigm-shift was formed by Rutherford's observation that some of the $\alpha$-particles were deflected by a thin metal sheet in front of his $\alpha$-counter. This puzzled him as the plum pudding model could not explain this: when using that model the particles were either colliding with only small deviations or passing straight. Rutherford, Geiger and Marsden thus set up an experiment in which they led the $\alpha$-particles scatter at a very thin gold foil to investigate further. 
 
 In the experiment, the source would emit $\alpha$-particles through a small diaphragm onto the gold foil. The diaphragm made sure that all $\alpha$-particles were traveling on the same line. After moving through the gold foil, the particles could be detected by looking via a microscope at the tiny light flashes an $\alpha$-particle caused when hitting the detection screen. The microscope and detection screen could be placed under an angle with the original trajectory of the $\alpha$-particles. By measuring at all possible angles, the scattering of the $\alpha$-particles by the gold foil could be completely mapped and quantified. 
 
@@ -128,7 +131,7 @@ Rutherford knew the theory of Maxwell for electromagnetism and could estimate th
 
 $$ F_c \leq \frac{q_\alpha Q_g}{4 \pi \epsilon_0} \frac{1}{r_0^2} $$ 
 
-with $Q$ the charge of the atom (i.e. +79e), $q_\alpha$ the charge ($+2e$) of the $\alpha$-particle, $\epsilon_0$ the permittivity of vacuum ($\frac{1}{4 \pi \epsilon} = 9 \cdot 10^9\ \mathrm{Nm}^2/\mathrm{C}^2$) and $r_0$ the radius of a gold atom.
+with $Q$ the charge of the atom (i.e. +79e), $q_\alpha$ the charge ($+2e$) of the $\alpha$-particle, $\epsilon_0$ the permittivity of vacuum ($\frac{1}{4 \pi \epsilon_0} = 9 \cdot 10^9\ \mathrm{Nm}^2/\mathrm{C}^2$) and $r_0$ the radius of a gold atom.
 
 The deflection of the particle is biggest if the Coulomb force is perpendicular to the trajectory. So, we take that for our estimate. The true effect, when passing through the atom, will be smaller.  
 
@@ -145,7 +148,7 @@ $$\tan \phi = \frac{\Delta p}{p} \Rightarrow \phi \approx \frac{\Delta p}{p} \te
   
 The momentum change is due to the force $F_c$ working for a time period $\Delta t$ on the particle:
 
-$$ dP = Fdt -\rightarrow \Delta p \approx F_c \Delta t$$
+$$ dp = Fdt \rightarrow \Delta p \approx F_c \Delta t$$
 
 The time the particle is in the atom is estimated as follows: the particle has a velocity $v_0$ and it has to travel a distance $2r_0$ through the atom, thus $\Delta t \approx \frac{2r_0}{v_0} $. We assume that the change in momentum is small, so that we can still use $v_0$ as an estimate of the velocity with which the $\alpha$-particle travels.
   
@@ -175,14 +178,14 @@ Rutherford's model of an atom.
 
 This new model would spark a whole new set of questions, setting up one of the biggest changes in physics: Quantum Theory.
 
-**Collapse of matter?**
-An immediate consequence of this new view on atoms and matter came from the analogy with Newton's work on the solar system and the Kepler Laws. In the case of the sun and planets, the interaction force is gravity: $\vec{F}_g = - G \frac{m_1 m_2}{r_{12}^2}\hat{r_{12}}$. When dealing with a nucleus with its orbiting electrons the interaction force is the Coulomb force: $ \vec{F}_C = \frac{1}{4\pi \epsilon_0} \frac{q_1 q_2}{r_{12}^2}\hat{r_{12}} $.
+**Collapse of matter?**<br>
+An immediate consequence of this new view on atoms and matter came from the analogy with Newton's work on the solar system and the Kepler Laws. In the case of the sun and planets, the interaction force is gravity: $\vec{F}_g = - G \frac{m_1 m_2}{r_{12}^2}\hat{r}_{12}$. When dealing with a nucleus with its orbiting electrons the interaction force is the Coulomb force: $ \vec{F}_C = \frac{1}{4\pi \epsilon_0} \frac{q_1 q_2}{r_{12}^2}\hat{r}_{12} $.
 
 As both Gravity and Coulombs forces are central, conservative forces and are inversely proportional to the square of distance between the two interacting particles, the motion of a 'tiny' planet around the 'massive' sun is mathematically completely analogous to that of a 'tiny' electron around its 'massive' nucleus.
 
 Thus an electron orbits the nucleus in an ellipse. Consequently, it is in a permanent state of acceleration. However, from Maxwell's theory of electromagnetism it is well known (already in the times of Rutherford as the theory of Maxwell dates back to around 1860) that accelerating charged particles radiate energy in the form of electromagnetic waves. This means that the electron constantly looses energy and thus moves to an elliptical orbit closer to the nucleus until, eventually, its orbit collapses onto the nucleus. This process would go very fast and matter in its present form could not exist. Now we know that the idea of an atom being a miniature solar system is wrong. But questions and dilemmas like these grew very quickly, giving rise to quantum mechanics and opening a whole new world: a completely different picture of things at small scales. A world with new rules and new consequences, where our intuition, based on daily life and large-scale structures composed of many, many atoms, fails.
 
-**Scattering Theory**
+**Scattering Theory**<br>
 The work of Rutherford and co-workers forms the start of a new branch of physics: nuclear physics. By using radiation in the form of X-rays (i.e. high energy photons) and electrons or protons, physicists are able to probe the internal properties of molecules, atom, nuclei and even elementary particles (or at least, what we once thought were elementary particles).
 
 The idea is to send high energy particles towards the object of investigation and look at the scattering that is a consequence of the interaction between the object and the incoming particles. The internal structure of the object dictates the scattering. Thus, by measuring the scattering features and back tracing the underlying physical interaction can be found.
@@ -275,13 +278,13 @@ In the table below, the ratio of the specific heats $c_p /c_V$ is listed for a n
 
 As we see, for the noble gases it is quite ok (at $T=293\text{K}$ !), but not so for the diatomic gases.
 
-For really high temperatures (~2000K) for both $O_2$ and $H_2$, $\gamma$ it is close to 1.286. But if we go to low temperature, their respective $\gamma$'s increase and $H_2$ reaches a value of 1.66! Hence, Maxwell concluded, that the laws of classical mechanics could not be the final answer. 
+For really high temperatures (~2000K) for both $O_2$ and $H_2$, $\gamma$ it is close to 1.286. But if we go to low temperature, their respective $\gamma$'s increase and $H_2$ reaches a value of 1.66! Hence, Maxwell concluded that the laws of classical mechanics could not be the final answer. 
 
 As we have seen when discussing Rutherford's experiment, in the early twentieth century more cracks became visible. These led scientists to Quantum Mechanics.
 
 ## The problem with Maxwell's equations
 
-In the early 1860s [Maxwell](https://en.wikipedia.org/wiki/James_Clerk_Maxwell) extended Ampères' law, in combination with Gauss and Faraday laws. This led to four coupled differential equations describing the generation of electromagnetic fields from charges and currents. They are now just known as *the Maxwell equations*. They read in modern (differential) notation as follows for the electric  $\vec{E}(\vec{x},t)$ and magnetic $\vec{B}(\vec{x},t)$ field in free space
+In the early 1860s [Maxwell](https://en.wikipedia.org/wiki/James_Clerk_Maxwell) extended Ampères' law, in combination with Gauss and Faraday laws. This led to four coupled differential equations describing the generation of electromagnetic fields from charges and currents. They are now just known as *the Maxwell equations*. They read in modern (differential) notation as follows for the electric  $\vec{E}(\vec{r},t)$ and magnetic $\vec{B}(\vec{r},t)$ field in free space
 
 $$
 \begin{array}{rcl}
@@ -292,7 +295,7 @@ $$
 \end{array}
 $$
 
-With $\rho(\vec{x})$ the charge density distribution and $\vec{J}(\vec{x},t)$ the electric current density, and constants $\epsilon_0$ the vacuum permittivity and $\mu_0$ the vacuum magnetic permeability. 
+With $\rho(\vec{r})$ the charge density distribution and $\vec{J}(\vec{r},t)$ the electric current density, and constants $\epsilon_0$ the vacuum permittivity and $\mu_0$ the vacuum magnetic permeability. 
 
 You will learn all about Maxwell's equations in  classes on *electromagnetism*. The mathematics of these equations is quite difficult as each equation is $3D+t$ and the equations are coupled.
 
@@ -310,22 +313,22 @@ $$
 \frac{1}{\sqrt{\epsilon_0 \mu_0}}\equiv c=2.998\cdot 10^8\ \text{m/s} \approx 300,000\ \text{km/s} 
 $$
 
-If the Maxwell equations are laws of physics all inertial observers must be able to write down the equation in the same form. Therefore for an observer $S'$, traveling at constant velocity $V\hat{x}$ with respect to $S$, we would write down the wave equation for a field that propagates only along the $x$-direction with amplitude in the $z$-direction (without loss of generality) $\vec{E}=(0,E_y(x,t),0)$ as
+If the Maxwell equations are laws of physics all inertial observers must be able to write down the equation in the same form. Therefore for an observer $S'$, traveling at constant velocity $V\hat{x}$ with respect to $S$, we would write down the wave equation for a field that propagates only along the $x$-direction with amplitude in the $y$-direction (without loss of generality) $\vec{E}=(0,E_y(x,t),0)$ as
 
 $$
 \frac{\partial^2 E'_{y'}}{\partial x^{'2}} - \epsilon_0 \mu_0 \frac{\partial^2 E'_{y'}}{\partial t^{'2}}=0 \; (*)
 $$
 
-This has exactly the same form as for $S$ which is good if it should represent a physical law. However, for $S'$ the speed of the wave is also given by $c=\frac{1}{\sqrt{\epsilon_0 \mu_0}}$. As the speed is covered by universal constants $\epsilon_0, \mu_0$, the speed is the same of $S$ and $S'$ or in other words $c=c'$! This is not what should happen! From the Galilean Transformation we know that we should find the same form, but with $c'=c-V$ the relative velocity of the two observers. 
+This has exactly the same form as for $S$ which is needed if it should represent a physical law. However, for $S'$ the speed of the wave is also given by $c=\frac{1}{\sqrt{\epsilon_0 \mu_0}}$. As the speed is covered by universal constants $\epsilon_0, \mu_0$, the speed is the same of $S$ and $S'$ or in other words $c=c'$! This is not what should happen! From the Galilean Transformation we know that we should find the same form, but with $c'=c-V$ the relative velocity of the two observers. 
 
 If we apply the coordinate transformation from $S\to S'$ according to the Galilean Transformation, the wave equation reads thus as
 
 $$
-\frac{\partial^2 E_z}{\partial x^{'2}}-\frac{1}{c^2}\frac{\partial^2 E_z}{\partial t^{'2}}-\frac{V^2}{c^2}\frac{\partial^2 E_z}{\partial x^{'2}}+
-\frac{2V}{c^2}\frac{\partial^2 E_z}{\partial x' \partial t'}=0
+\frac{\partial^2 E_y}{\partial x^{'2}}-\frac{1}{c^2}\frac{\partial^2 E_y}{\partial t^{'2}}-\frac{V^2}{c^2}\frac{\partial^2 E_y}{\partial x^{'2}}+
+\frac{2V}{c^2}\frac{\partial^2 E_y}{\partial x' \partial t'}=0
 $$
 
-Now we still need to find a transformation $E_z\to E'_{z'}$ (and $c'\to c)$ trying to retrieve the general form of the wave equation, but there is no such transformation. Therefore the wave equation of electromagnetic waves is not Galilei invariant at all! This was a serious issue at the time.
+Now we still need to find a transformation $E_y\to E'_{y'}$ (and $c'\to c)$ trying to retrieve the general form of the wave equation. But there is no such transformation! Therefore, the wave equation of electromagnetic waves is not Galilei invariant at all! This was a serious issue at the time.
 
 ### Hypothesis of the aether
 
