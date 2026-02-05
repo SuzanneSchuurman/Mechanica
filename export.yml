@@ -8,6 +8,13 @@ project:
       id: output-pdf1
       # logo: logo_TUD.png
       cover: cover.png
+      
+      papersize: a4
+      margin_top: 2 #cm
+      margin_bottom: 2 #cm
+      margin_left: 10 #%
+      margin_right: 10 #%
+      show_pagenumber: true
 
 
   # downloads:
