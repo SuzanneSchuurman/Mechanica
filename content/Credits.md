@@ -40,7 +40,7 @@ In this book you will find some 'special' features. Some of these are indicated 
 ```{exercise} &#127798;
 Each chapter includes a variety of exercises tailored to the material. We distinguish between exercises embedded within the instructional text and those presented on separate pages. The in-text exercises should be completed while reading, as they offer immediate feedback on whether the concepts and mathematics are understood. The separate exercise sets are intended for practice after reading the text and attending the lectures.
 
-To indicate the level of difficulty, each exercise is marked with 1, 2, or 3 &#127798;
+To indicate the level of difficulty, each exercise is marked with 1, 2, or 3 &#127798; .
 ```
 
 ```{intermezzo} Intermezzos
@@ -56,7 +56,7 @@ We provide various examples showcasing, e.g., calculations.
 ```
 
 ````{tip} Python
-We include in-browser python code, as well as downloadable .py files which can be executed locally. If there is an in-browser, press the ON-button to 'enable compute'. Try it by pushing the ON-button and subsequently the play button and see the output in de code-cell below.
+We include in-browser python code, as well as downloadable .py files which can be executed locally. If there is an in-browser python code cell, press the ON-button to 'enable compute'. Try it by pushing the ON-button and subsequently the play button and see the output in de code-cell below.
 
 ```{code-cell} python
 print("The square root of 2 is: ", 2 ** 0.5)
@@ -64,8 +64,7 @@ print("The square root of 2 is: ", 2 ** 0.5)
 ````
 
 ```{raw:typst}
-The interactive elements, such as Python code, hover over functionality, embedded youtube clips etc, only work in the online environment, not in the pdf or printed book. Where possible we included qr codes and links to the online clips.
-
+The interactive elements, such as Python code, hover-over functionality, embedded youtube clips etc, only work in the online environment, not in the pdf or printed book. Where possible we included qr codes and links to the online clips.
 ```
 
 We also include interactive exercises made with [Grasple](https://grasple.com/). These exercises provide immediate feedback on your answers, allowing you to learn from your mistakes and deepen your understanding of the material. Here is an example exercise:
@@ -77,6 +76,15 @@ We also include interactive exercises made with [Grasple](https://grasple.com/).
 New concepts, such as *{abbr}`Free body diagram (a simplified drawing that shows all the external forces acting on a single object, isolated from its surroundings.)`*, are introduced with a hover-over. If you move your mouse over the italicized part of the text, you will get a short explanation. 
 
 You have the opportunity to download some of the materials as Jupyter Notebook file and play with the code offline. We advise you to use [Jupyter Lab in combination with MyST](https://mystmd.org/guide/quickstart-jupyter-lab-myst).
+
+(buildlocal)=
+### Building this book locally 
+You can build this book locally. Download the source files from the repository and install [Jupyter Book](https://jupyterbook.org/stable/get-started/install/). Within the root folder of the book, run:
+
+```bash
+jupyter book start
+```
+
 
 (feedback)=
 ### Feedback
@@ -124,7 +132,7 @@ Special thanks to Hanna den Hertog for (re)making most of the drawings, Luuk Fr√
 +++
 
 (opened)=
-## Open Educational Resource
+## Licenses
 
 This book is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/) unless stated otherwise. It is part of the collection of [Interactive Open Textbooks](https://textbooks.open.tudelft.nl/textbooks/catalog/category/interactive) of [TU Delft Open](https://textbooks.open.tudelft.nl/textbooks/index).
 
@@ -163,9 +171,10 @@ R.F. Mudde, B. Rieger, C.F.J. Pols, *Classical Mechanics \& Special Relativity f
 @book{MuddeRiegerPols2025,
   author    = {Robert F. Mudde and Bernd Rieger and Freek Pols},
   title     = {Classical Mechanics \& Special Relativity for Beginners},
-  year      = {2025},
+  year      = {2026},
   publisher = {TU Delft Open},
   note      = {CC BY-NC},
+  doi       = {TODO},
   url       = {https://interactivetextbooks.tudelft.nl/mecharela}
 }
 ```
