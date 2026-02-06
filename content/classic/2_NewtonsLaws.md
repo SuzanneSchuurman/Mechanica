@@ -220,7 +220,7 @@ For a system of $N$ particles, extension is straight forward.
 
 
 ````{intermezzo} Intermezzo: Isaac Newton
-```{index} Newton; live
+```{index} Newton; life
 ``` 
 At the end of the year of Galilei's death, Isaac Newton was born in Woolsthorpe-by-Colsterworth in England. He is regarded as the founder of classical mechanics and with that he can be seen as the father of physics. 
 

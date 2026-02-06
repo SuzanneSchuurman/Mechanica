@@ -9,7 +9,7 @@ kernelspec:
 ---
 
 # Angular Momentum, Torque \& Central Forces 
-```{index} Torque, Angular momentum, Kepler, Central forces, Dark matter
+```{index} Torque, Angular momentum, Kepler, Central forces
 ```
 
 ## Torque \& Angular Momentum
@@ -140,7 +140,7 @@ No, it wouldn't! Let's just do it and recalculate. In the figure below, we have 
 ```{figure} ../images/ch6_SeeSaw4.svg
 :label: fig:ch6_SeeSaw4.svg
 :width: 400px
-:alt: A new coordinate system is added at the left-most end of the seesaw. The distance from the new origin to the center of mass of the adult is maked by a green line. 
+:alt: A new coordinate system is added at the left-most end of the seesaw. The distance from the new origin to the center of mass of the adult is made by a green line. 
 :align: center
 
 Free-body diagram with the origin located at the seesaw's end.
@@ -1113,7 +1113,8 @@ Trajectory of Haley's comet. From [Wikimedia Commons](https://commons.wikimedia.
 
 
 ## Speed of the planets \& dark matter
-
+```{index} Dark matter
+```
 Starting from Kepler 3, we can compute the orbital speed of a planet around the sun
 
 

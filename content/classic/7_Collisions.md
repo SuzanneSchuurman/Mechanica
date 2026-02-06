@@ -14,7 +14,7 @@ kernelspec:
 
 
 # Collisions
-```{index} collisions, elastic, inelastic
+```{index} collisions, collisions; elastic, inelastic
 ```
 
 ## What are collisions?
