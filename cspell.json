@@ -4,6 +4,6 @@
     "dictionaryDefinitions": [],
     "dictionaries": [],
     "words": [],
-    "ignoreWords": [mathrm],
+    "ignoreWords": ["mathrm","numref","mathbf","inft","numpy","matplotlib","xlim","ylim"],
     "import": []
 }

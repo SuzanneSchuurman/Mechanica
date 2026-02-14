@@ -582,7 +582,7 @@ $$
 For $e=0$ the collision is fully inelastic, for $e=1$ it is fully elastic.
 
 ``````{intermezzo} Heat 
-In chapter [Work & Engergy](./Ch4_WorkEnergy.ipynb) we have seen that energy is a conserved quantity. In inelastic collisions the kinetic energy is not conserved, that is, with every collision the temperature of both objects will increase. Remember from secondary school that heat can be calculated using
+In chapter [Work & Energy](./3_WorkEnergy.md) we have seen that energy is a conserved quantity. In inelastic collisions the kinetic energy is not conserved, that is, with every collision the temperature of both objects will increase. Remember from secondary school that heat can be calculated using
 
 $$Q = c m \Delta T = C \Delta T$$
 
