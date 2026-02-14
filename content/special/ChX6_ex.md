@@ -6,7 +6,8 @@ numbering:
 
 
 ---
-# Exercises, examples \& solutions
+(ch:4M_s:ex)=
+# Exercises, examples & solutions
 
 ## Exercises
 ```{exercise} &#127798;

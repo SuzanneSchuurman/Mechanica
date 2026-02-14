@@ -6,7 +6,8 @@ numbering:
 
 
 ---
-# Exercises, examples \& solutions
+(ch:reldyn_s:ex)=
+# Exercises, examples & solutions
 
 ## Worked Examples
 

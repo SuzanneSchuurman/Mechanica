@@ -8,6 +8,7 @@ kernelspec:
   language: python
   name: python3
 ---
+(ch:velT)=
 # Velocity Transformation & Doppler shift
 
 Imagine we have two spaceships moving each with a speed of $\frac{3}{4}c$ as shown below. What is the speed that either the red or yellow spaceships sees for the other spaceship speed?
@@ -37,7 +38,8 @@ In the above, we have only looked at the velocity component in the $x$-direction
 
 As our universe does not follow Galilei and Newton, we need to derive the transformation/addition formula for velocities with the LT. So let's do it. 
 
-## Velocity Transformation ##
+(ch:velT_s:VT)=
+## Velocity Transformation
 Let us start from the definition of velocity (assuming we deal with constant velocities, so we don't need to worry about differentiation and integration). We will denote velocities by $u$ to avoid confusion with $V$, the relative velocity between the two observers.
 
 Observer $S'$ will write down:
@@ -103,7 +105,7 @@ $$
 
 This is again smaller (in absolute sense) than $c$. For the other ship we find of course the same, but with different sign.
 
-
+(ch:velT:s:dop)=
 ## Doppler effect
 
 The [Doppler effect](https://en.wikipedia.org/wiki/Doppler_effect) is well-known from waves. You know it from daily life. If a car is passing you at high speed, the frequency of the sound you hear changes from approaching to driving away from you. The received frequency $f_{obs}$ by you is higher than the emitted frequency $f_{src}$ while the car is approaching, and smaller when it drives off.  
@@ -193,6 +195,7 @@ $$
 
 Please observe that the $\gamma$ factor is of $\gamma(u)$ that means even for only tangential movement $(u_r=0)$ there is a Doppler shit.
 
+(ch:velT_s:dop_ss:bg)=
 ### Cosmic background radiation
 
 The most well-known frequency shift is the red-shift from the expanding universe. Light coming from a star has a certain frequency as observed in the rest frame of the star. This frequency corresponds to a quantum mechanical drop in energy level. The photon emitted in this energy transition has a well known wave length and frequency. That is, of course, in the rest frame of the process. Anybody observing these photons while traveling with respect to the star will see a Doppler-shifted frequency. If the star is moving away from the observer, the wave length seems longer and thus the frequency lower: the light is shifted to the red end of the spectrum. If on the other hand the star is moving towards the observer, the waves seem compressed and the frequency detected is higher: the light is shifted to the blue end of the spectrum. Hence, astronomers talk about red sifted and blue shifted light.

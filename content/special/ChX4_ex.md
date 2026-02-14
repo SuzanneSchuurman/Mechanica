@@ -4,6 +4,7 @@ numbering:
     offset: 1
 
 ---
+(ch:velT_s:ex)=
 # Examples, exercises and solutions
 
 ## Examples

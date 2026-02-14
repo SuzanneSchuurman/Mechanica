@@ -4,12 +4,14 @@ numbering:
     offset: 0
 
 ---
-
+(ch:Cracks)=
 # Cracks in Classical Mechanics
 
 As the years progressed, Classical Mechanics developed further and further. So, in the first half of the nineteenths century it felt like classical mechanics was an all encompassing theory and that physics would become a discipline of working out problems based on a well-established, complete theory. But that wasn't going to be the case at all. Around 1850-1860 several cracks in the theory started to become visible. And they were fundamental!
-## Rutherford & the atom
 
+(ch:Cracks_s:Ruth)=
+## Rutherford & the atom
+(ch:Cracks_s:Ruth_ss:At)=
 ### Atomic theory
 The idea that matter is made of atoms is old. However, the notion of atoms as we have now is relatively young. 
 
@@ -73,7 +75,7 @@ Thomson refined the idea of the atomic model: electrons moving within the atom, 
 
 The model did not hold very long as we will see in the next paragraph. Nevertheless, it marks the start of physicist becoming really interested in an atom theory.
 
-
+(ch:Cracks_s:Ruth_ss:scat)=
 ### Rutherford's scattering experiment
 
 The plum pudding model was abandoned in 1911. That year Ernest Rutherford (1871-1937), a former student of Joseph Thomson, performed a ground-breaking experiment. Rutherford had been working on the newly discovered radio-activity of certain elements. He discovered that there were two types of radiation that were different from X-rays. He called them 'alpha' ($\alpha$) and 'beta' ($\beta$) rays. Later he proved that 'alpha' rays consist of He-nuclei. Rutherford, in cooperation with Frederick Soddy, was the first one to prove Marie Curie's conjecture that radioactivity was an atomic phenomenon, which could lead to changes in the atom itself, from one element to another. This idea thus countered the prior idea that an atom was seen as the ultimate, indestructible form of matter: atoms could not change from one form (element) to another.
@@ -178,14 +180,16 @@ Rutherford's model of an atom.
 
 This new model would spark a whole new set of questions, setting up one of the biggest changes in physics: Quantum Theory.
 
-**Collapse of matter?**<br>
+**Collapse of matter?**
+
 An immediate consequence of this new view on atoms and matter came from the analogy with Newton's work on the solar system and the Kepler Laws. In the case of the sun and planets, the interaction force is gravity: $\vec{F}_g = - G \frac{m_1 m_2}{r_{12}^2}\hat{r}_{12}$. When dealing with a nucleus with its orbiting electrons the interaction force is the Coulomb force: $ \vec{F}_C = \frac{1}{4\pi \epsilon_0} \frac{q_1 q_2}{r_{12}^2}\hat{r}_{12} $.
 
 As both Gravity and Coulombs forces are central, conservative forces and are inversely proportional to the square of distance between the two interacting particles, the motion of a 'tiny' planet around the 'massive' sun is mathematically completely analogous to that of a 'tiny' electron around its 'massive' nucleus.
 
 Thus an electron orbits the nucleus in an ellipse. Consequently, it is in a permanent state of acceleration. However, from Maxwell's theory of electromagnetism it is well known (already in the times of Rutherford as the theory of Maxwell dates back to around 1860) that accelerating charged particles radiate energy in the form of electromagnetic waves. This means that the electron constantly looses energy and thus moves to an elliptical orbit closer to the nucleus until, eventually, its orbit collapses onto the nucleus. This process would go very fast and matter in its present form could not exist. Now we know that the idea of an atom being a miniature solar system is wrong. But questions and dilemmas like these grew very quickly, giving rise to quantum mechanics and opening a whole new world: a completely different picture of things at small scales. A world with new rules and new consequences, where our intuition, based on daily life and large-scale structures composed of many, many atoms, fails.
 
-**Scattering Theory**<br>
+**Scattering Theory**
+
 The work of Rutherford and co-workers forms the start of a new branch of physics: nuclear physics. By using radiation in the form of X-rays (i.e. high energy photons) and electrons or protons, physicists are able to probe the internal properties of molecules, atom, nuclei and even elementary particles (or at least, what we once thought were elementary particles).
 
 The idea is to send high energy particles towards the object of investigation and look at the scattering that is a consequence of the interaction between the object and the incoming particles. The internal structure of the object dictates the scattering. Thus, by measuring the scattering features and back tracing the underlying physical interaction can be found.
@@ -224,7 +228,7 @@ left: scattering in 2D, right: scattering in 3D.
 In {numref}`Figure {number} <fig:Scattering2D3D.png>` scattering in a 2D world and in the 3D world is schematically depicted. In the 3-dimensional world the scattering takes place in the solid angle $d\theta$. Like the 2d equivalent, where the scattering angle can go from 0 to $2\pi$ (that is the full circle), in 3d it goes from 0 to $4\pi$ reflecting that it is now a full sphere.
 
 
-
+(ch:Cracks_s:Kin)=
 ## Kinetic theory of gases
 
 Already in the 18$^{\text{th}}$ century, work was done on what we call the kinetic theory of gases. The Swiss scientist Daniel Bernoulli proposed that gases were a large collection of molecules, i.e tiny particles moving in all directions. According to Bernoulli, their collision with walls was felt macroscopically as pressure and their averaged kinetic energy was in essence the temperature of the gas.
@@ -253,6 +257,7 @@ It took a while before these ideas were accepted, partly because the law on cons
 
 With the further development of Thermodynamics, the kinetic theory of gases also refined. In 1856, August Krönig came up with a simple kinetic model for gases in which he only considered the possibility of translational motion of the molecules. In essence, he treated gas molecules as point particles. A year later, Rudolf Clausius incorporated the possibility of rotation and vibrations. Two years after this, James Clerk Maxwell continued along this line. He found the velocity distribution of the molecules and established a firm connection between temperature and the average kinetic energy of a molecule. However, he also noted that the theoretical predictions were not in line with experiments. What was the problem? 
 
+(ch:Cracks_s:specheat)=
 ### Specific heat of gases  
 For ideal gases, we have the ideal gas law: $pV = nRT$ with $n$ the number of moles of the gas in question. Or written in terms of number of molecules, $N$, it reads as: $pV = NkT$, $k$ being the Boltzmann constant.
 
@@ -282,6 +287,7 @@ For really high temperatures (~2000K) for both $O_2$ and $H_2$, $\gamma$ it is c
 
 As we have seen when discussing Rutherford's experiment, in the early twentieth century more cracks became visible. These led scientists to Quantum Mechanics.
 
+(ch:Cracks_s:Ruth)=
 ## The problem with Maxwell's equations
 
 In the early 1860s [Maxwell](https://en.wikipedia.org/wiki/James_Clerk_Maxwell) extended Ampères' law, in combination with Gauss and Faraday laws. This led to four coupled differential equations describing the generation of electromagnetic fields from charges and currents. They are now just known as *the Maxwell equations*. They read in modern (differential) notation as follows for the electric  $\vec{E}(\vec{r},t)$ and magnetic $\vec{B}(\vec{r},t)$ field in free space
@@ -330,11 +336,12 @@ $$
 
 Now we still need to find a transformation $E_y\to E'_{y'}$ (and $c'\to c)$ trying to retrieve the general form of the wave equation. But there is no such transformation! Therefore, the wave equation of electromagnetic waves is not Galilei invariant at all! This was a serious issue at the time.
 
+(ch:Cracks_s:Ruth_ss:aether)=
 ### Hypothesis of the aether
 
 As light is a wave, people naturally thought there must be a medium to transport the wave, *something* must be oscillating. Vacuum was considered nothing, not something. A water wave, needs water as medium to transport the wave; the water oscillates. Or take sound waves, they need gas, liquid or a solid to oscillate. What could be the medium  that light, electromagnetic waves, use to oscillate? This medium must be all around us, in the space between the sun and earth, just everywhere. To save the Galilei invariance of Maxwell's equations this also needs to be a very special kind of medium that behaves differently than other media. This strange hypothetical medium was termed *aether* (ether). The search for the properties of the aether lead to the Michelson-Morley experiment - which showed that there was no aether at all!  [Lorentz](https://en.wikipedia.org/wiki/Hendrik_Lorentz) and [Fitzgerald](https://en.wikipedia.org/wiki/George_Francis_FitzGerald) found an ad hoc way to save the day by postulating an adapted version of the Galilean Transformation and a contraction of length. Later more about that, and how Einstein showed that all of this ad hoc business is not needed, things follow directly from his second axiom.
 
-
+(ch:Cracks_s:MM)=
 ## The Michelson-Morley experiment
 
 The [Michelson-Morley experiment](https://en.wikipedia.org/wiki/Michelson%E2%80%93Morley_experiment) was performed in between 1880-1890 to investigate properties of the hypothetical aether. The experiment returned a null-result, i.e. there was no sign of the existence of the aether - and to this day there is none.
@@ -376,9 +383,10 @@ NB: Back in the days, white light was used for the actual measurement and monoch
 
 Although the proposed hypothetical medium aether does not exist, as proven a long time ago, the terminology did not drop from everyday language. 
 
+(ch:Cracks_s:Ein)=
 ## Einstein's axioms
 
-In 1905 Einstein formulated his special theory of relativity with the article *Zur Elektrodynamik bewegter K&ouml;rper*, Annalen der Physik, **17**:891-921, 1905. He choose the Maxwell equations and the Michelson Morely experiment as a starting point for this argument to arrive at
+In 1905 Einstein formulated his special theory of relativity with the article *Zur Elektrodynamik bewegter K&ouml;rper*, Annalen der Physik, **17**:891-921, 1905. He choose the Maxwell equations and the Michelson Morley experiment as a starting point for this argument to arrive at
 
 1. The laws of physics are the same in all inertial frames of reference.
 2. The velocity of light in vacuum is the same in all inertial frames.
@@ -393,18 +401,18 @@ Extra reading with a historic perceptive. In a 200 page book [Wolfgang Pauli](ht
 
 ---
 
-Extra reading [Hoe de ether verdween uit de natuurkunde](../images/HoeDeEtherVerdween.pdf). This article by Jos Engelen in the *Nederandse Tijdschrijft voor Natuurkunde* explains the Michelsen-Morley experiment, places it into historic perspective and then adds the work of Lorentz, Poincaré and Einstein leading to the Lorentz transformation.
+Extra reading [Hoe de ether verdween uit de natuurkunde](../images/HoeDeEtherVerdween.pdf). This article by Jos Engelen in the *Nederandse Tijdschrijft voor Natuurkunde* explains the Michelson-Morley experiment, places it into historic perspective and then adds the work of Lorentz, Poincaré and Einstein leading to the Lorentz transformation.
 
 
 ```{exercise}
 :label: 15.1a
 
-Assume the Michelson-Morley experiment uses arms of length $L = 11\ \mathrm{m}$ and an aether wind speed $v$ due to the motion of the earth around the sun.  
+Assume the Michelson-Morley experiment uses arms of length $L = 11 \; \mathrm{m}$ and an aether wind speed $v$ due to the motion of the earth around the sun.  
 Distance earth-sun: $150 \cdot 10^6 \; \mathrm{km}$.  
 
 1. Calculate the expected time difference $\Delta t$ between light traveling parallel and perpendicular to the aether wind.
 
-The sun itself is orbiting the center of our Milky Way at an even higher speed: $250 \mathrm{km/s}$. 
+The sun itself is orbiting the center of our Milky Way at an even higher speed: $250 \; \mathrm{km/s}$. 
 
 2. What would this mean for the expected time difference in the Michelson and Morley experiment?
 

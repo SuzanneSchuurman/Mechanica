@@ -3,7 +3,7 @@ numbering:
   title:
     offset: 0
 ---
-
+(ch:introspec)=
 # Special Relativity - Lorentz Transformation
 
 As we discussed, in the second half of the nineteenth century it became clear that there was something wrong in classical mechanics. However, people would not easily give up the ideas of classical mechanics. We saw that the luminiferous aether was introduced as a cure and as a medium in which electromagnetic waves could travel and oscillate. Moreover, Lorentz and Fitzgerald managed to find a coordinate transformation that made the wave equation of Maxwell invariant. Fitzgerald came even up with length contraction: if the arm moving parallel to the aether of the interferometer of Michelson and Morley would contract according to $L_n = L \sqrt{1-\frac{V^2}{c^2}}$ then, the {abbr}`M&M (Michelson-Morley)` experiment should result in no time difference for the two paths, in agreement with the experimental findings. However, there was no fundamental reasoning, no physics underpinning the transformation and the length contraction. It worked, but had an ad hoc character. Very unsatisfying for physicists!
@@ -50,10 +50,12 @@ Now, if we compare GT to LT, we see that with the Lorentz Transformation this is
 Do note, that the Galilei Transform is a limit of the Lorenz Transformation. If we let $c \rightarrow \infty$, we see that $\gamma \rightarrow 1$ and $\frac{V}{c} \rightarrow 0$. And this gives us: $t' = t$ and $x' = x - Vt$, that is the Galilean Transformation!
 Now, this should not come as a surprise (even if it for a moment did). After all, Classical Mechanics does an outstanding job in many, many physics problems and the agreement with experiments is excellent.
 
+(ch:introspec_s:lorentz)=
 ## The Lorentz Transformation
 
 The way we wrote down the Lorentz transformation is a bit particular in a sense that we combine time $t$ with the speed of light $c$ into the "time" axis $ct$ which now has unit length. We can do this as $c$ is constant for all observers independent of their frame of reference. The speed of light is said to be a **Lorentz invariant**. In this notation the transform between $S$ and $S'$ (moving with velocity $V$ away) is *easy to remember*!
 
+(ch:introspec_s:lorentz_ss:S)=
 ### S and S'
 We will discuss most of the consequences for two observers $S$ and $S'$, traveling with a constant velocity $\vec{V}$ with respect to each other. They have taken their $x$, resp. $x'$ axis parallel to $\vec{V}$. Hence, we only need to talk about $V$, knowing that this is the only component of the relative velocity between the two observers and that it is along the $x, x'$ axis.
 
@@ -74,6 +76,7 @@ $S$ and $S'$: relative velocity parallel to the $x$ and $x'$ axes.
 
 N.B. It is crucial to be very precise in your notation when it comes to coordinates and quantities. For instance: $S$ might talk about the $x$-component of the velocity of an object and denote this by $v_x$. $S'$, on the other hand can also talk about that component, but will not call it the $x$-component: in the world of $S'$ $x$ "does not exist", only $x'$ does. So it is better to write $v'_{x'}$ for the $x'$-component of the velocity of the object according to $S'$. It may look cumbersome, and to a certain extent it is, but it actually does make sense. $S'$ would say that this component is $\frac{dx'}{dt'}$ both space and time having a prime. Hence, naturally $S'$ would talk about $\vec{r}' = x' \hat{x'} + y' \hat{y'} + z' \hat{z'}$ or $\vec{v}' = v'_{x'} \hat{x'} + v'_{y'} \hat{y'} + v'_{z'} \hat{z'}$
 
+(ch:introspec_s:lorentz_ss:LT)=
 ### Lorentz Transformation and its inverse
 The Lorentz Transformation, like the Galilean Transformation is a communication protocol for $S$ and $S'$. It allows them to interpret information that they get from each other in their own 'world', i.e. coordinate system.
 
@@ -110,6 +113,7 @@ The structure of the formulas is very symmetric and therefore needs little remem
 
 From the Lorentz transformation it is clear that time is not universal anymore ($ct'\neq ct$ in general). This is a large step from Newton and Galileo. Now the time coordinate is mixed somehow with the space coordinate depending on the speed $V$.
 
+(ch:introspec_s:lorentz_ss:Lorfac)=
 ### Lorentz factor
 
 The Lorentz factor (or $\gamma$-factor) 
@@ -134,6 +138,7 @@ Note that this list goes on for ever: there is a simple rule to find the triplet
 $5^2 - 4^2 = 5+4 = 3^2$ and $13^2 - 12^2 = 13 + 12 = 5^2$.  
 Do you see the pattern? Can you derive the general rule? What is the next one? How about $(7,24,25)$?
 
+(ch:introspec_s:lorentz_ss:lim)=
 ### In the limit  
 
 In the **limit of low speeds** with respect to the speed of light $\frac{V}{c}\ll 1 \Rightarrow \gamma =1$. Practically, this happens for about $V< 0.1 c \sim 30.000 \mathrm{km/s}$. In this limit the Lorentz transformation also reduces to the Galilean Transformation.
@@ -190,8 +195,9 @@ Close your book, laptop. Shut down your screen, put aside your mobile, tablet. P
 
 ```
 
+(ch:introspec_s:lengthcont)=
 ## Length contraction & Time dilation
-
+(ch:introspec_s:lengthcont_ss:FI)=
 ### First Implications
 As we have seen, we need to use the Lorentz Transformation instead of the Galilei one when two observers, $S$ and $S'$, want to exchange information. What changes if we do so? Let's first do some examples and see some of the consequences and the 'strange' conclusions we need to draw.
 
@@ -338,6 +344,7 @@ Welcome the 'Magical World of Relativity'. And don't worry: you will get used to
 * Within the framework of one observer nothing funny happens.
 * We better work with well defined events: they represent physical phenomena happening. Both observers will agree upon these and on the logic, e.g. first the impact than the observation of a photon - not the other way around!
 
+(ch:introspec_s:timespace)=
 ### Time & Space
     
 Here we have a look at the consequences of axioms 1 & 2. We know how two observers $S$ and $S'$ (moving away with $V$) transform their respective coordinates into each other, via the Lorentz transformation.
@@ -478,7 +485,7 @@ The length of the moving object observed by the stationary observer is not the s
 
 **Conclusion: moving rods are shorter, space shrinks**
 
-
+(ch:introspec_s:lengthcont_ss:par)=
 ### Paradox: twins and barns
 
 There are many variants of the following paradox. The word *paradox* already implies that there is only an apparent contradiction, not a real one. Here we will formulate the paradox with a ladder & barn and resolve it, but you can also think about it as a train & tunnel, or tank & trench etc. The resolution is always the same.

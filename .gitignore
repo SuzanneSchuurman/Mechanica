@@ -12,6 +12,7 @@ secrets.docx
 secrets.txt
 aantekeningen.pdf
 *.pptx
+MechaRela vs 1 feb 2026.pdf
 
 #Ignore backup files/folders
 **/.ipynb_checkpoints/

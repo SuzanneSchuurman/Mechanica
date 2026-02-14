@@ -6,6 +6,7 @@ numbering:
 
 
 ---
+(ch:spaceT_s:ex)=   
 # Exercises, examples \& solutions
 ## Exercises
 ```{exercise} Connected events &#127798;

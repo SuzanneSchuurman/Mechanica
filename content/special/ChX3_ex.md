@@ -5,6 +5,7 @@ numbering:
 
 
 ---
+(ch:introspec_s:ex)=
 # Exercises, examples \& solutions
 ## Examples
 
