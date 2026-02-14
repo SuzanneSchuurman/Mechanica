@@ -8,11 +8,13 @@ kernelspec:
   display_name: 'Python 3'
 ---
 
-# Angular Momentum, Torque \& Central Forces 
+(ch:AM)=
+# Angular Momentum, Torque & Central Forces 
 ```{index} Torque, Angular momentum, Kepler, Central forces
 ```
 
-## Torque \& Angular Momentum
+(ch:AM_s:torq)=
+## Torque & Angular Momentum
 From experience we know that if we want to unscrew a bottle, lift a heavy object on one side, try to unscrew a screw, we better use 'leverage'.
 
 ```{figure} ../images/ch6_Leverage.svg
@@ -47,6 +49,7 @@ The same holds for torque: we can work with the sum of all torques that act on a
 
 However, there is a catch: using torques requires that we are much more explicit and precise about the choice of our origin. Why? The reason is in the 'arm'. That is only defined if we provide an origin. 
 
+(ch:AM_s:torq_ss:seesaw)=
 ### The seesaw and torque
 
 Let's consider a simple example (simple in the sense that we are all familiar with it): the seesaw.
@@ -132,6 +135,7 @@ $$ \sum \vec{\tau}_i = 0 \Rightarrow mlg = MLg \rightarrow \frac{m}{M} = \frac{L
 
 A result we expected: the greater mass should be closer to the pivot point.
 
+(ch:AM_s:torq_difor)=
 ### Different origin
 
 So far, so good. But what if we had chosen the origin not at the pivot point, but somewhere to the left? Then all 'arm' will change length. And all torques will be different. Wouldn't that make $\sum \vec{\tau}_i \neq 0$?  
@@ -172,7 +176,7 @@ For equilibrium we need that the sum of torques is zero:
 
 $$\sum_i \vec{\tau}_i = 0$$
 
-
+(ch:AM_s:AM)=
 ## Angular Momentum
 
 From our seesaw example we learn: the seesaw can only be in equilibrium if the sum of torques is zero. What if this sum is non-zero? That is, a net torque operates on the seesaw.
@@ -221,8 +225,8 @@ Furthermore, note that since $\vec{l} \equiv \vec{r} \times \vec{p}$, $\vec{l}$ 
 Angular momentum of a particle at a certain position with momentum.
 ```
 
-
-### Torque \& Analogy to N2
+(ch:AM_s:AM_ss:ana)=
+### Torque & Analogy to N2
 
 Angular momentum obeys a variation of Newton's second law that ties it directly to torque.
 
@@ -276,7 +280,7 @@ Here $\theta$ is the angle between $\vec{a}$ and $\vec{b}$, and $\hat{n}$ is a u
 
 ```{figure} ../images/ch6_Right_hand_rule.svg
 :label: fig:ch6_Right_hand_rule.svg
-:alt: A schematic of the right hand. The thumb is pointing upward, the index finger is pointing to the left and the middel finger is pointing toward the viewer. The index finger denotes vector a, the middel finger denotes b and the thumb denotes the direction of their cross product. 
+:alt: A schematic of the right hand. The thumb is pointing upward, the index finger is pointing to the left and the middle finger is pointing toward the viewer. The index finger denotes vector a, the middle finger denotes b and the thumb denotes the direction of their cross product. 
 :width: 250px
 :align: center
 
@@ -287,7 +291,7 @@ From the definition it is clear that $\| \vec{a}\times\vec{b}\|$ is the area of 
 
 ```{figure} ../images/ch6_area_cross.svg
 :label: fig:ch6_area_cross.svg
-:alt: The magnitude of a cross b corresponds to the area of the paralellogram spanned by vectors a and b. 
+:alt: The magnitude of a cross b corresponds to the area of the parallelogram spanned by vectors a and b. 
 :width: 250px
 :align: center
 
@@ -363,6 +367,7 @@ Angular momentum of a free particle is constant.
 At some point in time, the particle is at position $\vec{r}_1$. Its angular momentum is perpendicular to the $xy$-plane and has magnitude $|| \vec{r}_1 \times \vec{p} || = r_\perp p$.
 Later in time it is at position $\vec{r}_2$. Still, its angular momentum is perpendicular to the $xy$-plane and has magnitude $|| \vec{r}_2 \times \vec{p} || = r_\perp p$, indeed identical to the earlier value. This shows that indeed the angular momentum of a free particle is constant.
 
+(ch:AM_s:examp)=
 ## Examples & Exercises
 ````{important} Example: Throwing a basketball
 
@@ -534,6 +539,7 @@ We can take the situation of {numref}`71`, but shift our origin such that at $t=
 ```
 +++
 
+(ch:AM_s:CF)=
 ## Central Forces
 
 We have looked at a specific class of forces: the conservative ones. Here we will inspect a second class, that is very useful to identify: the central forces.
@@ -561,6 +567,7 @@ Why is this so? Why does the fact that the angular momentum vector is a constant
 Imagine a particle that moves under the influence of a central force. At some point in time it will have position $\vec{r}_0$ and momentum $\vec{p}_0$. Neither of them is zero. We will assume that $\vec{r}_0$ and $\vec{p}_0$ are not parallel (in general they will not be). Thus they define a plane. Due to the cross-product $\vec{l}_0 = \vec{r}_0 \times \vec{p}_0$ is perpendicular to this plane.  
 A little time later, say $\Delta t$ later, both position and momentum will have changed. Since the force is central, the force is also in the plane defined by the initial position and momentum. Thus the change of momentum is in that plane as well: $\vec{p} (t + \Delta t) = \vec{p} (t) + \vec{F} \Delta t$. The right hand side is completely in our plane. And thus, the new momentum is also in the plane. But that means that the velocity is also in the same plane. An thus the new position $\vec{r} (t + \Delta t) = \vec{r}(t) + \frac{\vec{p}}{m} \Delta t$ must be in the same plane as well. We can repeat this argument for the next time and thus see, that both momentum and position cannot get out of the plane. This is, of course, fully in agreement with the fact that $\vec{l} = const$ for a central force.
 
+(ch:AM_s:CFnot)=
 ## Central forces: conservative or not?
 
 We can further restrict our class of central forces:
@@ -572,6 +579,7 @@ In the above, $|\vec{F}(\vec{r})| = f(r)$, that is: *the magnitude of the force 
 Both the concept of central forces and potential energy play a pivotal role in understanding the motion of celestial bodies, like our earth revolving the sun. 
 The planetary motion is an example of using the concept of central forces. It is, however, also an example in its own right. Using his new theory, Newton was able to prove that the motion of the earth around the sun is an ellipsoidal one. It helped changing the way we viewed the world from geo-centric to helio-centric.
 
+(ch:AM_s:CFnot_ss:kep)=
 ### Keppler's Laws
 
 Before we embark at the problem of the earth moving under the influence of the sun's gravity, we will go back in time a little bit. 
@@ -749,6 +757,7 @@ But, there was no scientific theory backing this up. It is purely 'data-fitting'
 
 Kepler had formulated his laws by 1619 AD. It would take another 60 years before Isaac Newton showed that these laws are actually imbedded in his first principle approach: all that is needed is Newton's second law and his Gravitational Law.  
 
+(ch:AM_s:NT)=
 ## Newton's theory and Kepler's Laws
 
 The planets move under the influence of the gravitational force between them and the sun. We start with inspecting and classifying the force of gravity. Newton had formulated the Law of gravity: two objects of mass $m_1$ and $m_2$, respectively, exert a force on each other that is inversely proportional to the square of the distance between the two masses and is always attractive. In a mathematical equation, we can make this more precise:
@@ -834,7 +843,7 @@ $$ \frac{dA}{dt} = \frac{l}{2m} \rightarrow A(t) = \frac{l}{2m}t + C$$
 
 We can set the constant $C$ to zero at some point in time $t_0$ and start counting the increase of the swept area. But we immediately infer that if we check the swept area between $t$ and $t+\Delta t$, this will be $\Delta A = \frac{l}{2m} \Delta t$ regardless of where the earth is in its orbit. In words: in equal time intervals, the earth sweeps an area that is the same for any position of the earth. We have established the Equal Area Law!
 
-
+(ch:AM_s:NT_ss:NT2)=
 ### Newton's theory and Kepler's Laws - part 2
 
 We have:
@@ -999,6 +1008,7 @@ Total energy larger than 0.
 
 ::::
 
+(ch:AM_s:NT_ss:orbits)=
 ### Ellipsoidal orbits
 
 We are left with the task of showing that planets 'circle' the sun in an ellipse. From the above, we now know that this must mean that the total energy is smaller than zero: $E<0$.
@@ -1014,7 +1024,7 @@ $$ \frac{(x+ea)^2}{a^2} + \frac{y^2}{b^2} = 1 $$
 :alt: The sun is drawn at the origin of an x,y-coordinate system. An ellipse is drawn, with the Sun at its right focus point.  
 :align: center
 
-Ellips in Cartesian coordinates.
+Ellipse in Cartesian coordinates.
 ```
 
 This is an ellipse with semi major and minor-axis $a$ and $b$, respectively. The center of the ellipse is located at $(-ea,0)$. Note that the sun is in the origin and that seen from the center of the ellipse, the origin is at one of the focal points of the ellipse. Consequently, the orbit is not symmetric as viewed from the sun. We notice this on earth: the summer and winter (when the sun is closest respectively furthest from the sun) are not symmetric, even if we take the tilted axis of the earth into account.
@@ -1038,7 +1048,7 @@ This type of curve is know as the conic sections. That is, they can be found by 
 ```{figure} ../images/conic_sections_small.*
 :label: fig:conic_sections_small.gif
 :width: 100%
-:alt: Animated gif showing the different possible conic sections. Left: A three-dimensional illustration of a cone, with a plane passing throug it at different heights and increasing steepness. Right: The two-dimensional conic section. The section is first a circle, then an ellipse, a parabola and finally a hyperbola. 
+:alt: Animated gif showing the different possible conic sections. Left: A three-dimensional illustration of a cone, with a plane passing through it at different heights and increasing steepness. Right: The two-dimensional conic section. The section is first a circle, then an ellipse, a parabola and finally a hyperbola. 
 :align: center
 
 Conic sections animation created by [Sara van der Werf](https://www.saravanderwerf.com/conics-gifs-why-gifs-are-my-new-addiction/), used with permission.
@@ -1058,7 +1068,7 @@ Finally, for $e > 1$ the trajectory is a hyperbola with the planet again moving 
 This holds for our solar system, but for any other star with planets as well. Research has shown that there are hundreds of solar systems out in the universe with thousands of planets moving around their star. See e.g. https://exoplanets.nasa.gov/ 
     
 
-
+(ch:AM_s:NT_ss:K3)=
 ### Kepler 3
 
 We are left with proving Kepler's third law:
@@ -1111,8 +1121,8 @@ Trajectory of Haley's comet. From [Wikimedia Commons](https://commons.wikimedia.
 ````
 
 
-
-## Speed of the planets \& dark matter
+(ch:AM_s:DM)=
+## Speed of the planets & dark matter
 ```{index} Dark matter
 ```
 Starting from Kepler 3, we can compute the orbital speed of a planet around the sun
@@ -1148,11 +1158,11 @@ If we plot the same speed versus distance curve not for the planets in our solar
 Adapted from [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Rotation_curve_of_the_Milky_Way.png), licensed under CC-SA 3.0.
 ```
 
-This mismatch is not understood to this day! The mass $M$ here is calculated from the visible stars and the supermassive black holes at the center of the galaxy. But even if the mass is calculated wrongly, the shape of the dependency does not match. It turns out, this mismatch is observed in all galaxies! Apparently the law of gravity does not hold for large distances *or* there must be extra mass that increases the speed that we do not see. This mismatch has lead to the postulation of <a href="https://en.wikipedia.org/wiki/Dark_matter"><em>dark matter</em></a> and an <a href="https://en.wikipedia.org/wiki/Alternatives_to_general_relativity"><em>alternative formulation</em></a> for the laws of gravity. This is the most disturbing problem in physics today; second is probably the interpretation of [measurement](https://en.wikipedia.org/wiki/Measurement_in_quantum_mechanics) in quantum mechanics (collapse of the wave function/Kopenhagen interpretation of Quantum Mechanics; multiverse theories). 
+This mismatch is not understood to this day! The mass $M$ here is calculated from the visible stars and the supermassive black holes at the center of the galaxy. But even if the mass is calculated wrongly, the shape of the dependency does not match. It turns out, this mismatch is observed in all galaxies! Apparently the law of gravity does not hold for large distances *or* there must be extra mass that increases the speed that we do not see. This mismatch has lead to the postulation of [dark matter](https://en.wikipedia.org/wiki/Dark_matter) and an [alternative formulation](https://en.wikipedia.org/wiki/Alternatives_to_general_relativity) for the laws of gravity. This is the most disturbing problem in physics today; second is probably the interpretation of [measurement](https://en.wikipedia.org/wiki/Measurement_in_quantum_mechanics) in quantum mechanics (collapse of the wave function/Kopenhagen interpretation of Quantum Mechanics; multiverse theories). 
 
 The majority of all matter in the universe is believed to be *dark*. And we have no clue what it could be! Most scientist even think it must be [non-baryonic](https://en.wikipedia.org/wiki/Baryon), that is, other stuff than our well-known protons or neutrons. It remains most confusing.
 
-The usual distance unit for distances in astronomy outside the solar system is not light years (ly), but [parsec](https://en.wikipedia.org/wiki/Parsec) [pc], or kpc, or Mpc. One parsec is about 3.3 ly (or $10^{13}$ km). Note: stars visible to the eye are typically not more than a few hundred parsec away. The Milky Way is perfectly visible to the naked eye as a band/stripe of "milk" sprayed over the night sky. But you cannot see it anywhere close to Delft, there is much too much light from cities and greenhouses. Go to Scandinavia in the winter ("wintergatan") or any place remote where there are few people. The reason you see a "band" in the night sky, is that the Milky Way is a spiral galaxy, sort of pancake shaped, and you see the band in the direction of the pancake. 
+The usual distance unit for distances in astronomy outside the solar system is not light years (ly), but [parsec](https://en.wikipedia.org/wiki/Parsec) [pc], or kpc, or Mpc. One parsec is about 3.3 ly (or $10^{13} \ \mathrm{km}$). Note: stars visible to the eye are typically not more than a few hundred parsec away. The Milky Way is perfectly visible to the naked eye as a band/stripe of "milk" sprayed over the night sky. But you cannot see it anywhere close to Delft, there is much too much light from cities and greenhouses. Go to Scandinavia in the winter ("wintergatan") or any place remote where there are few people. The reason you see a "band" in the night sky, is that the Milky Way is a spiral galaxy, sort of pancake shaped, and you see the band in the direction of the pancake. 
 
 
 

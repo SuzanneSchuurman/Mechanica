@@ -4,13 +4,13 @@ numbering:
     offset: 0
 ---
 
-(ch_WorkEnergy)=
+(ch_WE)=
 # Work and Energy
 
 ```{index} work; energy
 
 ```
-(sec_WorkEnergy_work)=
+(ch:WE_s:work)=
 ## Work
 Work and energy are two important concepts. {index}`Work <Work; definition>` is the transfer of energy that occurs when a force is applied to an object and causes displacement in the direction of that force, calculated as 'force times path' . However, we need a formal definition:
 
@@ -45,6 +45,7 @@ Keep in mind: in general the work depends on the starting point 1, the end point
 See also the chapter in the [linear algebra book on the inner product](https://interactivetextbooks.tudelft.nl/linear-algebra/Chapter1/Inner_Product.html)
 ```
 
+(ch:WE_s:KE)=
 ## Kinetic Energy
 {index}`Kinetic energy <Energy; kinetic>` is defined and derived using the definition of work and Newton's $ 2^{nd} $ Law.
 
@@ -63,7 +64,7 @@ Obviously, if more than one force acts, the net work done on the particle determ
 
 $$ W_1 + W_2 = \int_1^2 \vec{F}_1 \cdot d\vec{r} + \int_1^2 \vec{F}_2 \cdot d\vec{r} = \int_1^2 \vec{F}_1 \cdot d\vec{r} - \int_1^2 \vec{F}_1 \cdot d\vec{r} = 0 $$
 
-
+(ch:WE_s:Wex)=
 ## Worked Examples
 
 ```{exercise} Carrying a weight
@@ -184,6 +185,7 @@ $$
 $$
 ```
 
+(ch:WE_s:gravpot)=
 ## Gravitational potential energy
 Let's consider an object close to the surface of any planet, where the acceleration due to gravity can be described by $F_g=-mg$. Raising the object to a height $H$ requires us to do work: we will have to apply a force $F = +mg$ to the object to lift it to position $H$. Thus, with two forces acting - each doing work on the object we get:
 
@@ -332,7 +334,7 @@ Change the various graph settings (what is on the x/y axis). Change the starting
 Can you make sense of the motion and the graphs? 
 ```
 
-(ch3_conservartive)=
+(ch:WE_s:conserv)=
 ## Conservative force
 
 As we saw, work done on $m$ by $F$ during motion from 1 to 2 over a prescribed trajectory, is defined as:
@@ -360,6 +362,7 @@ However, there is a certain class of forces for which the path does not matter, 
 \text{conservative force } ⇔ ∮ \vec{F} \cdot d\vec{r} = 0 \text{ for ALL}\text{ closed paths}                                          
 ```
 
+(ch:WE_s:conserv_ss:Stokes)=
 ### Stokes' Theorem
 It was George Stokes who proved an important theorem, that we will use to turn the concept of conservative forces into a new and important concept.
 
@@ -541,6 +544,7 @@ $$
 Indeed, we find the same outcome.
 ````
 
+(ch:WE_s:conserv_ss:consF)=
 ### Conservative force and $\vec{\nabla} \times \vec{F}$
 
 For a conservative force the integral over the closed path is zero for any closed path. Consequently, $ \vec{\nabla} \times \vec{F} = 0 $ everywhere. How do we know this? Suppose $ \vec{\nabla} \times \vec{F} \neq 0 $ at some point in space. Then, since we deal with continuous differentiable vector fields, in the close vicinity of this point, it must also be non-zero. Without loss of generality, we can assume that in that region $ \vec{\nabla} \times \vec{F} \cdot d\vec{\sigma}> 0 $. Next, we draw a closed curve around this point, in this region. We now calculate the $∮ \vec{F} \cdot d\vec{r}$ along this curve. That is, we invoke Stokes Theorem. But we know that $ \vec{\nabla} \times \vec{F} \cdot d\vec{\sigma} > 0 $ on the surface formed by the closed curve. Consequently, the outcome of the surface integral is non-zero. But that is a contradiction as we started with a conservative force and thus the integral should have been zero.   
@@ -553,7 +557,7 @@ $$
 $$
 
 
-
+(ch:WE_s:PE)=
 ## Potential Energy
 This function $V$ is called the potential energy or the potential for short and has a direct connection to the work. A direct consequence of the above is:
 
@@ -582,6 +586,7 @@ $$
 
 In words: for a conservative force, the sum of kinetic and potential energy stays constant.    
 
+(ch:WE_s:PE_ss:vs)=
 ### Energy versus Newton's Second Law
 We, starting from Newton's Laws, arrived at an energy formulation for physical problems.   
 Question: can we also go back? That is: suppose we would start with formulating the energy rule for a physical problem, can we then back out the equation of motion?  
@@ -619,7 +624,7 @@ $$\begin{split}
 And we have recovered the 3-dimensional form of Newton's second Law.
 This is a great result. It allows us to pick what we like: formulate a problem in terms of forces and momentum, i.e. Newton's second law, or reason from energy considerations. It doesn't matter: they are equivalent. It is a matter of taste, a matter of what do you see first, understand best, find easiest to start with. Up to you!
 
-
+(ch:WE_s:stable)=
 ## Stable and Unstable Equilibrium
 A particle (or system) is in equilibrium when the sum of forces acting on it is zero. Then, it will keep the same velocity, and we can easily find an inertial system in which the particle is at rest, at an equilibrium position.   
 The equilibrium position (or more general: state) can also be found directly from the potential energy.
@@ -671,7 +676,7 @@ It is also easy to visualize what will happen if we distort that particle from t
 </ul>
   
 
-
+(ch:WE_s:stable_ss:taylor)=
 ### Taylor Series Expansion of the Potential
 
 The Taylor expansion or Taylor series is a different way of writing down the value of a function in the vicinity of a point $x_0$. Even though the function is written down in a different way, it is equal to $f$ in the vicinity of $x_0$. It uses an infinite series of polynomial terms with coefficients given by value of the derivative of the function at that specific point $x_0$. The value of the terms for higher n become small, so we can approximate the function by using only the first few terms. The more of these first terms you take, the closer your approximation is. Mathematically, it reads for a 1D scalar function $f: \mathbb{R} \rightarrow \mathbb{R}$:
