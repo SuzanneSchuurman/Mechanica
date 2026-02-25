@@ -6,10 +6,10 @@ numbering:
 
 
 ---
-(ch:reldyn)=
+(ch_reldyn)=
 #  Relativistic dynamics and collisions
 
-(ch:reldyn_s:4F)=    
+(ch_reldyn_s_4F)=    
 ## 4-force
 
 In the previous chapter we have seen that 4-momentum is defined by taking the derivative of the 4-velocity with respect to proper time: $P^\mu \equiv \frac{d U^\mu}{d \tau}$. This way, 4-momentum became a 4-vector that transforms according to the Lorentz Transformation.
@@ -32,7 +32,7 @@ $$
 
 with the 3-force $\vec{f}= \frac{d}{dt}(m\gamma(u)\vec{u})$
 
-(ch:reldyn_s:4F_ss:work)=
+(ch_reldyn_s_4F_ss_work)=
 ### Work and Impulse
 How about our ideas of force performing work by that force acting over a distance or providing momentum by a force working during a time interval? These ideas and concepts still apply, but they take a relativistic form. Let's see how that works.
 
@@ -73,7 +73,7 @@ $$ \mathcal{P} \equiv \frac{dE}{dt} = \vec{f} \cdot \vec{u}$$
 
 In words: the inner product of 3-force and 3-velocity is the power $\mathcal{P}$.
 
-(ch:reldyn_s:col)=
+(ch_reldyn_s_col)=
 ## Collisions
 
 We will now concentrate on collisions. From our earlier discussions, for collisions we assume that we can look 'over' the collision, that is: we apply conservation of momentum and -for elastic collisions- kinetic energy. The latter implies: no non-conservative forces that dissipate mechanical energy and the potential energy prior and after the collision is the same. 

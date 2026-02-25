@@ -6,7 +6,7 @@ numbering:
 
 
 ---
-(ch:4M_s:ex)=
+(ch_4M_s_ex)=
 # Exercises, examples & solutions
 
 ## Exercises

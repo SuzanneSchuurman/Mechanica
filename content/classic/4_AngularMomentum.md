@@ -8,12 +8,12 @@ kernelspec:
   display_name: 'Python 3'
 ---
 
-(ch:AM)=
+(ch_AM)=
 # Angular Momentum, Torque & Central Forces 
 ```{index} Torque, Angular momentum, Kepler, Central forces
 ```
 
-(ch:AM_s:torq)=
+(ch_AM_s_torq)=
 ## Torque & Angular Momentum
 From experience we know that if we want to unscrew a bottle, lift a heavy object on one side, try to unscrew a screw, we better use 'leverage'.
 
@@ -49,7 +49,7 @@ The same holds for torque: we can work with the sum of all torques that act on a
 
 However, there is a catch: using torques requires that we are much more explicit and precise about the choice of our origin. Why? The reason is in the 'arm'. That is only defined if we provide an origin. 
 
-(ch:AM_s:torq_ss:seesaw)=
+(ch_AM_s_torq_ss_seesaw)=
 ### The seesaw and torque
 
 Let's consider a simple example (simple in the sense that we are all familiar with it): the seesaw.
@@ -135,7 +135,7 @@ $$ \sum \vec{\tau}_i = 0 \Rightarrow mlg = MLg \rightarrow \frac{m}{M} = \frac{L
 
 A result we expected: the greater mass should be closer to the pivot point.
 
-(ch:AM_s:torq_difor)=
+(ch_AM_s_torq_difor)=
 ### Different origin
 
 So far, so good. But what if we had chosen the origin not at the pivot point, but somewhere to the left? Then all 'arm' will change length. And all torques will be different. Wouldn't that make $\sum \vec{\tau}_i \neq 0$?  
@@ -176,7 +176,7 @@ For equilibrium we need that the sum of torques is zero:
 
 $$\sum_i \vec{\tau}_i = 0$$
 
-(ch:AM_s:AM)=
+(ch_AM_s_AM)=
 ## Angular Momentum
 
 From our seesaw example we learn: the seesaw can only be in equilibrium if the sum of torques is zero. What if this sum is non-zero? That is, a net torque operates on the seesaw.
@@ -225,7 +225,7 @@ Furthermore, note that since $\vec{l} \equiv \vec{r} \times \vec{p}$, $\vec{l}$ 
 Angular momentum of a particle at a certain position with momentum.
 ```
 
-(ch:AM_s:AM_ss:ana)=
+(ch_AM_s_AM_ss_ana)=
 ### Torque & Analogy to N2
 
 Angular momentum obeys a variation of Newton's second law that ties it directly to torque.
@@ -367,7 +367,7 @@ Angular momentum of a free particle is constant.
 At some point in time, the particle is at position $\vec{r}_1$. Its angular momentum is perpendicular to the $xy$-plane and has magnitude $|| \vec{r}_1 \times \vec{p} || = r_\perp p$.
 Later in time it is at position $\vec{r}_2$. Still, its angular momentum is perpendicular to the $xy$-plane and has magnitude $|| \vec{r}_2 \times \vec{p} || = r_\perp p$, indeed identical to the earlier value. This shows that indeed the angular momentum of a free particle is constant.
 
-(ch:AM_s:examp)=
+(ch_AM_s_examp)=
 ## Examples & Exercises
 ````{important} Example: Throwing a basketball
 
@@ -539,7 +539,7 @@ We can take the situation of {numref}`71`, but shift our origin such that at $t=
 ```
 +++
 
-(ch:AM_s:CF)=
+(ch_AM_s_CF)=
 ## Central Forces
 
 We have looked at a specific class of forces: the conservative ones. Here we will inspect a second class, that is very useful to identify: the central forces.
@@ -567,7 +567,7 @@ Why is this so? Why does the fact that the angular momentum vector is a constant
 Imagine a particle that moves under the influence of a central force. At some point in time it will have position $\vec{r}_0$ and momentum $\vec{p}_0$. Neither of them is zero. We will assume that $\vec{r}_0$ and $\vec{p}_0$ are not parallel (in general they will not be). Thus they define a plane. Due to the cross-product $\vec{l}_0 = \vec{r}_0 \times \vec{p}_0$ is perpendicular to this plane.  
 A little time later, say $\Delta t$ later, both position and momentum will have changed. Since the force is central, the force is also in the plane defined by the initial position and momentum. Thus the change of momentum is in that plane as well: $\vec{p} (t + \Delta t) = \vec{p} (t) + \vec{F} \Delta t$. The right hand side is completely in our plane. And thus, the new momentum is also in the plane. But that means that the velocity is also in the same plane. An thus the new position $\vec{r} (t + \Delta t) = \vec{r}(t) + \frac{\vec{p}}{m} \Delta t$ must be in the same plane as well. We can repeat this argument for the next time and thus see, that both momentum and position cannot get out of the plane. This is, of course, fully in agreement with the fact that $\vec{l} = const$ for a central force.
 
-(ch:AM_s:CFnot)=
+(ch_AM_s_CFnot)=
 ## Central forces: conservative or not?
 
 We can further restrict our class of central forces:
@@ -579,7 +579,7 @@ In the above, $|\vec{F}(\vec{r})| = f(r)$, that is: *the magnitude of the force 
 Both the concept of central forces and potential energy play a pivotal role in understanding the motion of celestial bodies, like our earth revolving the sun. 
 The planetary motion is an example of using the concept of central forces. It is, however, also an example in its own right. Using his new theory, Newton was able to prove that the motion of the earth around the sun is an ellipsoidal one. It helped changing the way we viewed the world from geo-centric to helio-centric.
 
-(ch:AM_s:CFnot_ss:kep)=
+(ch_AM_s_CFnot_ss_kep)=
 ### Keppler's Laws
 
 Before we embark at the problem of the earth moving under the influence of the sun's gravity, we will go back in time a little bit. 
@@ -757,7 +757,7 @@ But, there was no scientific theory backing this up. It is purely 'data-fitting'
 
 Kepler had formulated his laws by 1619 AD. It would take another 60 years before Isaac Newton showed that these laws are actually imbedded in his first principle approach: all that is needed is Newton's second law and his Gravitational Law.  
 
-(ch:AM_s:NT)=
+(ch_AM_s_NT)=
 ## Newton's theory and Kepler's Laws
 
 The planets move under the influence of the gravitational force between them and the sun. We start with inspecting and classifying the force of gravity. Newton had formulated the Law of gravity: two objects of mass $m_1$ and $m_2$, respectively, exert a force on each other that is inversely proportional to the square of the distance between the two masses and is always attractive. In a mathematical equation, we can make this more precise:
@@ -843,7 +843,7 @@ $$ \frac{dA}{dt} = \frac{l}{2m} \rightarrow A(t) = \frac{l}{2m}t + C$$
 
 We can set the constant $C$ to zero at some point in time $t_0$ and start counting the increase of the swept area. But we immediately infer that if we check the swept area between $t$ and $t+\Delta t$, this will be $\Delta A = \frac{l}{2m} \Delta t$ regardless of where the earth is in its orbit. In words: in equal time intervals, the earth sweeps an area that is the same for any position of the earth. We have established the Equal Area Law!
 
-(ch:AM_s:NT_ss:NT2)=
+(ch_AM_s_NT_ss_NT2)=
 ### Newton's theory and Kepler's Laws - part 2
 
 We have:
@@ -1008,7 +1008,7 @@ Total energy larger than 0.
 
 ::::
 
-(ch:AM_s:NT_ss:orbits)=
+(ch_AM_s_NT_ss_orbits)=
 ### Ellipsoidal orbits
 
 We are left with the task of showing that planets 'circle' the sun in an ellipse. From the above, we now know that this must mean that the total energy is smaller than zero: $E<0$.
@@ -1068,7 +1068,7 @@ Finally, for $e > 1$ the trajectory is a hyperbola with the planet again moving 
 This holds for our solar system, but for any other star with planets as well. Research has shown that there are hundreds of solar systems out in the universe with thousands of planets moving around their star. See e.g. https://exoplanets.nasa.gov/ 
     
 
-(ch:AM_s:NT_ss:K3)=
+(ch_AM_s_NT_ss_K3)=
 ### Kepler 3
 
 We are left with proving Kepler's third law:
@@ -1121,7 +1121,7 @@ Trajectory of Haley's comet. From [Wikimedia Commons](https://commons.wikimedia.
 ````
 
 
-(ch:AM_s:DM)=
+(ch_AM_s_DM)=
 ## Speed of the planets & dark matter
 ```{index} Dark matter
 ```

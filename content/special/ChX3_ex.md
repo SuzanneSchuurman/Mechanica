@@ -5,7 +5,7 @@ numbering:
 
 
 ---
-(ch:introspec_s:ex)=
+(ch_introspec_s_ex)=
 # Exercises, examples \& solutions
 ## Examples
 

@@ -4,10 +4,10 @@ numbering:
     offset: 0
 ---
 
-(ch:4M)=   
+(ch_4M)=   
 # 4-Momentum & E=mc²
     
-(ch:4M_s:proper)=
+(ch_4M_s_proper)=
 ## Proper time
 We have seen that in Special Relativity events are described by four coordinates: $(ct,x,y,z)$. Moreover, distance is measured via a inner product $A^\mu \cdot B^\mu = A^0B^0 - A^1B^1 - A^2B^2 - A^3 B^3$. That opens the question: what about other quantities that we use in mechanics? 
 
@@ -53,7 +53,7 @@ $$
 
 The proper time interval relates to the frame time via the $\gamma$-factor for the velocity $u$.
 
-(ch:4M_s:4v)=
+(ch_4M_s_4v)=
 ## 4-velocity
 
 Now we can tackle the 4-velocity. In order to make any sense we must define a velocity whose length is an invariant. Furthermore, velocity must be something like displacement over time interval. For the displacement the obvious choice is: $dX^\mu$, i.e. a particle has moved from $X^\mu$ to $X^\mu + dX^\mu$. The displacement $dX^\mu$ transforms, of course, via the Lorentz Transformation. Moreover, its length is a Lorentz Invariant. 
@@ -74,7 +74,7 @@ $$
 
 4-velocity transfers between frames moving with speed $V$ as given by the Lorentz transformation as $\vec{U}$ is a 4-vector.
 
-(ch:4M_s:4v_ss:care)=
+(ch_4M_s_4v_ss_care)=
 ### Be careful with 4-vector interpretation
 
 We compute the inner product of $\vec{U}$ with itself $U^2 = \gamma^2(u) (c^2-u^2)$. That is a LT invariant of course. Therefore we can choose the frame such that $u=0$, or in other words $U^2=c^2$. The 4-velocity length is constant! That is not intuitive at all. Even stranger as the vector has constant length, it follows that the 4-velocity is always perpendicular to the 4-acceleration.
@@ -85,7 +85,7 @@ $$
 
 The counter intuitive stuff happens of course due to the pseudo-Euclidean metric.
 
-(ch:4M_s:4v_ss:3Vt)=
+(ch_4M_s_4v_ss_3Vt)=
 ### Revisit 3-velocity transformation
 
 Earlier we transformed the velocity $u$ of a particle in $S$ to $S'$ which was moving with $V$. This was quite complicated and the formula is difficult to remember. However, there is no need to remember the formula, you can always derive it from the transformation of the 4-velocity.
@@ -126,7 +126,7 @@ $$
 
 Just what we have derived before, but now in a way that you can always do this on the spot if you know the definition of the 4-velocity and the LT of a 4-vector.
 
-(ch:4M_s:4M)=
+(ch_4M_s_4M)=
 ## 4-momentum
 
 If we postulate that the mass $m$ is LT invariant we can define the 4-momentum simply by
@@ -141,7 +141,7 @@ with the 3-momentum $\vec{p}=m\gamma(u)\vec{u}=m\frac{d\vec{x}}{d\tau}$.
 The mass $m$ _does not_ change as a function of velocity $\vec{u}$. You still sometimes see $\tilde{m}\equiv\gamma(u)m$ and with this $\vec{P}=(\tilde{m}c,\tilde{m}\vec{u})$. That is not practical as it mixes kinetic energy with inertial mass.
 ```
 
-(ch:4M_s:4M_ss:cons)=
+(ch_4M_s_4M_ss_cons)=
 ### Conservation of 4-momentum
 
 For collisions now the total 4-momentum is conserved (per component)
@@ -154,7 +154,7 @@ If the total momentum is conserved than this must hold for the components $(m\ga
 
 Note, that we did not write "mass is conserved". We postulate that it is a LT invariant, that is: it is the same for all inertial observers. But that does not imply that for collisions the mass should equal before and after the collision.
 
-(ch:4M_s:EMc)=
+(ch_4M_s_EMc)=
 ## E=mc²
 
 *The* most famous equation in physics.
@@ -266,7 +266,7 @@ And we have finally derived *the* most famous equation in physics. We will use, 
 As gravitation acts on mass, it should also act on energy if they are the same! This is indeed the case, also photons, massless particles, feel gravity. More about that in Einstein's theory of general relativity. 
 ```
 
-(ch:4M_s:EMc_ss:m)=
+(ch_4M_s_EMc_ss_m)=
 ### Mass in units of energy
 
 The mass of an electron $m_e = 9.13\cdot 10^{-31} \mathrm{kg}$ is often given as $512\ \mathrm{keV}$, [kilo electron Volts]. Mass of all elementary particles is given actually in units of $\mathrm{eV}$.
@@ -291,7 +291,7 @@ The origin of the fame is probably twofold.
 - Secondly, when mass is actually converted into energy e.g. in a nuclear fission bomb or inside the sun with nuclear fusion, the effect is immense. The drop of the two nuclear bombs (little boy and fat man) on Hiroshima and Nagasaki made the equation inglorious world-known;  life changing for *all people*. 
 - Einstein's rock star status helped certainly quite a bit.
 
-(ch:4M_s:EMr)=
+(ch_4M_s_EMr)=
 ## Energy-momentum relation
 
 The 4-momentum is, of course, a 4-vector and therefore [$P^2$ is LT invariant](./ChX5_FourVectors.md#lorentz-invariants). Let us have a look at the outcome with $\vec{P}=\left ( \frac{E}{c},\vec{p} \right )$
@@ -322,7 +322,7 @@ Einstein triangle.
 
 You can visualize the energy momentum relation with the Einstein triangle shown here, as the relation has the form of $c^2=a^2+b^2$. With the kinetic energy as $E_{kin}=mc^2(\gamma(u)-1)$. $E=E_0+E_{kin}\equiv mc^2 +E_{kin}$.
 
-(ch:4M_s:EMr_ss:LTi)=
+(ch_4M_s_EMr_ss_LTi)=
 ### LT invariance of P²
 
 Above we found a very useful, but bit hidden relation in the derivation
@@ -333,7 +333,7 @@ $$
 
 This is of course LT invariant, as $m$ and $c$ are LT invariants (and the momentum is a 4-vector), but more importantly we can use this for computations of [relativistic collisions](./ChX7_RelDynColl.md). By the conservation of 4-momentum we can of course compute all collisions by equating the 4 components of the momentum before and after the collision. It is often, however, mathematically easier to write down the conservation of momentum and then square it. Because you can write down $P^2=m^2c^2$ directly, this saves often computations.
 
-(ch:4M_s:photon)=
+(ch_4M_s_photon)=
 ## Photons
 
 For photons we have the energy given by $E= \hbar \omega$ and the momentum as $p= \frac{\hbar\omega}{c}$. 
@@ -355,7 +355,7 @@ $$
 
 Thus: photons do not have mass. Do not get confused with $E=mc^2$.
 
-(ch:4M_s:photon_ss:restf)=
+(ch_4M_s_photon_ss_restf)=
 ### Rest frame of a photon?
 
 Does a photon have a rest frame? It travels with the speed of light $c$ (obviously) in all frames.
@@ -366,7 +366,7 @@ The answers is no and we give three good arguments.
 - The proper time of a photon is $d\tau^2 = dt^2 -\frac{1}{c^2}d\vec{x}^2$	but this is always equal to 0! A photon does not experience the passage of time, therefore it is reasonable to state that do not have a rest frame.
 - In the hypothetical rest frame for a photon there would be no electro-magnetic radiation/interaction possible. In this frame e.g. the interaction between electrons would be zero.
 
-(ch:4M_s:photon_ss:dop)=
+(ch_4M_s_photon_ss_dop)=
 ### Doppler revisited
 In chapter 14 we discussed the Doppler effect from a relativistic point of view. With the concept of 4-momentum it is easy to derive the Doppler shift of photons as observed in different frames of reference. We take the usual LT between $S'$ and $S$. In $S$' a photon is moving along the $x'$-direction. It has frequency $f'$. Its 4-momentum is 
 
@@ -383,7 +383,7 @@ $$\begin{split}
 
 Note that we didn't use the transformation of $P'^1_{photon}$ as this will give the same result.
 
-(ch:4M_s:speedofl)=
+(ch_4M_s_speedofl)=
 ## Speed of light as limiting velocity
 
 The $\gamma$ factor increases strongly if the speed approaches the speed of light $u/c\to 1$ as can be seen in this plot

@@ -4,7 +4,7 @@ numbering:
     offset: 1
 
 ---
-(ch:velT_s:ex)=
+(ch_velT_s_ex)=
 # Examples, exercises and solutions
 
 ## Examples

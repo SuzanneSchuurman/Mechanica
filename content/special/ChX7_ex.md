@@ -6,7 +6,7 @@ numbering:
 
 
 ---
-(ch:reldyn_s:ex)=
+(ch_reldyn_s_ex)=
 # Exercises, examples & solutions
 
 ## Worked Examples

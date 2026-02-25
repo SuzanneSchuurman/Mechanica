@@ -6,7 +6,7 @@ numbering:
 
 
 ---
-(ch:Cracks_s:ex)=
+(ch_Cracks_s_ex)=
 # Exercises, examples \& solutions
 
 ```{exercise} Deterministic nature of physics &#127798;
