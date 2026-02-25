@@ -10,10 +10,10 @@ kernelspec:
   display_name: 'Python 3'
 ---
 
-:::{index} Vectors, IDEA, Numerical computation
-:::
+<!-- :::{index} Vectors, IDEA, Numerical computation
+::: -->
 
-(ch_language)=
+(ch-language)=
 # The language of Physics
 Physics is the science that seeks to understand the fundamental workings of the universe: from the motion of everyday objects to the structure of atoms and galaxies. To do this, physicists have developed a precise and powerful language: one that combines mathematics, colloquial and technical language, and visual representations. This language allows us not only to describe how the physical world behaves, but also to predict how it will behave under new conditions.
 
