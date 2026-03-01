@@ -12,6 +12,7 @@ site:
 numbering:
   title:
     enabled: false
+no-update-date: true
 ---
 
 <div style="text-align: center;  font-size: 24px; font-weight: bold;">

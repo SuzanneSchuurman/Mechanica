@@ -1,6 +1,4 @@
 ---
-title: The language of Physics
-
 numbering:
   title:
     offset: 0
