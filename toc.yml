@@ -78,6 +78,7 @@ project:
             - file: content/appendix/Complex.md
         - file: content/appendix/Example_exam.md
         - file: content/appendix/grasple.md
+        - file: content/appendix/grasple_sr.md
 
 
     # - title: Project

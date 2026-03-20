@@ -45,17 +45,17 @@ At $c𝑡 = 1𝑙𝑠$ a photon with frequency $f_0$ is emitted from the origin 
 The photon is detected by S' (at her origin) at some later time. This is event E2.
 
 The photon reflects subsequently on a mirror that is at rest in S’. For S’ this means that the reflected photon has the same frequency as the photon before the reflection.
-1. (1pt) Give the Lorentz Transformation and calculate the gamma factor for this problem.
-1. (3pt) Determine the coordinates of E1 according to S’. Also determine the coordinates of E2 for both S and S’.
-1. (2pt) Calculate the length of the interval E2-E1 and show that S and S’ find the same value. Classify the interval.
-1. (1pt) Determine the frequency of the photon at E2 according to S’.
-1. (1pt) Determine the frequency of the reflected photon according to S.
+1. (1 points) Give the Lorentz Transformation and calculate the gamma factor for this problem.
+1. (3 points) Determine the coordinates of E1 according to S’. Also determine the coordinates of E2 for both S and S’.
+1. (2 points) Calculate the length of the interval E2-E1 and show that S and S’ find the same value. Classify the interval.
+1. (1 point) Determine the frequency of the photon at E2 according to S’.
+1. (1 point) Determine the frequency of the reflected photon according to S.
 
 
-## Qestion 5
+## Question 5
 Observer S’ moves relative to observer S with speed $V/c = 3/5$ in the positive x-direction. The x and x’ axes are parallel. When the origins of S and S’ coincide, the clocks in S and S’ are set to $𝑡 = 𝑡’ = 0$.
 
-In the frame of S’, a mass $m$ with speed $4/5 c$ collides (relativistically) with a stationary particle with mass $5m$. After the collision there is 1 particle.
-a. (1pt) Give the definition of four-momentum for a particle with mass $m$ and speed $u$.
-b. (2pt) Determine the speed and mass of the particle after the collision according to S’.
-c. (2pt) Determine the speed of the particles before the collision according to S.
+In the frame of S’, a mass $m$ with speed $4/5 c$ collides (relativistically) with a stationary particle with mass $5m$. After the collision there is 1 particle.  
+1. (1 point) Give the definition of four-momentum for a particle with mass $m$ and speed $u$.  
+1. (2 points) Determine the speed and mass of the particle after the collision according to S’.  
+1. (2 points) Determine the speed of the particles before the collision according to S.
