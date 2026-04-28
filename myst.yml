@@ -21,13 +21,13 @@ extends:
   - toc.yml
   - export.yml
   - plugins.yml
-  - style.yml
+  
 
 
 site:
   options:
-    # logo: content/images/tudelft.png
-    # favicon: content/images/favicon.ico
+    logo: content/images/tudelft.png
+    favicon: content/images/favicon.ico
     folders: true
     hide_authors: true
     enable_service_worker: false
