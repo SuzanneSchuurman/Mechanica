@@ -14,11 +14,11 @@ site:
   #     url: https://jupyterbook.org/help
   options:
     # logo_url: /
-    favicon: https://github.com/TUD-JB-Templates/JB2/blob/main/style/favicon.ico
-    logo: https://github.com/TUD-JB-Templates/JB2/blob/main/style/tydelft.png
-    logo_dark: https://github.com/TUD-JB-Templates/JB2/blob/main/style/tudelft-dark.png
+    # favicon:    https://github.com/TUD-JB-Templates/JB2/blob/main/style/favicon.ico
+    # logo:       https://github.com/TUD-JB-Templates/JB2/blob/main/style/tydelft.png
+    logo_dark:  https://raw.githubusercontent.com/TUD-JB-Templates/JB2/refs/heads/main/style/tudelft-dark.png 
     internal_domains: jupyterbook.org
   parts:
     # This needs to point to a github raw file because other sites extend it, and this ensures it resolves for them
-    footer: https://github.com/TUD-JB-Templates/JB2/blob/main/style/footer.md
+    # footer: https://github.com/TUD-JB-Templates/JB2/blob/main/style/footer.md
 
