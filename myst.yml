@@ -25,14 +25,18 @@ extends:
 
 
 site:
+  template: book-theme
   options:
-    logo: content/images/tudelft.png
-    favicon: content/images/favicon.ico
+    logo: style/tudelft.png
+    logo_dark: style/tudelft-dark.png
+    favicon: style/favicon.ico
     folders: true
     hide_authors: true
     enable_service_worker: false
     execute_js: true
     style: ./style/custom.css
+  parts:
+    footer: style/footer.md
 
   actions:
     - title: Feedback
@@ -40,4 +44,3 @@ site:
     - title: PDF 
       url: exports/MechaRela.pdf
 
-  template: book-theme
