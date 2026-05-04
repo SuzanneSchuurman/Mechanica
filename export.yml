@@ -5,7 +5,7 @@ project:
   exports:
     - id: thesis-pdf
       format: typst
-      template: ../
+      template: https://github.com/TUD-JB-OS/typst_template.git
       output: ./exports/mecharela.pdf
 
 # ==============================================================================
@@ -284,7 +284,7 @@ project:
       colophon_confidentiality_statement: This thesis is confidential and cannot be made public.
       
       # Optional secondary logo (e.g. company or research group) shown in the colophon when provided.
-      colophon_company_logo: content/assets/JBlogo.svg
+      colophon_company_logo: style/JBlogo.svg
 
       # Optional fields shown in the colophon publication table:
       # colophon_printer: Printer name

@@ -64,7 +64,7 @@ plt.xlabel('Real')
 plt.show()
 ```
 
-```{figure} complexplane.svg
+```{figure} ../images/complexplane.png
 :label: complexplane
 :width: 70%
 

@@ -21,7 +21,7 @@ Introducing Classical Mechanics & Special Relativity
 
 </div>
 
-```{figure} cover.gif
+```{figure} style/cover.gif
 :width: 80%
 :align: center
 :alt: Introducing Classical Mechanics & Special Relativity
