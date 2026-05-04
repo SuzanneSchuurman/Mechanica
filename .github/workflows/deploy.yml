@@ -34,7 +34,7 @@ jobs:
           node-version: 23
 
       - name: Install MyST Markdown
-        run: npm install -g mystmd == 1.8.0
+        run: npm install -g mystmd@1.8.0
 
       - name: Build HTML (main)
         env:
