@@ -1,3 +1,4 @@
+// excludes for spell checker
 {
     "version": "0.2",
     "ignorePaths": [],
