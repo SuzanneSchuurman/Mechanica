@@ -17,6 +17,9 @@ const pyodideDirective = {
   options: {
     id: { type: String, doc: "Optional id for the cell." },
     packages: { type: String, doc: "Comma-separated Pyodide packages." },
+    height: { type: String, doc: "Editor height, e.g. 18rem or 320px." },
+    linenos: { type: Boolean, doc: "Show line numbers." },
+    "lineno-start": { type: Number, doc: "First line number." },
   },
   run(data, vfile) {
     const code = (data.body || "").trim();
@@ -33,6 +36,9 @@ const pyodideDirective = {
           code,
           id: data.options?.id?.trim() || "",
           packages: data.options?.packages?.trim() || "",
+          height: data.options?.height?.trim() || "18rem",
+          linenos: Boolean(data.options?.linenos),
+          linenoStart: Number(data.options?.["lineno-start"] || 1),
         },
         id: data.options?.id?.trim() || Math.random().toString(36).slice(2),
       },
