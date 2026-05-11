@@ -61,6 +61,13 @@ We include in-browser python code, as well as downloadable .py files which can b
 ```{code-cell} python
 print("The square root of 2 is: ", 2 ** 0.5)
 ```
+
+We even include python code that can run in your browser, where the cells are editable:
+```{pyodide}
+a = 10
+b = 20
+print('change this line so a + b is returned')
+```
 ````
 
 ```{raw:typst}

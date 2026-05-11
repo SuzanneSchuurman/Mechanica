@@ -11,6 +11,7 @@ project:
     - plugins/grasple.mjs
     - plugins/h5p.mjs 
     - plugins/lightbox.mjs
+    - plugins/pyodide.mjs
 
     # - https://github.com/jupyter-book/myst-plugins/releases/download/updated-date-frontmatter/update-date-frontmatter.mjs
     # - plugins/aside.mjs
