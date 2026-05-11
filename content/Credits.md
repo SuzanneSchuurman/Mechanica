@@ -32,6 +32,15 @@ With this e-book our aim is to provide learning material that is:
 
 This book is based on [Mudde & Rieger 2025](https://interactivetextbooks.tudelft.nl/dev/mechanica/). <!-- replace link by DOI --> That book was already beyond introductory level and presumed a solid basis in both calculus and basic mechanics. All texts in this book were revised, additional examples and exercises were included, picture and drawings have been updated and interactive materials have been included. Moreover, we included in the Appendix an oversight of the relevant math concepts. Hence, this book should be considered a stand-alone new version. Note that we made good use of other open educational resources, several exercises stem from such resources. Where we use external materials, we acknowledge and credit the original sources.
 
+(study)=
+### How to study
+It is tempting to read this book, and we encourage you to do so. But in order to really understand what is happening, how physics works, this is not enough. Reading provides a first start only. It is advisable to redo calculations and derivations, where we might skip some of the mathematical steps, you may want to verify these missing steps. Moreover, we included various examples and their solutions. It helps when you do the exercises yourselves first and then compare your answers to the solutions that we provide.
+
+
+(disclaimer)=
+### Disclaimer
+We included a pdf version of the book. However, not all functionality can be converted automatically. Moreover, there are known limitations to formatting and styling, especially with exercises and admonitions. We see it as a courtesy that we provide a pdf where you can make annotations, (re)do calculations etc. but our main focus is on the digital version.
+
 (features)=
 ### Special features
 
@@ -66,7 +75,7 @@ We even include python code that can run in your browser, where the cells are ed
 ```{pyodide}
 a = 10
 b = 20
-print('change this line so a + b is returned')
+print('Change this codeline so a + b is returned')
 ```
 ````
 
@@ -104,7 +113,7 @@ This is the first version (second cycle) of this book. Although many have worked
 ```{figure} images/RFMudde.jpg
 :width: 80%
 
-Prof.Dr. Robert F. Mudde, Department of Chemical Engineering, Delft University of Technology
+Prof. Dr. Robert F. Mudde, Department of Chemical Engineering, Delft University of Technology
 ``` 
 ````
 
@@ -112,7 +121,7 @@ Prof.Dr. Robert F. Mudde, Department of Chemical Engineering, Delft University o
 ```{figure} images/BRieger.png
 :width: 80%
 
-Prof.Dr. Bernd Rieger, Department of Imaging Physics, Delft University of Technology
+Prof. Dr. Bernd Rieger, Department of Imaging Physics, Delft University of Technology
 ``` 
 ````
 
