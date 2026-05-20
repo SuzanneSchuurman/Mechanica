@@ -686,11 +686,60 @@ To come back to our initial problem:
 It roughly takes $10 \: \mathrm{s}$ to get close to terminal velocity (note that without friction the velocity would be $98 \: \mathrm{m/s}$). The building is not high enough to reach this velocity (safely).
 ````
 
-```{exercise} Base jumper with initial velocity &#127798;
+````{exercise} Base jumper with initial velocity &#127798;
 :label: ex_sim_v
 
 Change the code so that the base jumper starts with an initial velocity along the z-direction.
 
 Is the acceleration in the z-direction with and without initial velocity the same? Elaborate.
+
+```{pyodide}
+# Simulation of a base jumper 
+
+## Importing libraries
+import numpy as np
+import matplotlib.pyplot as plt
+
+## Constants
+rho = 1.29 #kg/m^3
+A = 0.7 #m^2
+m = 75 #kg
+C_d = 1.0 #-
+k = 1/2*rho*A*C_d #kg/m
+g = 9.81 #m/s^2
+
+## Time step
+dt = 0.01 #s
+t = np.arange(0, 12, dt) #s
+
+## Initial conditions
+z = np.zeros(len(t)) #m
+v = np.zeros(len(t)) #m/s
+z[0] = 300 #m
+
+for i in range(0, len(t)-1):
+    F = - m*g - k*abs(v[i])*v[i]  #N
+    v[i+1] = v[i] + F/m*dt #m/s
+    z[i+1] = z[i] + v[i]*dt #m
+    if z[i+1] < 0:
+        break
+
+v_t = np.sqrt(m*g/k)*np.tanh(np.sqrt(k*g/m)*t) #m/s
+
+## Plotting results
+figs, axs = plt.subplots(1, 2, figsize=(10, 5)) 
+
+axs[0].set_xlabel('Time (s)')
+axs[0].set_ylabel('Velocity (m/s)')
+axs[0].plot(t, v, 'k.', markersize=1, label='numerical solution')
+axs[0].plot(t, -v_t, 'r--', label='analytical solution')
+axs[0].legend()
+
+axs[1].set_xlabel('Time (s)')
+axs[1].set_ylabel('Position (m)')
+axs[1].plot(t, z, 'k.', markersize=1)
+
+plt.show()
 ```
+````
 
