@@ -694,6 +694,8 @@ Change the code so that the base jumper starts with an initial velocity along th
 Is the acceleration in the z-direction with and without initial velocity the same? Elaborate.
 
 ```{pyodide}
+:linenos: 
+
 # Simulation of a base jumper 
 
 ## Importing libraries

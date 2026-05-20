@@ -30,7 +30,7 @@ With this e-book our aim is to provide learning material that is:
 * easy to modify and thus improve over the years
 * interactive by providing demos, interactive elements and exercises next to the lectures
 
-This book is based on [Mudde & Rieger 2025](https://interactivetextbooks.tudelft.nl/dev/mechanica/). <!-- replace link by DOI --> That book was already beyond introductory level and presumed a solid basis in both calculus and basic mechanics. All texts in this book were revised, additional examples and exercises were included, picture and drawings have been updated and interactive materials have been included. Moreover, we included in the Appendix an oversight of the relevant math concepts. Hence, this book should be considered a stand-alone new version. Note that we made good use of other open educational resources, several exercises stem from such resources. Where we use external materials, we acknowledge and credit the original sources.
+This book is based on [Mudde & Rieger 2025](https://doi.org/10.59490/mt.242). That book was already beyond introductory level and presumed a solid basis in both calculus and basic mechanics. All texts in this book were revised, additional examples and exercises were included, picture and drawings have been updated and interactive materials have been included. Moreover, we included in the Appendix an oversight of the relevant math concepts. Hence, this book should be considered a stand-alone new version. Note that we made good use of other open educational resources, several exercises stem from such resources. Where we use external materials, we acknowledge and credit the original sources.
 
 (study)=
 ### How to study
@@ -153,10 +153,6 @@ Special thanks to Hanna den Hertog for (re)making most of the drawings, Luuk Fr√
 This book is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/) unless stated otherwise. It is part of the collection of [Interactive Open Textbooks](https://textbooks.open.tudelft.nl/textbooks/catalog/category/interactive) of [TU Delft Open](https://textbooks.open.tudelft.nl/textbooks/index).
 
 This website is a [Jupyter Book](https://jupyterbook.org/intro.html). Source files are available for download using the button on the top right.
-
-<!-- The bar on the right of this page opens [Hypothesis](https://web.hypothes.is/), a service that allows you to add comments to pieces of text in this book. -->
-
-<!-- ![](https://i.creativecommons.org/l/by/4.0/88x31.png) -->
 
 (software)=
 ### Software and license
