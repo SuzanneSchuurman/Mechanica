@@ -233,7 +233,7 @@ Already in the 18$^{\text{th}}$ century, work was done on what we call the kinet
 
 `````{figure}
 :label: fig_hist_bernmax
-:class: move-up
+:class: pull-up
 ````{figure}
 :class: grid grid-cols-2 items-end gap-4 
 
