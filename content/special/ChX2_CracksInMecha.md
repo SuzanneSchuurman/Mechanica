@@ -25,11 +25,10 @@ In more recent history, the notion of atoms as elementary building blocks is gui
 
 Although the evidence from chemistry was clear, the notion of atoms as the building blocks remained controversial. The laws of definite proportion (e.g. water is decomposed in a fixed ratio in hydrogen and oxygen) were generally accepted, but the hypothesis that everything was made of atoms was not. As a consequence, the work of Ludwig Boltzmann (1844-1906) on statistical thermodynamics that is entirely based on an atomic (or molecular) view was not accepted during Boltzmann's life.
 
-In the second half of the nineteenth century William Thomson (1824-1907)—later Lord Kelvin—proposed the so-called vortex theory of the atom. Based on the discoveries by chemists of only a few different atoms that made up the rest of matter, Thomson proposed that atoms are stable vortices, not in an ordinary fluid like water, but in the omni-present luminiferous aether (ether). 
+In the second half of the nineteenth century William Thomson (1824-1907) - later Lord Kelvin - proposed the so-called vortex theory of the atom. Based on the discoveries by chemists of only a few different atoms that made up the rest of matter, Thomson proposed that atoms are stable vortices, not in an ordinary fluid like water, but in the omni-present luminiferous aether (ether). 
 
 Stable vortices have the shape of rings with no beginning or end. In air they are easily made and made visible with smoke and are indeed surprisingly stable. According to the vortex theory, atoms are vortices in aether. The simplest one is a single ring, which was hydrogen. More complicated forms, called knots represented the other elements. 
 
-````{figure}
 ```{figure} ../images/VortexKnots.png
 :label: fig:VortexKnots.png
 :width: 50%
@@ -38,21 +37,18 @@ Stable vortices have the shape of rings with no beginning or end. In air they ar
 Various vortex knots, each represents another element. From [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:English_for_unknot.svg), public domain.
 ```
 
-
+````{aside}
 ```{figure} ../images/LordKelvin.jpg
 :label: fig:LordKelvin.jpg
-:width: 30%
+:width: 80%
 :align: center
 
 Lord Kelvin (1824-1907). From [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Sir_William_Thomson,_Baron_Kelvin,_1824_-_1907._Scientist,_resting_on_a_binnacle_and_holding_a_marine_azimuth_mirror.jpg), public domain.<br>
 Lord Kelvin working on the vortex theory of the atom.
 ```
-
 ````
 
 At the end of the nineteenth century, in 1897, Joseph John Thomson discovered the electron. It allowed him to further refine the scientific model of the atom and ended the vortex theory. In Thomson's view, an atom has internal structure: the electrons are moving in it. As electrons have a negative charge and atoms are neutral, there must be a balancing positive charge in an atom as well. Thomson had no idea what that would be. He figured that the positive charge was everywhere in the atom (that he thought of as being a sphere), with the electrons moving inside that sphere as tiny particles. From this picture, the Thomson model got its name: *the plum pudding model*, although it is a bit misleading as the idea was that the positively charged sphere was more a liquid in which the electrons 'float' than a solid. 
-
-````{figure}
 
 ```{figure} ../images/PlumPuddingModel.png
 :label: fig:PlumPuddingModel.png
@@ -62,9 +58,10 @@ At the end of the nineteenth century, in 1897, Joseph John Thomson discovered th
 Plum pudding model according to Joseph Thomson. From [Wikimedia Commons](https://simple.m.wikipedia.org/wiki/File:Plum_pudding_atom.svg), public domain.
 ```
 
+````{aside}
 ```{figure} ../images/JJThomson.jpg
 :label: fig:JJThomson.jpg
-:width: 30%
+:width: 80%
 :align: center
 
 Joseph John Thomson (1856-1940). From [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:J.J_Thomson.jpg), public domain.<br>
@@ -80,19 +77,20 @@ The model did not hold very long as we will see in the next paragraph. Neverthel
 
 The plum pudding model was abandoned in 1911. That year Ernest Rutherford (1871-1937), a former student of Joseph Thomson, performed a ground-breaking experiment. Rutherford had been working on the newly discovered radio-activity of certain elements. He discovered that there were two types of radiation that were different from X-rays. He called them 'alpha' ($\alpha$) and 'beta' ($\beta$) rays. Later he proved that 'alpha' rays consist of He-nuclei. Rutherford, in cooperation with Frederick Soddy, was the first one to prove Marie Curie's conjecture that radioactivity was an atomic phenomenon, which could lead to changes in the atom itself, from one element to another. This idea thus countered the prior idea that an atom was seen as the ultimate, indestructible form of matter: atoms could not change from one form (element) to another.
 
-
+````{aside}
 ```{figure} ../images/Mariecurie.jpg
 :label: fig:MarieCurie.jpg
-:width: 30%
+:width: 80%
 :align: center
 
 Marie Curie (1867-1934). From [Wikimedia Commons](https://en.wikipedia.org/wiki/File:Marie_Curie_c._1920s.jpg), public domain.
 
 ```
+````
 
 Rutherford, in cooperation with Hans Geiger (one of the inventors of what we now call the Geiger counter) and Ernest Masden, built an apparatus that could count the $\alpha$-particles. Moreover, he showed that the $\alpha$-particles were He-nuclei with a positive charge of $2e$. In 1917, he showed that Nitrogen could become Oxygen by bombarding it with the $\alpha$-particles. This was the first time that someone succeeded in artificially changing one element into another.
 
-**Scattering at a gold**
+**Scattering at a gold foil**
 
 As mentioned, Rutherford is responsible for overthrowing the plum pudding model and replacing it by our modern view: an atom is made of a tiny, positively charged nucleus with the electrons orbiting around it. 
 
@@ -103,29 +101,31 @@ In the experiment, the source would emit $\alpha$-particles through a small diap
 
 ```{figure} ../images/RutherfordExperimentalSetup.png
 :label: fig:RutherfordExperimentalSetup.png
-:width: 40%
+:width: 60%
 :align: center
 
 Experimental setup of $\alpha$-scattering at a gold foil.
 ```
 
+````{aside}
 ```{figure} ../images/ErnestRutherford.jpg
 :label: fig:ErnestRutherford.jpg
-:width: 30%
+:width: 80%
 :align: center
 
 Ernest Rutherford (1871-1937). From [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Sir_Ernest_Rutherford_LCCN2014716719_-_restoration1.jpg), public domain.
 ```
+````
 
 The story goes, that Rutherford's students would, together with Geiger, do the measurements as an assignment of their studies. The principle is simple: set the microscope under a known angle and, for a given period in time, count the number of hits. Repeat this for the next angle of the microscope. Obviously, the first measurements were all done on the side of the foil opposite to the $\alpha$-emitter. One was expecting small deviations from the undisturbed trajectory.
 
-When the experiments were basically done, so goes the story, still a student was left over that also needed an assignment. One of Rutherford's assistant suggested that this student would then measure with the microscope at the same side of the foil as the $\alpha$-emitter. They did not expect anything to see, but they needed an assignment for this student. Whether the story of the student assignments is true or not, fact is that the team found also hits on the detector for angles of about 180$^\circ$. That is, some $\alpha$-particles seemed to bounce back from the foil!
+When the experiments were basically done, so the story goes, still a student was left over that also needed an assignment. One of Rutherford's assistant suggested that this student would then measure with the microscope at the same side of the foil as the $\alpha$-emitter. They did not expect anything to see, but they needed an assignment for this student. Whether the story of the student assignments is true or not, fact is that the team found also hits on the detector for angles of about 180$^\circ$. That is, some $\alpha$-particles seemed to bounce back from the foil!
 
 There is no way that the plum pudding model could explain this. The argumentation to show that, goes as follows. 
 
 - The size of the atoms of gold is known: they are on the order of $r_0 \approx 10^{-10} \mathrm{m}$.  
 This value can be found from the density of gold, the mass of a gold atom and the mass and volume of the gold foil (or any other amount of gold). By treating the atoms as small spheres that are stacked back to back, the size of the atom is easily found.   
-- An $\alpha$-particle has a charge of $2e$ and is deflected by a gold atom due to the charge of the gold atom. As gold has number 79 in the periodic table, we know that the charge of a gold atom is +79e in the 'plum pudding' and -79e of all electrons floating in the pudding.  
+- An $\alpha$-particle has a charge of $2e$ and is deflected by a gold atom due to the charge of the gold atom. As gold has number $79$ in the periodic table, we know that the charge of a gold atom is $+79e$ in the 'plum pudding' and $-79e$ of all electrons floating in the pudding.  
 However, an $\alpha$-particle is much heavier than an electron. Hence in the Coulomb interaction between the $\alpha$ -particle and an electron, the acceleration (of deflection) of the 'heavy' $\alpha$-particle is negligible: the electrons are pushed out of the way (or actually attracted); they don't influence the trajectory of the $\alpha$-particle.  
 It is the positive charge of the pudding itself, that does the deflection. The atom (i.e. the pudding) cannot move out of the way as it is part of the gold foil which is many orders of magnitude heavier than the incoming particle.     
 
@@ -133,7 +133,7 @@ Rutherford knew the theory of Maxwell for electromagnetism and could estimate th
 
 $$ F_c \leq \frac{q_\alpha Q_g}{4 \pi \epsilon_0} \frac{1}{r_0^2} $$ 
 
-with $Q$ the charge of the atom (i.e. +79e), $q_\alpha$ the charge ($+2e$) of the $\alpha$-particle, $\epsilon_0$ the permittivity of vacuum ($\frac{1}{4 \pi \epsilon_0} = 9 \cdot 10^9\ \mathrm{Nm}^2/\mathrm{C}^2$) and $r_0$ the radius of a gold atom.
+with $Q_g$ the charge of the atom (i.e. $+79e$), $q_\alpha$ the charge ($+2e$) of the $\alpha$-particle, $\epsilon_0$ the permittivity of vacuum ($\frac{1}{4 \pi \epsilon_0} = 9 \cdot 10^9\ \mathrm{Nm}^2/\mathrm{C}^2$) and $r_0$ the radius of a gold atom.
 
 The deflection of the particle is biggest if the Coulomb force is perpendicular to the trajectory. So, we take that for our estimate. The true effect, when passing through the atom, will be smaller.  
 
@@ -158,15 +158,13 @@ If we put everything together, we find:
 
 $$ \frac{\Delta p}{p} \ll \frac{q_\alpha Q_g}{4 \pi \epsilon_0} \frac{1}{r_0^2} \cdot \frac{2r_0}{v_0} = \frac{q_\alpha Q_g}{2 \pi \epsilon_0} \frac{1}{r_0 v_0} \ll 1$$
 
-We have used the know charge of a gold atom ($79e$) and that of the $\alpha$-particle, the radius of the gold atom and the incoming velocity of the $\alpha$-particle, $v_0 \approx 1.6 \cdot 10^{7} \mathrm{m/s}$.
+We have used the known charge of a gold atom ($79e$) and that of the $\alpha$-particle, the radius of the gold atom and the incoming velocity of the $\alpha$-particle, $v_0 \approx 1.6 \cdot 10^{7} \; \mathrm{m/s}$.
   
-
-
 With this estimate and the fact that Rutherford's gold foil was about 400 atoms thick, there is no way that we can explain $\alpha$-particles bouncing back.
 
 Rutherford and his colleagues, had no other option than to conclude that the positive charge of the gold atom must be confined to a much smaller part of space. After all, the only parameter in our estimate that is not measured is $r_0$. That was estimated based on the plum pudding model.
 
-They redid the calculation, but now with $r_0$ as a free parameter to be backed out of the calculation. They changed the requirement of small scattering angles (i.e. small deviation from the original path) to the experimental finding that scattering angles of about 180$^\circ$ were possible. That gave that $r_0$ is on the order of $10^{-14}$m. 
+They redid the calculation, but now with $r_0$ as a free parameter to be backed out of the calculation. They changed the requirement of small scattering angles (i.e. small deviation from the original path) to the experimental finding that scattering angles of about 180$^\circ$ were possible. That gave that $r_0$ is on the order of $10^{-14} \; \mathrm{m}$. 
 
 Conclusion: the atom has a nucleus, which contains all of its positive charge and is much smaller than the atom itself. The electrons must orbit this nucleus as a mini-solar system. These electrons 'define' the size of the atom.
 
@@ -198,7 +196,7 @@ It is done with facilities of a very large scale to research particles at the sm
 
 ```{figure} ../images/AirPictureOfCERN.jpg
 :label: fig:RutAirPictureOfCER.png
-:width: 350px
+:width: 70%
 :align: center
 
 Circular Accelerator of CERN depicted in its environment. ESO/[José Francisco](josefrancisco.org), licensed under CC-BY 4.0.
@@ -208,7 +206,7 @@ The principles used in scattering can be illustrated by revisiting Rutherford's 
 
 ```{figure} ../images/ScatteringPrinciple.png
 :label: fig:ScatteringPrinciple.png
-:width: 350px
+:width: 80%
 :align: center
 
 Scattering of an incoming particle at a fixed source.
@@ -219,13 +217,13 @@ Consider {numref}`Figure {number} <fig:ScatteringPrinciple.png>`: a particle of 
 
 ```{figure} ../images/Scattering2D3D.png
 :label: fig:Scattering2D3D.png
-:width: 450px
+:width: 100%
 :align: center
 
 left: scattering in 2D, right: scattering in 3D.
 ```
 
-In {numref}`Figure {number} <fig:Scattering2D3D.png>` scattering in a 2D world and in the 3D world is schematically depicted. In the 3-dimensional world the scattering takes place in the solid angle $d\theta$. Like the 2d equivalent, where the scattering angle can go from 0 to $2\pi$ (that is the full circle), in 3d it goes from 0 to $4\pi$ reflecting that it is now a full sphere.
+In {numref}`Figure {number} <fig:Scattering2D3D.png>` scattering in a 2D world and in the 3D world is schematically depicted. In the 3-dimensional world the scattering takes place in the solid angle $d\theta$. Like the 2D equivalent, where the scattering angle can go from 0 to $2\pi$ (that is the full circle), in 3D it goes from 0 to $4\pi$ reflecting that it is now a full sphere.
 
 
 (ch_Cracks_s_Kin)=
@@ -233,26 +231,31 @@ In {numref}`Figure {number} <fig:Scattering2D3D.png>` scattering in a 2D world a
 
 Already in the 18$^{\text{th}}$ century, work was done on what we call the kinetic theory of gases. The Swiss scientist Daniel Bernoulli proposed that gases were a large collection of molecules, i.e tiny particles moving in all directions. According to Bernoulli, their collision with walls was felt macroscopically as pressure and their averaged kinetic energy was in essence the temperature of the gas.
 
-
+`````{figure}
+:label: fig_hist_bernmax
+:class: move-up
 ````{figure}
+:class: grid grid-cols-2 items-end gap-4 
+
 ```{figure} ../images/DanielBernoulli.png
 :label: fig:DanielBernoulli.png
-:width: 40%
+:width: 70%
 :align: center
 
-Daniel Bernoulli (1700-1782). [RECHTEN]
+Daniel Bernoulli (1700-1782). From [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Portr%C3%A4t_des_Daniel_Bernoulli_(cropped).jpg), licensed under CC-BY-SA 4.0.
 ```
 
 ```{figure} ../images/JamesClerkMaxwell.png
 :label: fig:JamesClerkMaxwell.png
-:width: 40%
+:width: 70%
 :align: center
 
-James Clerk Maxwell (1831-1879) [RECHTEN]
+James Clerk Maxwell (1831-1879) From [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:James_Clerk_Maxwell.png), public domain
 ```
-Two famous scientists working on the physics of gases.
-````
 
+````
+Two famous scientists working on the physics of gases.
+`````
 It took a while before these ideas were accepted, partly because the law on conservation of energy was not fully developed. Moreover, people had difficulty accepting that at a molecular level collisions could be perfectly elastic.
 
 With the further development of Thermodynamics, the kinetic theory of gases also refined. In 1856, August Krönig came up with a simple kinetic model for gases in which he only considered the possibility of translational motion of the molecules. In essence, he treated gas molecules as point particles. A year later, Rudolf Clausius incorporated the possibility of rotation and vibrations. Two years after this, James Clerk Maxwell continued along this line. He found the velocity distribution of the molecules and established a firm connection between temperature and the average kinetic energy of a molecule. However, he also noted that the theoretical predictions were not in line with experiments. What was the problem? 
@@ -269,7 +272,7 @@ The kinetic theory predicts $\gamma$ for various classes of gases. For instance,
 
 In the table below, the ratio of the specific heats $c_p /c_V$ is listed for a number of gasses.
 
-| Gas | $c_p/c_v$ | kin.gas.th.|
+| Gas | $c_p/c_v$ | kin. gas. th.|
 | --- | --- | --- |
 | He | 1.663 | 1.667 |
 | Ne | 1.667 | 1.667 |
@@ -281,11 +284,11 @@ In the table below, the ratio of the specific heats $c_p /c_V$ is listed for a n
 | **O$_2$**| **1.395** | 1.286 |
 
 
-As we see, for the noble gases it is quite ok (at $T=293\text{K}$ !), but not so for the diatomic gases.
+As we see, for the noble gases it is quite ok (at $T=293 \; \mathrm{K}$ !), but not so for the diatomic gases.
 
-For really high temperatures (~2000K) for both $O_2$ and $H_2$, $\gamma$ it is close to 1.286. But if we go to low temperature, their respective $\gamma$'s increase and $H_2$ reaches a value of 1.66! Hence, Maxwell concluded that the laws of classical mechanics could not be the final answer. 
+For really high temperatures ($\sim 2000 \; \mathrm{K}$) for both O$_2$ and H$_2$, $\gamma$ it is close to $1.286$. But if we go to low temperature, their respective $\gamma$'s increase and reaches a value of 1.66 for H$_2$! Hence, Maxwell concluded that the laws of classical mechanics could not be the final answer. 
 
-As we have seen when discussing Rutherford's experiment, in the early twentieth century more cracks became visible. These led scientists to Quantum Mechanics.
+
 
 (ch_Cracks_s_Ruth)=
 ## The problem with Maxwell's equations
@@ -303,7 +306,7 @@ $$
 
 With $\rho(\vec{r})$ the charge density distribution and $\vec{J}(\vec{r},t)$ the electric current density, and constants $\epsilon_0$ the vacuum permittivity and $\mu_0$ the vacuum magnetic permeability. 
 
-You will learn all about Maxwell's equations in  classes on *electromagnetism*. The mathematics of these equations is quite difficult as each equation is $3D+t$ and the equations are coupled.
+You will learn all about Maxwell's equations in  classes on *electromagnetism*. The mathematics of these equations is quite difficult as each equation is $3\mathrm{D}+t$ and the equations are coupled.
 
 In vacuum ($\rho=0$ and $\vec{J}=0$) we can simplify these equation. Furthermore, we could look at 1-dimensional cases, that is the electric field has only a component $E_y$ which is only depending on time $t$ and the $x$-coordinate. This leads us to the *wave equation*
 
@@ -311,12 +314,12 @@ $$
 \frac{\partial^2 E_y}{\partial x^2} - \epsilon_0 \mu_0 \frac{\partial^2 E_y}{\partial t^2}=0
 $$
 
-This equation describes the propagation of the electric field through vacuum (you can of course derive the same equation for the magnetic field). In the wave equation a second derivative in space is coupled to a second derivative in time. The solution to this differential equation is $E_y(x,t)\propto \cos(k x - \omega t)$, with the *wave number* $k$ related to the wave length $k=2\pi/\lambda$ and the angular frequency $\omega$ to the frequency $\nu$ according to $\omega = 2\pi \nu$.  Like for all waves, the frequency, wave length and velocity of the wave are coupled: $\nu \lambda =c$ with $c$ the speed of the wave, i.e. in this case the speed of light. 
+This equation describes the propagation of the electric field through vacuum (you can of course derive the same equation for the magnetic field). In the wave equation a second derivative in space is coupled to a second derivative in time. The solution to this differential equation is $E_y(x,t)\propto \cos(k x - \omega t)$, with the *wave number* $k$ related to the wave length $k=2\pi/\lambda$ and the angular frequency $\omega$ to the frequency $\nu$ according to $\omega = 2\pi \nu$ (see also [Oscillations](../classic/6_Oscillations.md)). Like for all waves, the frequency, wave length and velocity of the wave are coupled: $\nu \lambda =c$ with $c$ the speed of the wave, i.e. in this case the speed of light. 
 
 Light is identified as an electromagnetic wave and from the wave equation we see that the wave velocity is given by 
 
 $$
-\frac{1}{\sqrt{\epsilon_0 \mu_0}}\equiv c=2.998\cdot 10^8\ \text{m/s} \approx 300,000\ \text{km/s} 
+\frac{1}{\sqrt{\epsilon_0 \mu_0}}\equiv c=2.998\cdot 10^8 \; \mathrm{m/s} \approx 300,000 \; \mathrm{km/s} 
 $$
 
 If the Maxwell equations are laws of physics all inertial observers must be able to write down the equation in the same form. Therefore for an observer $S'$, traveling at constant velocity $V\hat{x}$ with respect to $S$, we would write down the wave equation for a field that propagates only along the $x$-direction with amplitude in the $y$-direction (without loss of generality) $\vec{E}=(0,E_y(x,t),0)$ as
@@ -325,9 +328,9 @@ $$
 \frac{\partial^2 E'_{y'}}{\partial x^{'2}} - \epsilon_0 \mu_0 \frac{\partial^2 E'_{y'}}{\partial t^{'2}}=0 \; (*)
 $$
 
-This has exactly the same form as for $S$ which is needed if it should represent a physical law. However, for $S'$ the speed of the wave is also given by $c=\frac{1}{\sqrt{\epsilon_0 \mu_0}}$. As the speed is covered by universal constants $\epsilon_0, \mu_0$, the speed is the same of $S$ and $S'$ or in other words $c=c'$! This is not what should happen! From the Galilean Transformation we know that we should find the same form, but with $c'=c-V$ the relative velocity of the two observers. 
+This has exactly the same form as for $S$ which is needed if it should represent a physical law. However, for $S'$ the speed of the wave is also given by $c=\frac{1}{\sqrt{\epsilon_0 \mu_0}}$. As the speed is covered by universal constants $\epsilon_0, \mu_0$, the speed is the same of $S$ and $S'$ or in other words $c=c'$! This is not what should happen! From the Galilean Transformation we know that we should find the same form, but with $c'=c-V$, with $V$ the relative velocity of the two observers. 
 
-If we apply the coordinate transformation from $S\to S'$ according to the Galilean Transformation, the wave equation reads thus as
+If we apply the coordinate transformation from $S\to S'$ according to the Galilean Transformation, the wave equation reads as
 
 $$
 \frac{\partial^2 E_y}{\partial x^{'2}}-\frac{1}{c^2}\frac{\partial^2 E_y}{\partial t^{'2}}-\frac{V^2}{c^2}\frac{\partial^2 E_y}{\partial x^{'2}}+
@@ -346,13 +349,13 @@ As light is a wave, people naturally thought there must be a medium to transport
 
 The [Michelson-Morley experiment](https://en.wikipedia.org/wiki/Michelson%E2%80%93Morley_experiment) was performed in between 1880-1890 to investigate properties of the hypothetical aether. The experiment returned a null-result, i.e. there was no sign of the existence of the aether - and to this day there is none.
 
-The idea is to check the speed of light for two observers $S$ and $S'$. One is moving with respect to the other with the highest possible speed, the orbit speed of the earth around the sun $\sim 30$ km/s. Of course, that is still only $10^{-4}$ compared to 300,000 km/s of the speed of light but the effects could be measured spectroscopically by interference of light.
+The idea was to check the speed of light for two observers $S$ and $S'$. One is moving with respect to the other with the highest possible speed, the orbit speed of the earth around the sun $\sim 30 \; \mathrm{km/s}$. Of course, that is still only $10^{-4}$ compared to $300,000 \; \mathrm{km/s}$ of the speed of light but the effects could be measured spectroscopically by interference of light.
 
-The experiment essentially consists of a [Michelson interferometer](https://en.wikipedia.org/wiki/Michelson_interferometer). Light is send to a 50/50 beam splitter such that half of the light is reflected up towards arm $L_1$ and half is transmitted to arm $L_2$. The mirrors at the end of each arm reflect the light back. On the way back again half of the light is transmitted and reflected at the beamsplitter, such that half of the light from both arms is now traveling downwards towards the image plane/camera. At the image plane the light from both arms forms an interference pattern, depending on the path length difference induced by the difference of $L_1-L_2$.
+The experiment essentially consists of a [Michelson interferometer](https://en.wikipedia.org/wiki/Michelson_interferometer). Light is send to a 50/50 beam splitter such that half of the light is reflected towards arm $L_1$ and half is transmitted to arm $L_2$. The mirrors at the end of each arm reflect the light back. On the way back again, half of the light is transmitted and reflected at the beamsplitter, such that half of the light from both arms is now traveling downwards towards the image plane/camera. At the image plane the light from both arms forms an interference pattern, depending on the path length difference induced by the difference of $L_1-L_2$.
 
 ```{figure} ../images/MichelsonMorleyExp.png
 :label: fig:MichelsonMorleyExp.png
-:width: 280px
+:width: 70%
 :align: center
 
 Michelson & Morley setup
@@ -367,19 +370,15 @@ Michelson & Morley setup
 ```
 
 
-The whole setup is mounted for stability on a heavy table that is floating in liquid mercury, to reduce vibrations coupling to the setup. If now one arm is parallel to the earth's orbit with $V=30 \mathrm{km/s}$, while the other is perpendicular to it, there will be some difference between the length of the two paths traveled: $\Delta \lambda_1$. If we rotate the setup by 90 degree (easily done in the mercury bath), then the roles of $L_1$ and $L_2$ are exchanged, leading to another phase shift $\Delta \lambda_2$. Therefore after rotation the fringes of the interference pattern on the detector should shift as
+The whole setup is mounted for stability on a heavy table that is floating in liquid mercury, to reduce vibrations coupling to the setup. If now one arm is parallel to the earth's orbit with $V=30 \; \mathrm{km/s}$, while the other is perpendicular to it, there will be some difference between the length of the two paths traveled: $\Delta \lambda_1$. If we rotate the setup by $90 \degree$ (easily done in the mercury bath), then the roles of $L_1$ and $L_2$ are exchanged, leading to another phase shift $\Delta \lambda_2$. Therefore after rotation the fringes of the interference pattern on the detector should shift as
 
 $$
 \Delta \phi=2\pi\frac{\Delta \lambda_1 - \Delta \lambda_2}{\lambda} = 2\pi\frac{(L_1+L_2)}{\lambda}\frac{V^2}{c^2}
 $$
 
-If we fill in the numbers $\lambda =550$ nm, $L_1+L_2=11$ m and $V^2/c^2=10^{-8}$ this results in an expected $\Delta \phi=0.4 \pi$. However, Michelson and Morely found only $\Delta \phi \leq 0.01\pi$. The experiment to find the aether failed.
+If we fill in the numbers $\lambda = 550 \; \mathrm{nm}$, $L_1+L_2=11 \; \mathrm{m}$ and $V^2/c^2=10^{-8}$ this results in an expected $\Delta \phi=0.4 \pi$. However, Michelson and Morley found only $\Delta \phi \leq 0.01\pi$. The experiment to find the aether failed.[^FN1]
 
-Physics was in serious trouble until 1905.
-
-NB: Back in the days, white light was used for the actual measurement and monochromatic coherent light of e.g. a sodium lamp for alignment. As white light produces a colored interference pattern which is much easier to observe visually. Otherwise temperature changes or vibrations, resulted in constant fringe drift. Today monochromatic laser light can be used in combination with environmental temperature control better than to 0.1 C and sensitive CCD cameras. Today experiments have confirmed the null-result of Michelson and Morley but to much better precision. The anisotropy in the speed of light is $c_\perp / c_{||}\leq 10^{-17}$.
-
----
+[^FN1]: Back in the days, white light was used for the actual measurement and monochromatic coherent light of e.g. a sodium lamp for alignment. As white light produces a colored interference pattern which is much easier to observe visually. Otherwise temperature changes or vibrations, resulted in constant fringe drift. Today monochromatic laser light can be used in combination with environmental temperature control better than to $0.1 \degree \mathrm{C}$ and sensitive CCD cameras. Today experiments have confirmed the null-result of Michelson and Morley but to much better precision. The anisotropy in the speed of light is $c_\perp / c_{//}\leq 10^{-17}$.
 
 Although the proposed hypothetical medium aether does not exist, as proven a long time ago, the terminology did not drop from everyday language. 
 
@@ -391,60 +390,13 @@ In 1905 Einstein formulated his special theory of relativity with the article *Z
 1. The laws of physics are the same in all inertial frames of reference.
 2. The velocity of light in vacuum is the same in all inertial frames.
 
-That does not sound like a lot or world changing, but it certainly was. You can directly see that the second axioms violates Galilean addition of velocities, but that is what was found experimentally by Michelson and Morley!
+That does not sound like a lot, or world changing, but it certainly was. You can directly see that the second axioms violates Galilean addition of velocities, but that is what was found experimentally by Michelson and Morley!
 
 If you think these two axioms stubbornly through and take their consequences seriously, things get confusing, surprising and almost impossible to believe. Nevertheless, we will do this. Why? Because nature is this way, whether we like it or not.
 
---- 
-
-Extra reading with a historic perceptive. In a 200 page book [Wolfgang Pauli](https://en.wikipedia.org/wiki/Wolfgang_Pauli) -*Theory of Relativity*, Dover (the original German version is available online [*Relativitätstheorie*](https://archive.org/details/EncyklopdieDerMathematischenWissenschaftennfterBandPhysik/page/538/mode/2up)) - summarizes all that was known about special relativity as a request made by this PhD advisor [Arnold Sommerfeld](https://en.wikipedia.org/wiki/Arnold_Sommerfeld). It is worth a read, although the notation is a bit outdated.
-
----
+```{tip} Extra reading with a historic perceptive. 
+In a 200 page book [Wolfgang Pauli](https://en.wikipedia.org/wiki/Wolfgang_Pauli) -*Theory of Relativity*, Dover (the original German version is available online [*Relativitätstheorie*](https://archive.org/details/EncyklopdieDerMathematischenWissenschaftennfterBandPhysik/page/538/mode/2up)) - summarizes all that was known about special relativity as a request made by this PhD advisor [Arnold Sommerfeld](https://en.wikipedia.org/wiki/Arnold_Sommerfeld). It is worth a read, although the notation is a bit outdated.
 
 Extra reading [Hoe de ether verdween uit de natuurkunde](../images/HoeDeEtherVerdween.pdf). This article by Jos Engelen in the *Nederandse Tijdschrijft voor Natuurkunde* explains the Michelson-Morley experiment, places it into historic perspective and then adds the work of Lorentz, Poincaré and Einstein leading to the Lorentz transformation.
-
-
-```{exercise}
-:label: 15.1a
-
-Assume the Michelson-Morley experiment uses arms of length $L = 11 \; \mathrm{m}$ and an aether wind speed $v$ due to the motion of the earth around the sun.  
-Distance earth-sun: $150 \cdot 10^6 \; \mathrm{km}$.  
-
-1. Calculate the expected time difference $\Delta t$ between light traveling parallel and perpendicular to the aether wind.
-
-The sun itself is orbiting the center of our Milky Way at an even higher speed: $250 \; \mathrm{km/s}$. 
-
-2. What would this mean for the expected time difference in the Michelson and Morley experiment?
-
-Note: in the experiment of 1887, Michelson and Morley had used multiple mirrors in their set up for each of the two light beam paths to make the traveling length of the light, from the splitter to the mirror and the edge of the table and back, much longer than only the radius of the table and back. This is how they achieved a path length of $11 \; \mathrm{m}$. The table itself was of course not of a diameter of $22 \; \mathrm{m}$. 
-
 ```
-
-
-```{solution} 15.1a
-:class: dropdown
-
-The orbit of the earth around the sun is almost circular. Thus, we can estimate the velocity of the earth as $V = \frac{2\pi R}{T}$ with $R=150 \cdot 10^6 \; \mathrm{km}$ and $T = 1\ \mathrm{year} = 31.6 10^6 \; \mathrm{s}$. This gives $V = 30 \; \mathrm{km/s}$.
-
-We compute the traveling time from light leaving the beam splitter, reflecting at the mirror on the side of the table and reaching the beam splitter again. The rest of the path is identical for both light beams and does not lead to a time difference.
-
-Time for light parallel to $V$: 
-
-* one part - tail wind from aether and velocity (according to Classical Mechanics with Galilean Transformation) $c+V$. 
-* Other part: head wind with velocity $c-V$. Thus traveling time:
-
-$$t_{//} = \frac{L}{c-V} + \frac{L}{c+V} = \frac{2L}{c} \frac{1}{1-\frac{V^2}{c^2}}$$
-
-Time to travel perpendicular to $V$: 
-
-$$t_\perp = \frac{L}{\sqrt{c^2 - V^2}} + \frac{L}{\sqrt{c^2 - V^2}} = \frac{2L}{c} \frac{1}{\sqrt{1-\frac{V^2}{c^2}}}$$
-
-Putting in the numbers, we find $ \Delta t = 3.67 \cdot 10^{-16} \mathrm{s}$
-
-This time difference may be way to small to measure. And indeed, no 'stop-watch' experiment will work. But Michelson & Morley used interferometry, i.e. interference of light. So, relevant is the difference in phase of the two light beams. This can be assessed by turning the time difference into a length: $\Delta s = c \Delta t =1.1 \cdot 10^{-7} \mathrm{m}$. Compare this to the wave length of the (yellow) light used by Michelson and Morley: $\lambda \approx 500\ \mathrm{nm} = 5 \cdot 10^{-7} \mathrm{m}$.
-Conclusion: the expected time difference is well in reach of interferometry.
-
-```
-
-
 

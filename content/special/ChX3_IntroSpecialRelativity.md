@@ -10,15 +10,9 @@ As we discussed, in the second half of the nineteenth century it became clear th
 
 And as we have mentioned, it took the work of a single man to change this and underpin the [Lorentz Transformation](https://www.youtube.com/watch?v=qdycfWfAtsM), making Classical Mechanics a valid limit of Relativity Theory, only applicable at velocities small compared to the speed of light and to small distances compared to those of interest in cosmology.
 
-```{figure} ../images/AlbertEinstein.png
-:label: fig:AlbertEinstein.png
-:width: 50%
-:align: center
+**Lorentz Transformation**  
 
-Albert Einstein (1879-1955). Picture from [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Albert_Einstein_ETH-Bib_Portr_05937.jpg?uselang=nl#Licentie), public domain.
-```
-
-**Lorentz Transformation**
+The Lorentz Transformation (LT) replaces the Galilei Transformation. It is such that the Maxwell equations are invariant when applying LT. They read as:
 
 $$\begin{split}
 ct' &= \gamma \left ( ct - \frac{V}{c} x \right ) \\
@@ -33,7 +27,19 @@ $$\gamma = \frac{1}{\sqrt{1 - \frac{V^2}{c^2}}}$$
 </tr>
 </table>
 
+````{aside}
+```{figure} ../images/AlbertEinstein.png
+:label: fig:AlbertEinstein.png
+:width: 80%
+:align: center
+
+Albert Einstein (1879-1955). Picture from [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Albert_Einstein_ETH-Bib_Portr_05937.jpg?uselang=nl#Licentie), public domain.
+```
+````
+
 But there is more! Einstein also changed our view on the universe and on time itself. In the world of Newton and Galilei, people could not even think about relativity of time. Of course time was the same for everyone. There was only one time, one master clock - the same for all of us. It is hard coded in the Galilean Transformation: 
+
+
 
 **Galilean Transformation**
 
@@ -45,19 +51,21 @@ z' &= z
 \end{split}$$
 
 
-Now, if we compare GT to LT, we see that with the Lorentz Transformation this is no longer true: different observers may have different time. We will see that this has very peculiar consequences, some of which are very counterintuitive. However, they have been tested over and over again. And so far: they firmly hold. And there is no other way than to accept that the world and our universe is different from what we thought and from what we experience in our daily lives.
+Now, if we compare GT to LT, we see that with the Lorentz Transformation this is no longer true: different observers may have different time. We will see that this has very peculiar consequences, some of which are very counterintuitive. However, they have been tested over and over again, and so far: they firmly hold. There is no other way than to accept that the world and our universe is different from what we thought and from what we experience in our daily lives.
 
-Do note, that the Galilei Transform is a limit of the Lorenz Transformation. If we let $c \rightarrow \infty$, we see that $\gamma \rightarrow 1$ and $\frac{V}{c} \rightarrow 0$. And this gives us: $t' = t$ and $x' = x - Vt$, that is the Galilean Transformation!
+```{note}
+The Galilei Transform is a limit of the Lorenz Transformation. If we let $c \rightarrow \infty$, we see that $\gamma \rightarrow 1$ and $\frac{V}{c} \rightarrow 0$. And this gives us: $t' = t$ and $x' = x - Vt$, that is the Galilean Transformation!
 Now, this should not come as a surprise (even if it for a moment did). After all, Classical Mechanics does an outstanding job in many, many physics problems and the agreement with experiments is excellent.
+```
 
 (ch_introspec_s_lorentz)=
 ## The Lorentz Transformation
 
-The way we wrote down the Lorentz transformation is a bit particular in a sense that we combine time $t$ with the speed of light $c$ into the "time" axis $ct$ which now has unit length. We can do this as $c$ is constant for all observers independent of their frame of reference. The speed of light is said to be a **Lorentz invariant**. In this notation the transform between $S$ and $S'$ (moving with velocity $V$ away) is *easy to remember*!
+The way we wrote down the Lorentz transformation is a bit particular in a sense that we combine time $t$ with the speed of light $c$ into the "time" axis $ct$ which now has unit length. We can do this as $c$ is the same constant for all observers independent of their frame of reference. The speed of light is said to be a **Lorentz invariant**. In this notation the transform between $S$ and $S'$ (moving with velocity $V$ away) is *easy to remember*!
 
 (ch_introspec_s_lorentz_ss_S)=
 ### S and S'
-We will discuss most of the consequences for two observers $S$ and $S'$, traveling with a constant velocity $\vec{V}$ with respect to each other. They have taken their $x$, resp. $x'$ axis parallel to $\vec{V}$. Hence, we only need to talk about $V$, knowing that this is the only component of the relative velocity between the two observers and that it is along the $x, x'$ axis.
+We will discuss most of the consequences for two observers $S$ and $S'$ traveling with a constant velocity $\vec{V}$ with respect to each other. They have taken their $x$, resp. $x'$ axis parallel to $\vec{V}$. Hence, we only need to talk about $V$, knowing that this is the only component of the relative velocity between the two observers and that it is along the $x, x'$ axis.
 
 Furthermore, their $y$ and $y'$ coordinates are taken in the same direction. This also holds for the $z$-component.
 Finally, when $S$ and $S'$ pass each other (they are then both at the same point), they put their clocks to zero: $t=0$ and $t'=0$. 
@@ -68,7 +76,7 @@ The standard sketch is given in the figure below.
 
 ```{figure} ../images/chx3_SSprime.svg
 :label: fig:chx3_SSprime.svg
-:width: 350px
+:width: 70%
 :align: center
 
 $S$ and $S'$: relative velocity parallel to the $x$ and $x'$ axes.
@@ -78,10 +86,9 @@ N.B. It is crucial to be very precise in your notation when it comes to coordina
 
 (ch_introspec_s_lorentz_ss_LT)=
 ### Lorentz Transformation and its inverse
-The Lorentz Transformation, like the Galilean Transformation is a communication protocol for $S$ and $S'$. It allows them to interpret information that they get from each other in their own 'world', i.e. coordinate system.
+The Lorentz Transformation, like the Galilean Transformation is a communication protocol for $S$ and $S'$. It allows them to interpret information that they get from each other in their own 'world', i.e. their own coordinate system.
 
-For instance, if $S$ sees an object moving with $v_x$, $S'$ can 'translate' this information via the Lorentz Transformation into $v'_{x'}$ and $v'_{y'}$ or so if applicable.
-Of course, $S$ also needs such a translation scheme when receiving information from $S'$. That is: $S$ needs the inverse transformation.
+For instance, if $S$ sees an object moving with $v_x$, $S'$ can 'translate' this information via the Lorentz Transformation into $v'_{x'}$ (and $v'_{y'}$ or so if applicable). Of course, $S$ also needs such a translation scheme when receiving information from $S'$. That is: $S$ needs the inverse transformation.
 
 Luckily, the inverse is very easy to reconstruct from the Lorentz Transformation itself. LT from $S$ to $S'$ is
 
@@ -94,7 +101,7 @@ z' &=& z
 \end{array}
 $$
 
-The inverse is found by invoking 'relativity', after all it is called Relativity Theory. If $S$ sees $'$ moving at a constant velocity $V$, then - because motion is relative- $S'$ will say that $S$ moves with $-V$. And thus, if $S'$ writes down the Lorentz Transformation, she uses $-V$.
+The inverse is found by invoking 'relativity', after all it is called Relativity Theory. If $S$ sees $S'$ moving at a constant velocity $V$, then - because motion is relative - $S'$ will say that $S$ moves with $-V$. And thus, if $S'$ writes down the Lorentz Transformation, she uses $-V$.
 
 The inverse is therefore given by
 
@@ -111,7 +118,7 @@ with the *Lorentz factor* $\gamma(V) \equiv \frac{1}{\sqrt{1-\frac{V^2}{c^2}}} \
 
 The structure of the formulas is very symmetric and therefore needs little remembering. 
 
-From the Lorentz transformation it is clear that time is not universal anymore ($ct'\neq ct$ in general). This is a large step from Newton and Galileo. Now the time coordinate is mixed somehow with the space coordinate depending on the speed $V$.
+From the Lorentz transformation it is clear that time is not universal anymore ($ct'\neq ct$ in general). This is a large step from Newton and Galileo now the time coordinate is mixed somehow with the space coordinate depending on the speed $V$.
 
 (ch_introspec_s_lorentz_ss_Lorfac)=
 ### Lorentz factor
@@ -141,7 +148,7 @@ Do you see the pattern? Can you derive the general rule? What is the next one? H
 (ch_introspec_s_lorentz_ss_lim)=
 ### In the limit  
 
-In the **limit of low speeds** with respect to the speed of light $\frac{V}{c}\ll 1 \Rightarrow \gamma =1$. Practically, this happens for about $V< 0.1 c \sim 30.000 \mathrm{km/s}$. In this limit the Lorentz transformation also reduces to the Galilean Transformation.
+In the **limit of low speeds** with respect to the speed of light $\frac{V}{c}\ll 1 \Rightarrow \gamma =1$. Practically, this happens for about $V< 0.1 c \sim 30.000 \; \mathrm{km/s} \Rightarrow \gamma = 1.005$. In this limit the Lorentz transformation also reduces to the Galilean Transformation.
 
 $$
 \begin{array}{rcl}
@@ -157,14 +164,17 @@ In the **limit of infinity speed of light** ($c\to\infty$) the $\gamma$-factor i
 It is always important to verify that an extension of a well-established theory reproduces the results of that theory in the domain where it has been experimentally validated.
 
 
-````{intermezzo} Historical context
+`````{intermezzo} Historical context
 
 Lorentz did not derive the transformation that now has his name, based on Einstein's axioms. Lorentz, however, saw that Maxwell's equations were not GT invariant, therefore he tried to find a transformation under which they were invariant. He did so (with a bit of help from [ Poincar&eacute; ](https://www.google.com/search?client=firefox-b-d&q=poincare) afterwards). [FitzGerald](https://en.wikipedia.org/wiki/George_Francis_FitzGerald) did also derive the transformation, but too did not understand its implications.
 
+````{figure}
+:class: grid grid-cols-2 items-end gap-4 
+:label: figs_LorFitz
 
 ```{figure} ../images/HendrikLorentz.png
 :label: fig:HendrikLorentz.png
-:width: 50%
+:width: 70%
 :align: center
 
 Hendrik Lorentz (1853-1928). From [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Hendrik_Antoon_Lorentz.jpg), public domain
@@ -173,18 +183,18 @@ Hendrik Lorentz (1853-1928). From [Wikimedia Commons](https://commons.wikimedia.
 
 ```{figure} ../images/Fitzgerald.png
 :label: fig:Fitzgerald.png
-:width: 50%
+:width: 70%
 :align: center
 
 George Fitzgerald (1851-1901). From [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:George_Francis_FitzGerald.jpg), public domain
 ```
-
+````
 
 Before Einstein's idea spread, Lorentz thought about the transformation as a fix to Galilean Transformation. Later he understood, of course. Unfortunately, Fitzgerald did not live long enough to see the first publication of Einstein on Relativity in 1905.
 
 The electro-magnetic wave equation can be transformed from $S$ to $S'$. And indeed, if you would do that, you would find that the wave equation maintains its form with the same $c$, not a new $c'$. Lorentz had found this, but it was Einstein who underpinned and generalized the use of the Lorentz Transformation to all mechanics, replacing the Galilean Transformation.
 
-````
+`````
 
 ```{exercise}
 :label: 11.1
@@ -201,18 +211,18 @@ Close your book, laptop. Shut down your screen, put aside your mobile, tablet. P
 ### First Implications
 As we have seen, we need to use the Lorentz Transformation instead of the Galilei one when two observers, $S$ and $S'$, want to exchange information. What changes if we do so? Let's first do some examples and see some of the consequences and the 'strange' conclusions we need to draw.
 
-Note: we will frequently use high velocities and large distances. It is convenient not to write these in units like $m$ and $m/s$. The numbers in front of them become so large that keeping an overview becomes cumbersome. Therefore, we will change to a different unit for distance: the light second. That is per definition the distance a photon of light ray travels in one second:
+Note: we will frequently use high velocities and large distances. It is convenient not to write these in units like $\mathrm{m}$ and $\mathrm{m/s}$. The numbers in front of them become so large that keeping an overview becomes cumbersome. Therefore, we will change to a different unit for distance: the light second. That is per definition the distance a photon of light ray travels in one second:
 
-$$ 1 \text{ lightsecond} = 1\ \mathrm{ls} = c \cdot 1\ \mathrm{sec} = 3.0 \cdot 10^8\ \mathrm{m} $$
+$$ 1 \; \mathrm{lightsecond} = 1 \; \mathrm{ls} = c \cdot 1 \; \mathrm{sec} = 3.0 \cdot 10^8 \; \mathrm{m} $$
 
-For instance, it takes a photon about $8.3\ \mathrm{minutes}$ to travel from the sun to the Earth. Thus, the distance from the sun to the Earth is $8.3\ \mathrm{lmin} = 498\ \mathrm{ls}$. That is equivalent to $150 \cdot 10^6\ \mathrm{km}$.
+For instance, it takes a photon about $8.3 \; \mathrm{minutes}$ to travel from the sun to the Earth. Thus, the distance from the sun to the Earth is $8.3 \; \mathrm{lmin} = 498 \; \mathrm{ls}$. That is equivalent to $150 \cdot 10^6 \; \mathrm{km}$.
 
 ````{example} spaceship
 
-A spaceship is flying at a velocity $0.8c$ past Earth in the direction of the moon. The moon is at a distance of $1.2\ \mathrm{ls}$ (that is some $3.6 \cdot 10^8$m) from the Earth.
+A spaceship is flying at a velocity $0.8c$ past Earth in the direction of the moon. The moon is at a distance of $1.2 \; \mathrm{ls}$ (that is some $3.6 \cdot 10^8 \; \mathrm{m}$) from the Earth.
 The clocks on Earth and in the spaceship are set to zero when the spaceship passes the Earth.
 
-At time $ct = 1.7\ \mathrm{ls}$ observer $S$ of the Earth observes that a big comet strikes the moon surface.
+At time $ct = 1.7 \; \mathrm{ls}$ observer $S$ of the Earth observes that a big comet strikes the moon surface.
 
 When does $S'$, who is on the spaceship, see this happening?
 
@@ -234,17 +244,17 @@ Thus, we will from now on, specify **Events**. An event is a physical phenomenon
 
 $$\text{frisbee caught: } E_f = (ct_f,x_f,y_f,z_f) = ( ..,..,..,..) $$
 
-That is, four coordinates are specified (in $m$ or $ls$ or ...). Note: this is information as used by $S$: the coordinates do not carry a prime. 
+That is, four coordinates are specified (in $\mathrm{m}$ or $\mathrm{ls}$ or ...). Note: this is information as used by $S$: the coordinates do not carry a prime. 
 
 So, back to our example: we have our first event:
 
 $$ \text{ S observes `comet hits moon' } E_1 = (ct_1,x_1,y_1,z_1) = (1.7, 0,0,0)$$
 
-What does this mean? Observer $S$, who is sitting in $\mathcal{O} = (0,0,0)$ literally sees that the comet hits the moon. He does so at $ct_1 = 1.7\ \mathrm{ls}$. In terms of physics: a photon hits his eye at $ct_1$. The observer has zero-size, that is everything he observes is done at $(0,0,0)$.
+What does this mean? Observer $S$, who is sitting in $\mathcal{O} = (0,0,0)$ literally sees that the comet hits the moon. He does so at $ct_1 = 1.7 \; \mathrm{ls}$. In terms of physics: a photon hits his eye at $ct_1$. The observer has zero-size, that is, everything he observes is done at $(0,0,0)$.
 
-Now, we need to realize, that the actual impact of the comet took place earlier. By how much? Well, a photon that was generated at this moment of impact due to the impact will have to travel $1.2\ \mathrm{s}$ to reach $S$. That requires $1.2\mathrm{ls}$, as photons travel with the speed of light. 
+Now, we need to realize, that the actual impact of the comet took place earlier. By how much? Well, a photon that was generated at this moment of impact due to the impact will have to travel $1.2 \; \mathrm{ls}$ to reach $S$. That requires $1.2 \; \mathrm{s}$, as photons travel with the speed of light. 
 
-Thus, $S$ concludes that the actual impact -which is event $E_2$- took place at $ct_2 = 0.5ls$ and he writes down:
+Thus, $S$ concludes that the actual impact -which is event $E_2$- took place at $ct_2 = 0.5 \mathrm{ls}$ and he writes down:
 
 $$ \text{ comet hits moon } E_2 = (ct_2,x_2,y_2,z_2) = (0.5, 1.2,0,0)$$
 
@@ -265,9 +275,13 @@ y'_2 &= y_2 = 0 \\
 z'_2 &= z_2 = 0
 \end{split} $$
 
+hence
+
+$$E_{2'} = (-0.767, 1.333,0,0)$$
+
 We will not further deal with the $y$ and $z$ coordinates as they are trivial.
 
-But, we might get our first surprise here. According to $S$ the impact of the comet happens at $t = 0.5\ \mathrm{s}$. That is at a positive time. Then, the spaceship has passed the Earth and is on its way to the moon. Actually, at $t=0.5\mathrm{s}$ the location of spaceship is, according to $S$: $x_{SS}(t) = V t = \frac{V}{c} ct \rightarrow x_{SS}(0.5\ \mathrm{s}) = \frac{4}{5} 0.5 = 0.4\ \mathrm{ls}$. spaceship is already at 1/3 of the distance to the moon. 
+But, we might get our first surprise here. According to $S$ the impact of the comet happens at $t = 0.5 \; \mathrm{s}$. That is at a positive time. Then, the spaceship has passed the Earth and is on its way to the moon. Actually, at $t=0.5 \; \mathrm{s}$ the location of spaceship is, according to $S$: $x_{SS}(t) = V t = \frac{V}{c} ct \rightarrow x_{SS}(0.5\ \mathrm{s}) = \frac{4}{5} 0.5 = 0.4\ \mathrm{ls}$, already at $1/3$ of the distance to the moon. 
 
 So far nothing strange.
 
@@ -278,17 +292,17 @@ And this is so according to both $S$ and $S'$. They may use different times, but
 
 Ok, let's be puzzled for a while: how can $S'$ at the same time be both at the left side and at the right side of the Earth? That doesn't make any sense!!!! What is **wrong** with this new theory? The answer is: **nothing!**
 
-It is us, mixing stuff up. Who said that it is 'at the same time'?!? Nobody (with perhaps for a moment us as the exception). $S$ and $S'$ agree upon the event: a comet hits the moon. This physical phenomenon is not disputed at all. It happened. They don't agree that it took place at the same time according to their clocks. 
+It is us, mixing stuff up. Who said that it is 'at the same time'?!? Nobody (with perhaps for a moment us as the exception). $S$ and $S'$ agree upon the event: a comet hits the moon. This physical phenomenon is not disputed at all. It happened. What they don't agree on is that it took place at the same time according to their clocks. 
 
-But this is not all: according to $S$ at the moment of the impact spaceship was at a distance of $1.2 - 0.4 = 0.8\ \mathrm{ls}$ from the moon. But $S'$ just calculated that she was $1.33\ \mathrm{ls}$ from the moon. One cannot be at two different distance form the moon at the same time!
+But this is not all: according to $S$ at the moment of the impact spaceship was at a distance of $1.2 - 0.4 = 0.8 \; \mathrm{ls}$ from the moon. But $S'$ just calculated that she was $1.33 \; \mathrm{ls}$ from the moon. One cannot be at two different distance form the moon at the same time!
 
 Ok, let's push this somewhat further and see if we can get a contradiction.
 
-We do know, from $S$ that the event took place at $ct_2 = 0.5\ \mathrm{ls}$. Then, definitely $S'$ has passed Earth. $S$ has reconstructed this event from observation Event $E_1$ $S'$ got the information of event $E_2$ from $S$ and backed out the coordinates of the event in her coordinate system. From these data, $S'$ can easily predict when she will see the impact. That is obviously later than the time of the event: the photons have to travel to her. How can we compute when $S'$ literally sees the event? 
+We do know, from $S$ that the event took place at $ct_2 = 0.5\ \mathrm{ls}$. Then, definitely $S'$ has passed Earth. $S$ has reconstructed this event from observation Event $E_1$, $S'$ got the information of event $E_2$ from $S$ and backed out the coordinates of the event in her coordinate system. From these data, $S'$ can easily predict when she will see the impact. That is obviously later than the time of the event: the photons have to travel to her. How can we compute when $S'$ literally sees the event? 
 
-That is remarkably easy: we know that according to $S'$ the event tokes place at $(ct'_2, x_2') = (-0.767\ \mathrm{ls}, 1.333\ \mathrm{ls})$. At that moment and that place a photon was generated that moves in her direction. Since the velocity of each photon is always $c$, we can easily find the time when $S'$ sees the photon, i.e. detect it at location $x'=0$. The photon has to travel a distance $1.33\ \mathrm{ls}$ at a speed of $1 c$. That will take 1.33 s. The photon started traveling at time $ct_2 = -0.767$. Its trajectory according to $S'$ is $x'_p(t') = x'_p(0) - c (t' - t'_2)$.
+That is remarkably easy: we know that according to $S'$ the event tokes place at $(ct'_2, x_2') = (-0.767 \; \mathrm{ls}, 1.333 \; \mathrm{ls})$. At that moment and that place a photon was generated that moves in her direction. Since the velocity of each photon is always $c$, we can easily find the time when $S'$ sees the photon, i.e. detect it at location $x'=0$. The photon has to travel a distance $1.33 \; \mathrm{ls}$ at a speed of $1 c$. That will take 1.33 s. The photon started traveling at time $ct_2 = -0.767$. Its trajectory according to $S'$ is $x'_p(t') = x'_p(0) - c (t' - t'_2)$.
 
-Thus, the photon gets measure at event $E_3$: $x_3' = 0 \rightarrow ct'_3 = x'_2 + ct'_2 = 0.567\ \mathrm{ls}$. Thus we have our third event:
+Thus, the photon gets measured at event $E_3$: $x_3' = 0 \rightarrow ct'_3 = x'_2 + ct'_2 = 0.567\ \mathrm{ls}$. Thus we have our third event:
 
 $$\text{spaceship observes impacting comet: } E_3 = (ct'_3,x'_3) = (0.567, 0)$$
 
@@ -302,16 +316,16 @@ x_3 &= \gamma \left ( x'_3 + \frac{V}{c} ct'_3 \right ) = \frac{5}{3} \left (0 +
 
 Now does this make any sense? It does! If we concentrate on $S$ only and what he observes and knows:
 
-* $E_1$ - $S$ observes -comet hits moon: $(ct_1,x_1) = (1.2, 0) \mathrm{ls}$
+* $E_1$ - $S$ observes -comet hits moon: $(ct_1,x_1) = (1.7, 0) \mathrm{ls}$
 * $E_2$ - the comet actually hits the moon: $(ct_2,x_2) = (0.5, 1.2) \mathrm{ls}$
 * $E_3$ - $S'$ observes that the comet hits the moon: $(ct_3,x_3) = (0.945, 0.756) \mathrm{ls}$
 
 Obviously, if the actual impact is at positive $t$, then $S'$ will see it before $S$ does as for positive time $t$ $S'$ is closer the moon than $S$. And this is all reflected in the events. Moreover, if you would compute the events as $S$ will model things, you will find event $E_3$ just based on event $E_2$ and the motion of spaceship according to $S$ (and when it will encounter a photon that was generated at the actual impact of the comet on the moon). Do the calculation yourself and see, that nothing strange happens.
 
-We can draw the position of Earth, moon and spaceship in space-time plot. It is customary to use as horizontal axis the $x$ or $x'$ coordinate and as the vertical one $ct$ or $ct'$. 
+We can draw the position of Earth, moon and spaceship in space-time plot, see @fig:SSEarth2_animation.gif. It is customary to use as horizontal axis the $x$ or $x'$ coordinate and as the vertical one $ct$ or $ct'$. 
 $S$ will see the Earth and moon standing still and thus draw a vertical line in the space-time diagram for each of them: they do not change position, but their time is changing, i.e. the clock ticks. $S$ would draw for spaceship a straight line moving from left bottom to upper right as the spaceship moves in the positive direction. 
 
-Similarly, $S'$ will draw a vertical line for spaceship itself, as in the frame of reference of $S'$ the spaceship, obviously, does not move. The Earth and moon move to the left, thus their trajectories are straight line from the bottom right to the upper left in the $(x', ct')$-diagram. 
+Similarly, $S'$ will draw a vertical line for spaceship itself, as in the frame of reference of $S'$ the spaceship, obviously, does not move. The Earth and moon move to the left, thus their trajectories are a straight line from the bottom right to the upper left in the $(x', ct')$-diagram. 
 
 At some moment in time-space the comet impacts the moon and a photon is moving in the negative $x$-direction towards the Earth. Somewhat later, this photon is received by Earth. In the $(x,ct)$-diagram this is a straight line from lower right to upper left.
 
