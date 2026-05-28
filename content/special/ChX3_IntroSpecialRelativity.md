@@ -168,10 +168,8 @@ It is always important to verify that an extension of a well-established theory 
 
 Lorentz did not derive the transformation that now has his name, based on Einstein's axioms. Lorentz, however, saw that Maxwell's equations were not GT invariant, therefore he tried to find a transformation under which they were invariant. He did so (with a bit of help from [ Poincar&eacute; ](https://www.google.com/search?client=firefox-b-d&q=poincare) afterwards). [FitzGerald](https://en.wikipedia.org/wiki/George_Francis_FitzGerald) did also derive the transformation, but too did not understand its implications.
 
-````{figure}
-:class: grid grid-cols-2 items-end gap-4 
-:label: figs_LorFitz
 
+````{grid} 2
 ```{figure} ../images/HendrikLorentz.png
 :label: fig:HendrikLorentz.png
 :width: 70%
@@ -269,8 +267,8 @@ $$ \gamma = \frac{1}{\sqrt{ 1 -\frac{V^2}{c^2}} } = \frac{1}{\sqrt{1 - \frac{16}
 Now she computes her coordinates for the same event:
 
 $$ \begin{split}
-ct'_2 &= \gamma \left ( ct_2 - \frac{V}{c} x_2 \right ) = \frac{5}{3} \left (0.5 - \frac{4}{5}1.2 \right ) = - 0.767\ \mathrm{ls}\\
-x'_2 &= \gamma \left ( x_2 - \frac{V}{c} ct_2 \right ) = \frac{5}{3} \left (1.2 - \frac{4}{5}0.5 \right ) = 1.333\ \mathrm{ls} \\
+ct'_2 &= \gamma \left ( ct_2 - \frac{V}{c} x_2 \right ) = \frac{5}{3} \left (0.5 - \frac{4}{5}1.2 \right ) = - 0.767\; \mathrm{ls}\\
+x'_2 &= \gamma \left ( x_2 - \frac{V}{c} ct_2 \right ) = \frac{5}{3} \left (1.2 - \frac{4}{5}0.5 \right ) = 1.333\; \mathrm{ls} \\
 y'_2 &= y_2 = 0 \\
 z'_2 &= z_2 = 0
 \end{split} $$
@@ -340,12 +338,12 @@ In the animation below the whole scenery is shown from the perspective of $S$ on
 An animation of events as seen by different observers.
 ```
 
-An animation is given above. 
+An animation of events as seen by different observers is given above. 
 
-* the three squares represent the position of Earth, moon and spaceship according to $S$ at $ct=-1$ls. In the diagram for $S$, these three are, of course, on a horizontal line as they are at the same time according to $S$. However, $S'$ sees that differently: there are absolutely not at the same time!!!
+* The three squares represent the position of Earth, moon and spaceship according to $S$ at $ct=-1 \; \mathrm{ls}$. In the diagram for $S$, these three are on a horizontal line as they are at the same time according to $S$. However, $S'$ sees that differently: they are absolutely not at the same time!!!
 * Earth, moon and spaceship do travel in the space-time diagrams. Their trajectories are shown by dashed lines. Their space-time location is represented by the (moving) dots. The diagrams are made such, that indeed both observers pass each other at $ct=ct'=0$ and $x=x'=0$. The dots represent, where according to $S$ (left diagram) and $S'$ (right diagram) Earth, moon and spaceship are at a certain time on the clock of that observer. Note that both position and time have really different values if you compare the diagrams of $S$ and $S'$.
 * In both diagrams, at some point in time the comet impacts the moon and a photon starts traveling in the negative $x$ and $x'$-direction. The photon is shown by the blue dot. Again nothing happens at the same time. But the order of events is the same: first the photon is emitted and only after that it is observed. That should of course hold!
-* Notice that the photon is emitted at $ct=0.5$ls according to $S$ and observed at $ct=1.7\mathrm{ls}$. So for $S$, the photon traveled for 1.2ls (and covered a distance of $1.2\mathrm{ls}$: of course, photons travel with velocity c). However, for $S'$ this is quite different: the photon is emitted at $ct'=-23/30 \mathrm{ls}$, that is much earlier than $S$ reports. Moreover, it is only registered by $S$ on $ct'=85/30\mathrm{ls}$. It traveled for $3.6\ \mathrm{seconds}$ on the clock of $S'$!!
+* Notice that the photon is emitted at $ct=0.5 \; \mathrm{ls}$ according to $S$ and observed at $ct=1.7 \; \mathrm{ls}$. So for $S$, the photon traveled for $1.2 \; \mathrm{ls}$ (and covered a distance of $1.2 \mathrm{ls}$: of course, photons travel with velocity c). However, for $S'$ this is quite different: the photon is emitted at $ct'=-23/30 \; \mathrm{ls}$, that is much earlier than $S$ reports. Moreover, it is only registered by $S$ on $ct'=85/30 \; \mathrm{ls}$. It traveled for $3.6 \; \mathrm{seconds}$ on the clock of $S'$!!
 
 Puzzled by this all? Confused? Hard to believe?
 
@@ -361,7 +359,7 @@ Welcome the 'Magical World of Relativity'. And don't worry: you will get used to
 (ch_introspec_s_timespace)=
 ### Time & Space
     
-Here we have a look at the consequences of axioms 1 & 2. We know how two observers $S$ and $S'$ (moving away with $V$) transform their respective coordinates into each other, via the Lorentz transformation.
+Here we have a look at the consequences of axioms 1 & 2. We know how two observers $S$ and $S'$ (moving away with $V$) transform their respective coordinates into each other, via the Lorentz transformation:
 
 ```{important} LT
 **Lorentz Transformation**
@@ -385,7 +383,7 @@ We will look at the consequences for time and space coordinates.
 
 From the Lorentz transformation it is clear that time is not universal anymore ($ct'\neq ct$ in general). This is a large step from Newton and Galileo. Now the time coordinate is mixed somehow with the space coordinates depending on the speed $V$.
 
-Let us consider 2 events in the reference frame of $S$; 
+Let us consider two events in the reference frame of $S$; 
 
 * event A with coordinates $(ct_1,x_1)$
 * and event B with $(ct_2,x_2)$.
@@ -402,9 +400,9 @@ $$
 
 Even though the first term $(ct_1-ct_2)=0$ the second term $(x_1-x_2)$ is never zero unless $x_1=x_2$, and $ct'_1-ct'_2 \neq 0$ in general. 
 
-In words: The events A and B that are simultaneous for $S$, are never simultaneous for $S'$, unless the events are happening at the same place.
+In words: The events A and B that are simultaneous for $S$, are never simultaneous for $S'$, unless the events are happening at the same place (hence, it would be the same event!).
 
-*Relativit&auml;t der Gleichzeitigkeit* as Einstein called it, is the first very counterintuitive consequence by simple application of the Lorentz transformation. Our brains are not trained and build to cope with this aspect of nature. There is just no evolutionary advantage to it as all relevant speeds are much smaller than the speed of light.
+*Relativit&auml;t der Gleichzeitigkeit* as Einstein called it, is the first very counterintuitive consequence by simple application of the Lorentz transformation. Our brains are not trained and build to cope with this aspect of nature: there is just no evolutionary advantage to it as all relevant speeds are much smaller than the speed of light.
 
 
 **Time dilation**
@@ -419,7 +417,7 @@ We investigate how time intervals between a stationary and a moving observers ar
 Clock stationary according to $S'$ but moving for $S$.
 ```
 
-If you consider the sketch above, we see how time intervals are counted for a moving observer and for an observer in the rest frame. A light ray is traveling between 2 mirrors. This up and down traveling of the light is a counter for the time. If you have never thought how time is measured, think a bit how a clock actually does that. Today, the second is defined as a (very large) number of tiny energy transitions (vibrations) of the Caesium-133 atom (see e.g. [Atomic Clock](https://en.wikipedia.org/wiki/Atomic_clock)). 
+If you consider the sketch above in @fig:chx3_timedilation1.svg, we see how time intervals are counted for a moving observer and for an observer in the rest frame. A light ray is traveling between two mirrors. This up and down traveling of the light is a counter for the time. If you have never thought how time is measured, think a bit how a clock actually does that. Today, the second is defined as a (very large) number of tiny energy transitions (vibrations) of the Caesium-133 atom (see e.g. [Atomic Clock](https://en.wikipedia.org/wiki/Atomic_clock)). 
 
 Consider the time light travels for the observer $S$ who sees the clock moving with velocity $V$. The clock counts one unit of time, $t$ if the light has gone from the bottom mirror to the top one and back to the bottom mirror. Thus from bottom to top takes $t/2$. This means that the length of the light path from bottom mirror to top mirror is equal to $ct/2$ as light travels with velocity $c$. In that same period of time, the top mirror has moved a distance $Vt/2$, as the clock and thus the mirrors move with velocity $V$ with respect to observer $S$. Now, we can relate the length of the light path from the bottom to the top mirror to the size of the clock, $L$ and the displacement of the mirror, $Vt/2$: $L^2+\frac{V^2}{4}t^2=\frac{c^2}{4}t^2$ where we used Pythagoras, see {numref}`fig:chx3_timedilation2.svg`. 
 
@@ -438,7 +436,7 @@ $$
 t= \frac{2L/c}{\sqrt{1-\frac{V^2}{c^2}}} = \gamma \frac{2L}{c}> \frac{2L}{c}
 $$
 
-We see directly that the time the stationary observer $S$ records is larger than the moving observer $S'$ itself which is just $2L/c$ (the time in his rest frame)! The time interval gets longer/dilated by the $\gamma$-factor.
+We see directly that the time the stationary observer $S$ records, is larger than the moving observer $S'$ itself which is just $2L/c$ (the time in his rest frame)! The time interval gets longer/dilated by the $\gamma$-factor.
 
 $$
 \Delta T = \gamma \Delta T_0
@@ -446,19 +444,21 @@ $$
 
 with $\gamma=\frac{1}{\sqrt{1-\frac{V^2}{c^2}}} >1$ and $T_0$ the ***proper time*** or *eigen time* in the rest frame.
 
-Note: a time interval is also the counting of your heart. That means the moving observer ages more slowly compared to the observer at rest. See the examples below for some experimental evidence of the time dilation.  
+```{note}
+A time interval is also the counting of your heart. That means the moving observer ages more slowly compared to the observer at rest. See the examples below for some experimental evidence of the time dilation.  
+```
 
-*Conclusion: moving clocks run slower, time gets stretched*
+**Conclusion:** 
+* moving clocks run slower, time gets stretched
 
 **Length contraction**
 
 The length of moving objects becomes smaller/contracted for the observer at rest. To explain this effect, we consider a moving rod with velocity $V$ and with length $L_0$ in the rest frame. 
 
 Now that we have seen that time intervals are no longer universal, we need to think about:
-```{math}
-:enumerated: false
-\text{"what is it, measuring the length of an object?"}
-```
+
+> _"what is it, measuring the length of an object?"_
+
 
 Normally, we measure the length of an object by seeing how many times a measuring stick fits in the object. We obviously do this in the frame of reference in which the object doesn't move. There we don't need to worry about the moment we start at the left side of the object and arrive with our measuring stick on the right side. But if we would do so in a frame of reference in which the object is moving, that wouldn't work of course. By the time we would reach the right side of the object, it would no longer be at its starting position when we began our measurement and the number of times our ruler fits in the object is now influenced by the motion of the right side of the object.
 
@@ -497,20 +497,21 @@ $$
 
 The length of the moving object observed by the stationary observer is not the same as the length in the rest frame.  The length observed by the stationary observer $S$ gets smaller/contracted by $\gamma>1$ compared to the length in the rest frame of $S'$: $L<L_0$.
 
-**Conclusion: moving rods are shorter, space shrinks**
+**Conclusion:** 
+* moving rods are shorter, space shrinks
 
 (ch_introspec_s_lengthcont_ss_par)=
 ### Paradox: twins and barns
 
-There are many variants of the following paradox. The word *paradox* already implies that there is only an apparent contradiction, not a real one. Here we will formulate the paradox with a ladder & barn and resolve it, but you can also think about it as a train & tunnel, or tank & trench etc. The resolution is always the same.
+There are many variants of the following paradox. The word *paradox* already implies that there is only an apparent contradiction, not a real one. Here we will formulate the paradox with a ladder & barn and resolve it, but you can also think about it as a train & tunnel, or tank & trench etc. The solution is always the same.
 
 ````{example} Barn & Ladder
-Consider a ladder of rest length $L_l=26\ \mathrm{m}$ and a barn of rest length $L_b = 10\ \mathrm{m}$ . Obviously, the ladder does not fit in the barn, isn't it?
+Consider a ladder of rest length $L_l=26 \; \mathrm{m}$ and a barn of rest length $L_b = 10 \; \mathrm{m}$ . Obviously, the ladder does not fit in the barn, isn't it?
 
 Now consider that the ladder is moving with velocity $V=\frac{12}{13}c\ (\gamma =\frac{13}{5})$ towards the barn.
 
-- For an observer in the barn, the length of the ladder is contracted to $L_l/\gamma = 26\cdot\frac{5}{13}=10\ \mathrm{m}$ exactly fitting in the barn which in her rest frame is $10\ \mathrm{m}$. 
-- For an observer moving with the ladder, the barn gets contracted to $L_b/\gamma= 10\cdot\frac{5}{13}=50/13 \sim 4\ \mathrm{m}$, being much too small to fit in the ladder. The ladder in his rest frame is $26\ \mathrm{m}$.
+- For an observer in the barn, the length of the ladder is contracted to $L_l/\gamma = 26\cdot\frac{5}{13}=10 \; \mathrm{m}$ exactly fitting in the barn which in her rest frame is $10 \; \mathrm{m}$. 
+- For an observer moving with the ladder, the barn gets contracted to $L_b/\gamma= 10\cdot\frac{5}{13}=50/13 \sim 4 \; \mathrm{m}$, being much too small to fit in the ladder. The ladder in his rest frame is $26 \; \mathrm{m}$.
 
 ```{figure} ../images/chx3_barnladder.svg
 :label: fig:chx3_barnladder.svg
@@ -520,7 +521,7 @@ Now consider that the ladder is moving with velocity $V=\frac{12}{13}c\ (\gamma 
 Ladder & Barn: perspective from two observers.
 ```
 
-We have applied the Lorentz transformation or length contraction (time dilation) and the concept of relativity correctly, but something seems wrong! The physical outcome must be the same for both observers, but one observer claims the ladder perfectly fits into the barn, the other says it does not! That is: the observer in the barn can close the left and right door when the ladder is just inside the barn. Of course, the doors need to be open again very quickly as the ladder is moving with high velocity to the right. But that doesn't take away the fact that doors were closed and the ladder was inside the barn. How does the other observer cope with this? 
+We have applied the Lorentz transformation or length contraction (time dilation) and the concept of relativity correctly, but something seems wrong! The physical outcome must be the same for both observers, but one observer claims the ladder perfectly fits into the barn, the other says it does not! That is: the observer in the barn can close the left and right door simultaneously when the ladder is just inside the barn. Of course, the doors need to be open again very quickly as the ladder is moving with high velocity to the right. But that doesn't take away the fact that doors were closed and the ladder was inside the barn. How does the other observer cope with this? 
 
 You can have the same paradox not with length contraction, but time dilation, then it is called the *twin paradox*. We discuss the twin paradox later in the framework of Minkowski-diagrams.
 
@@ -532,9 +533,9 @@ The key to the resolution of the paradox is always the relativity of simultaneit
 
 Let's analyze the situation in detail using the Lorentz transformation. Later you can analyze it again qualitatively using a Minkowski-diagram which is quite insightful.
 
-Our above "analysis" was a bit short: using length contraction. It is also a bit 'dangerous' as length contraction assumes simultaneous events in one frame. 
+Our above "analysis" was a bit short using (only) length contraction. It is also a bit 'dangerous' as length contraction assumes simultaneous events in one frame. 
 
-We will consider how both observers would actually *measure* things in their respective frames of reference and in which order these happen. It turns out that both points of view are correct, but with a twist. We define 4 events to analyze the situation.
+We will consider how both observers would actually *measure* things in their respective frames of reference and in which order these happen. It turns out that both points of view are correct, but with a twist. We define four events to analyze the situation.
 
 1. Event 1:	right end ladder at left door barn
 2. Event 2:	right end ladder at right door barn
@@ -551,13 +552,13 @@ The four events are sketched in the figure below
 Four events of the ladder & barn paradox
 ```
 
-Note: the size of the ladder in the sketch above is of course open for debate between the two observers :-).
+Note: the size of the ladder in the sketch above is of course open for debate between the two observers.
 
-Observer Barn ($B$) will conclude that the ladder fits inside the barn and actually is inside the barn if Event 3 is earlier than Event 2, according to the clock of observer $B$. If, however, Event 3 is later than Event 2, the ladder does not fit. Similarly, observer Ladder ($L$) will draw the same conclusions, but based on the clock of observer $L$.
+Observer Barn ($B$) will conclude that the ladder fits inside the barn and actually is inside the barn if Event 3 is earlier than Event 2, according to the clock of observer $B$. If, however, Event 3 is later than Event 2 (or at the same time), the ladder does not fit. Similarly, observer Ladder ($L$) will draw the same conclusions, but based on the clock of observer $L$.
 
-Let's analyze these events. We will denote the coordinates of observer $B$ as $(ct,x)$ and those of observer $L$ as $(ct', x')$. Both observers agree that they will call the position of the left door the origin, that is $x_{LD} = x'_{LD} = 0$. Moreover, they agree that at the moment the right end of the ladder is at the left door, they will set their clocks to 0. Remember: according to observe $B$, the length of the ladder is $L_{0L}/ \gamma$ = 10 m, which happens to be the size of the barn according to $B$. We anticipate that $B$ will conclude that the ladder fits.
+Let's analyze these events. We will denote the coordinates of observer $B$ as $(ct,x)$ and those of observer $L$ as $(ct', x')$. Both observers agree that they will call the position of the left door the origin, that is $x_{LD} = x'_{LD} = 0$. Moreover, they agree that at the moment the right end of the ladder is at the left door, they will set their clocks to 0. Remember: according to observe $B$, the length of the ladder is $L_{0L}/ \gamma = 10 \; \mathrm{m}$, which happens to be the size of the barn according to $B$. We anticipate that $B$ will conclude that the ladder fits.
 
-Next, we need to give the events their space-time coordinates, e.g. in the frame of $B$e and transform these coordinates according to the LT to the frame of $L$. This is done below, where we used: $L_{0B}$ = proper length of barn, i.e. in the rest frame of the barn and $L_{0L}$ = proper length of ladder, that is in the rest frame of the ladder. Note: $V/c = 12/13 \Rightarrow \gamma = 13/5$
+Next, we need to give the events their space-time coordinates, e.g. in the frame of $B$e and transform these coordinates according to the LT to the frame of $L$. This is done below, where we used: $L_{0B} = $ _proper length of barn_, i.e. in the rest frame of the barn and $L_{0L}$ = _proper length of ladder in the rest frame of the ladder_. Note: $V/c = 12/13 \Rightarrow \gamma = 13/5$
 
 | Event | Barn $(ct,x)$ | Ladder $(ct',x')$ |
 | --- | --- | --- |
@@ -573,7 +574,7 @@ The paradox is, that both observers are right. Again we see demonstrated that si
 
 As you see both observers do not agree where the ladder is when the left door is closed. Where for the barn observer both doors close at the same time, this does not happen for the ladder observer. 
 
-````{example} John Bell
+````{example} John Bell and the fragile string
 
 This problem became known through [John Bell](https://en.wikipedia.org/wiki/John_Stewart_Bell).
 
@@ -609,8 +610,13 @@ One might think that the whole assembly of the two ships $B$ and $C$ and string 
 * As seen from $A$'s rest frame,  $B$ and $C$ will have at every moment the same velocity, and so remain displaced one from the other by a fixed distance. The tying will not be long enough anymore due to length contraction and therefore break.
 * The distance between $B$ and $C$ in the rest frame of $B$ or $C$ *increases* however as the acceleration from neither of them is simultaneous (if you work this out the relativity of simultaneity is the issue)! The thread breaks also in their frame. 
 
-If you got this wrong, do not worry, most people do (that is trained physicists). 
+If you got this wrong, do not worry, most people do (even trained physicists). 
 
 If you think about this example for a bit, it becomes clear that relativistic acceleration is very troublesome for the structural integrity of extended objects! Another problem for our hopes of space travel to far away places.
 
 ````
+
+```{iframe} https://www.youtube.com/embed/f72whGQ31Wg?si=SPb-x2oCC2iRwaLE
+
+Embedded with permission
+```
