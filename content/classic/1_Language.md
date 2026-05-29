@@ -8,8 +8,6 @@ kernelspec:
   display_name: 'Python 3'
 ---
 
-<!-- :::{index} Vectors, IDEA, Numerical computation
-::: -->
 
 (ch-language)=
 # The language of Physics

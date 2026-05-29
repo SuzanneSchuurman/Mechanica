@@ -77,7 +77,7 @@ Mission control receives at $t=1.7\ \mathrm{ls}$ images from the impact of a met
 
 a.  Transform the events to $S'$ using a Lorentz Transformation.
 b.  Find the position of $S'$ at the time of the three events according to $S$. This provides additional events.
-c.  Make a $(ct,x)$ diagram in which you plot all the above events. Draw the the world line of $S'$ in the diagram.
+c.  Make a $(ct,x)$ diagram in which you plot all the above events. Draw the world line of $S'$ in the diagram.
 d.  Do the same but now for $S'$.
 e.  Make a Minkowski diagram (from the perspective of $S$) and draw the grid-lines of $S'$ for the events E1 and E2.
 

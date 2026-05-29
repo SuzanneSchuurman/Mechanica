@@ -11,9 +11,9 @@ kernelspec:
 (ch_velT)=
 # Velocity Transformation & Doppler shift
 
-Imagine we have two spaceships moving each with a speed of $\frac{3}{4}c$ as shown below. What is the speed that either the red or yellow spaceships sees for the other spaceship speed?
+Imagine we have two spaceships moving each with a speed of $\frac{3}{4}c$ as shown below. What is the speed that either the red striped or yellow spaceships sees for the other spaceship speed?
 
-We should, first of all realize, that the information regarding the velocity of the two spaceships is given by an observer $S$ who is neither in the red nor the yellow ship. We need to transform this information to an observer in the red or in the yellow ship.
+We should, first of all realize, that the information regarding the velocity of the two spaceships is given by an observer $S$ who is neither in the red striped nor the yellow ship. We need to transform this information to an observer in the red striped or in the yellow ship.
 
 
 ```{figure} ../images/chx4_addvel.svg
@@ -30,7 +30,7 @@ $$
 v'_{x'} = v_x-V
 $$
 
-So, let's translate our velocity information from the observer $S$ to someone in the red ship. The relative velocity between $S$ and the red ship is $V=\frac{3}{4}c$. Thus according to the observer in the red ship, $S_R$, her velocity is $V'_R = V_R -V_R =0$, obviously.
+So, let's translate our velocity information from the observer $S$ to someone in the red striped ship. The relative velocity between $S$ and the red ship is $V=\frac{3}{4}c$. Thus according to the observer in the red ship, $S_R$, her velocity is $V'_R = V_R -V_R =0$, obviously.
 
 However, she will denote the velocity of the yellow ship as $V'_y = V_y - V_R = (-3/4 - 3/4)c = \frac{3}{2}c > c$. In the world of Galilei and Newton, this is no problem at all: velocities can be as big as you can imagine. However, in reality, this is not true. We have to use Special relativity if the velocities start to approach $c$. It is not possible for any object to move faster than the speed of light, as we will see later. 
 
@@ -73,7 +73,7 @@ ct'_2-ct'_1 &=& \gamma \left ( ct_2 -\frac{V}{c} x_2 \right ) -\gamma \left ( ct
 &=& \gamma (ct_2-ct_1)-\gamma \frac{V}{c}(x_2-x_1)
 \end{array}$$
 
-From the last line it is clear that also the $y,z$ components of the velocity $\vec{u}$ will be influenced by the transformation although the relative motion between the two observers is only along the $x$-direction. Substituting the expressions for the space and time difference into $v'_{x'}$, we obtain
+From the last line it is clear that also the $y,z$ components of the velocity $\vec{u}$ will be influenced by the transformation even though the relative motion between the two observers is only along the $x$-direction. Substituting the expressions for the space and time difference into $u'_{x'}$, we obtain
 
 
 $$
@@ -93,7 +93,7 @@ $$
 u'_{y'} = \frac{\Delta y}{\gamma \Delta ct - \gamma \frac{V}{c}\Delta x} = \frac{u_y}{\gamma \left (1-\frac{Vu_x}{c^2}\right )}
 $$
 
-In the limit of $u_x,V\ll c$ both formulas reduce to the Galilean Transformation as required. For $u_x\to c$ and $V\to -c$ the combined velocity will stay smaller than $c$. Check yourself that this is true.
+In the limit of $u_x,V\ll c$ both formulas reduce to the Galilean Transformation as required. For $u_x\to c$ and $V\to -c$ the combined velocity will stay smaller than $c$. Check yourself that this is true!
 
 The formula for the velocity transformation/addition are not so easy to remember. Later you will see how to derive them from the transformation properties of the 4-velocity, which is easy to remember.  
 
@@ -108,9 +108,9 @@ This is again smaller (in absolute sense) than $c$. For the other ship we find o
 (ch_velT:s:dop)=
 ## Doppler effect
 
-The [Doppler effect](https://en.wikipedia.org/wiki/Doppler_effect) is well-known from waves. You know it from daily life. If a car is passing you at high speed, the frequency of the sound you hear changes from approaching to driving away from you. The received frequency $f_{obs}$ by you is higher than the emitted frequency $f_{src}$ while the car is approaching, and smaller when it drives off.  
+The [Doppler effect](https://en.wikipedia.org/wiki/Doppler_effect) is well-known from waves. You know it from daily life. If a car is passing you at high speed, the observed frequency $f_{obs}$ (by you) is higher than the emitted frequency $f_{src}$ while the car is approaching, and smaller when it drives off.  
 
-Here we investigate the effect of a moving source that is emitting light with $f_{src}$ (electro-magnetic waves). This is one of the few cases where the relativistic case is easier than the classical effect. In the latter it matters if the source is moving or the medium. For EM-waves, however, there is no medium (aether) as we have seen which simplifies things.
+Here we investigate the effect of a moving source that is emitting light with $f_{src}$ (electro-magnetic waves). This is one of the few cases where the relativistic case is easier than the classical effect. In the latter it matters if the source is moving or the medium. However, for EM-waves there is no medium (aether) as we have seen, which simplifies things.
 
 ```{figure} ../images/Doppler_animation.gif
 :label: fig:Doppler_animation.gif
@@ -128,7 +128,7 @@ $$
 
 where for the stationary observer and medium, we have $+/-$ and for the moving observer and stationary source $-/+$.
 
-The origin of the observed frequency shift of a moving source is visible in the picture. In the direction of motion, more wave maxima arrive per unit time, as the car is moving closer between two wave maxima. Consequently, the observer in the car will count more maxima per unit time: the frequency is higher.
+The origin of the observed frequency shift of a moving source is made visible in @fig:chx4_doppler2.svg. In the direction of motion, more wave maxima arrive per unit time, as the car is moving closer between two wave maxima. Consequently, the observer will count more maxima per unit time: the frequency is higher.
 
 For the relativistic effect we consider a moving source with velocity $\vec{u}$ moving with observer $S'$ relative to $S$. The frequency of the source is $f_0=\frac{1}{T_0}$ in the rest frame, with $T_0$ the period of the oscillation.
 
@@ -156,10 +156,10 @@ $S$ will denote the first maximum with time $t_1 = t_0$, but will have to take t
 
 During this time interval $\frac{\gamma}{f_0}$ the source moves from $\vec{r}_0$ to $\vec{r}_1=\vec{r}_0+\vec{u}\frac{\gamma}{f_0}$. Thus, the distance that the second maximum has to travel is different from that of the first one, just like in the classical Doppler case.
 
-We consider the 2 consecutive wave maxima that are emitted in $S'$ and received in $S$:
+We consider the two consecutive wave maxima that are emitted in $S'$ and received in $S$:
 
-- 1$^{st}$ maximum in $S'$ at $t'_0$, that is received in $S$ at $t_1=t_0 +\frac{r_0}{c}$. The additional time $\frac{r_0}{c}$ is needed for the light to travel from $\vec{r}_0$ to the observer at the origin of $S$.
-- 2$^{nd}$ maximum in $S'$ at $t'_0+\frac{1}{f_0}$, is received in $S$ at $t_2=(t_0+\frac{\gamma}{f_0})+\frac{r_1}{c}$.
+- 1$^{\text{st}}$ maximum in $S'$ at $t'_0$, that is received in $S$ at $t_1=t_0 +\frac{r_0}{c}$. The additional time $\frac{r_0}{c}$ is needed for the light to travel from $\vec{r}_0$ to the observer at the origin of $S$.
+- 2$^{\text{nd}}$ maximum in $S'$ at $t'_0+\frac{1}{f_0}$, is received in $S$ at $t_2=(t_0+\frac{\gamma}{f_0})+\frac{r_1}{c}$.
 
 To move further we split the velocity of the source into a radial component (in line to the observer in $S$) and a tangential part perpendicular $\vec{u}=\vec{u}_r+\vec{u}_t =u_r \hat{r} +u_t \hat{t}$. See {numref}`fig:DopplerVelo.png`.
 If the distance $r_0 \gg u \frac{\gamma}{f_0}$ then the distance $r_1 = r_0 + u_r \frac{\gamma}{f_0}$. 
@@ -184,7 +184,7 @@ $$
 For the frequency $f$ in $S$ we now subtract the two arrival times 
 
 $$
-\frac{1}{f} =t_2-t_1 =  \frac{\gamma}{f_0}+ \frac{u_r}{c}\frac{\gamma}{f_0}
+\frac{1}{f} =t_2-t_1 =  \frac{\gamma}{f_0}+ \frac{u_r}{c}\frac{\gamma}{f_0} = \frac{\gamma}{f_0}(1+\frac{u_r}{c})
 $$
 
 Rewriting this into a ratio of the emitted and received frequency, we obtain for the relativistic Doppler effect
@@ -193,14 +193,14 @@ $$
 \frac{f_0}{f} = \gamma \left (1+\frac{u_r}{c} \right ) = \frac{1+\frac{u_r}{c}}{\sqrt{1-\frac{u^2}{c^2}}}
 $$
 
-Please observe that the $\gamma$ factor is of $\gamma(u)$ that means even for only tangential movement $(u_r=0)$ there is a Doppler shit.
+Observe that the $\gamma$ factor is of $\gamma(u)$ that means even for only tangential movement $(u_r=0)$ there is a Doppler shift.
 
 (ch_velT_s_dop_ss_bg)=
 ### Cosmic background radiation
 
-The most well-known frequency shift is the red-shift from the expanding universe. Light coming from a star has a certain frequency as observed in the rest frame of the star. This frequency corresponds to a quantum mechanical drop in energy level. The photon emitted in this energy transition has a well known wave length and frequency. That is, of course, in the rest frame of the process. Anybody observing these photons while traveling with respect to the star will see a Doppler-shifted frequency. If the star is moving away from the observer, the wave length seems longer and thus the frequency lower: the light is shifted to the red end of the spectrum. If on the other hand the star is moving towards the observer, the waves seem compressed and the frequency detected is higher: the light is shifted to the blue end of the spectrum. Hence, astronomers talk about red sifted and blue shifted light.
+The most well-known frequency shift is the red-shift from the expanding universe (probably disregarding speeding tickets resulting from radar measurements). Light coming from a star has a certain frequency as observed in the rest frame of the star. This frequency corresponds to a quantum mechanical drop in energy level. The photon emitted in this energy transition has a well known wave length and frequency. That is, of course, in the rest frame of the process. Anybody observing these photons while traveling with respect to the star will see a Doppler-shifted frequency. If the star is moving away from the observer, the wave length seems longer and thus the frequency lower: the light is shifted to the red end of the spectrum. If on the other hand the star is moving towards the observer, the waves seem compressed and the frequency detected is higher: the light is shifted to the blue end of the spectrum. Hence, astronomers talk about red sifted and blue shifted light.
 
-The astronomer [Edwin Hubble](https://en.wikipedia.org/wiki/Edwin_Hubble) first found in the 1920s that the universe does not only consists out of our own galaxy, the milky way, but there must be (many) other galaxies, which were called *nebula* at that time. Second he could show that all further away galaxies move away from us by measuring the Doppler shift of well-known emission lines of stars and their distance from periodic intensity variation of Cepheid Variable stars. It turned out that the distance of the galaxies $d$ was roughly linearly proportional to the red-shift which is again linearly related to the the radial velocity $v$ as we derived. This is known now as Hubble's law $v=H_0 d$ with the Hubble constant ($H_0 \sim 70\ km/s/Mpc$). Further away galaxies move faster away, but why? And why is no galaxy approaching us?
+The astronomer [Edwin Hubble](https://en.wikipedia.org/wiki/Edwin_Hubble) first found in the 1920s that the universe does not only consists out of our own galaxy, the milky way, but there must be (many) other galaxies, which were called *nebula* at that time. Second, he could show that all further away galaxies move away from us by measuring the Doppler shift of well-known emission lines of stars and their distance from periodic intensity variation of Cepheid Variable stars. It turned out that the distance of the galaxies $d$ was roughly linearly proportional to the red-shift which is again linearly related to the radial velocity $v$ as we derived. This is known now as Hubble's law $v=H_0 d$ with the Hubble constant $H_0$ ( $\sim 70 \; \mathrm{km/s/Mpc}$). Further away galaxies move faster away, but why? And why is no galaxy approaching us?
 
 At end of the 1920s [Georges Lemaître](https://en.wikipedia.org/wiki/Georges_Lema%C3%AEtre) applied Einstein general theory of relativity to cosmology and found that the universe must be expanding, while it started in a "primeval atom", now known as the *Big Bang*. He could explain the red-shift relation from the expanding universe hypothesis.
 
@@ -218,7 +218,7 @@ Background radiation in the universe as observed from earth.
 By NASA / WMAP Science Team - <a rel="nofollow" class="external free" href="https://map.gsfc.nasa.gov/media/121238/ilc_9yr_moll4096.png">http://map.gsfc.nasa.gov/media/121238/ilc_9yr_moll4096.png</a>, Public Domain.
 ```   
 
-This radiation is the red shifted radiation from around 380,000 years after the Big Bang when the universe became transparent. At that time the temperature had dropped (due to the adiabatic expansion) to around 3000 K, at which protons and electrons can form stable hydrogen atoms $p+e^- \to H$. This event is called *recombination*. At higher temperatures photons are scattered from the free electrons (and protons) constantly, effectively the photons have a very short mean free path and the universe is opaque. At the recombination temperature all of a sudden the photon could travel without strong scattering, the universe was transparent. The 3K cosmic background radiation that we measure today is the red-shifted version of this 3000 K light. It gives us a glimpse of how the universe looked at that time. Apart from the background radiation there were no other light sources in the universe as stars had not formed yet, the [Dark Ages](https://en.wikipedia.org/wiki/Chronology_of_the_universe#Dark_Ages) of the universe began.
+This radiation is the red shifted radiation from around 380,000 years after the Big Bang when the universe became transparent. At that time the temperature had dropped (due to the adiabatic expansion) to around 3000 K, at which protons and electrons can form stable hydrogen atoms $p+e^- \to \text{H}$. This event is called *recombination*. At higher temperatures photons are scattered from the free electrons (and protons) constantly, effectively the photons have a very short mean free path and the universe is opaque. At the recombination temperature all of a sudden the photon could travel without strong scattering, the universe was transparent. The $3 \; \mathrm{K}$ cosmic background radiation that we measure today is the red-shifted version of this $3000 \; \mathrm{K}$ light. It gives us a glimpse of how the universe looked at that time. Apart from the background radiation there were no other light sources in the universe as stars had not formed yet, the [Dark Ages](https://en.wikipedia.org/wiki/Chronology_of_the_universe#Dark_Ages) of the universe began.
 
 The red-shift here is actually caused by the expansion of the universe itself (the universe expands causing the photons' wavelength to expand). NB: Time in cosmology is often given in units of red-shift (e.g. the red-shift for recombination is $z=1089$).
 
@@ -230,13 +230,13 @@ Matter emits electro-magnetic radiation depending on its temperature. This relat
 
 $$
 	u(\lambda, T) = \frac{2hc}{\lambda^5}\frac{1}{e^{hc/\lambda kT}-1}
-	$$
+$$
 
 Here for the first time $h$, Planck's constant, was introduced to quantize energy packages $hf$ of oscillation.
 
-Phenomenologically, the relation between the peak of the spectrum and the temperature was found by [Wien](https://en.wikipedia.org/wiki/Wilhelm_Wien) already earlier to be $\lambda_{peak} = \frac{b}{T}$ with $b$ Wien's constant $b\sim 2900\ \mu m\cdot K$.
+Phenomenologically, the relation between the peak of the spectrum and the temperature was found by [Wien](https://en.wikipedia.org/wiki/Wilhelm_Wien) already earlier to be $\lambda_{peak} = \frac{b}{T}$ with $b$ Wien's constant $b\sim 2900  \; \mathrm{\mu m\cdot K}$.
 	
-NB: If you buy a light bulb for a lamp, then a temperature is indicated on the packaging, e.g. $2700\ \mathrm{K}$ for "warm white", $4000\ \mathrm{K}$ for "cool white" to describe the light color. Quantum physics at your local super market.
+NB: If you buy a light bulb for a lamp, then a temperature is indicated on the packaging, e.g. $2700 \; \mathrm{K}$ for "warm white", $4000 \; \mathrm{K}$ for "cool white" to describe the light color. Quantum physics at your local super market.
 
 ```{code-cell} python
 :tag: hide-input

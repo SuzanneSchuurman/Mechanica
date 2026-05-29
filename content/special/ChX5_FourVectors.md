@@ -11,7 +11,7 @@ numbering:
 
 In 3D space we define a point/coordinate by its components $(x,y,z)$ where all components have the same unit. We can do this also in 4D space time by an event $(ct,x,y,z)$ as $ct$ has unit length (it should be called *time space* by this ordering, but what ever). The same unit for all components is needed if we want to do geometry with the coordinates.
 
-If we want to measure distances $\Delta s$ between two points $(x_1,y_1,z_1)$ and $(x_2,y_2,z_2)$ we do this in 3D Euclidean space as $\Delta s^2 = (x_2-x_1)^2+(y_2-y_1)^2+(z_2-z_1)^2 = \Delta x^2 + \Delta y^2 + \Delta z^2$. These distances are Galileo invariant, observer $S$ and $S'$ moving with $\vec{V}$ measure the same distance $\Delta s^2 = \Delta s^{'2}$. Note, that we take these two pints at the sam time $t$: $t_1=t_2$. Or rephrased: we perform the measurement in the rest frame of the object we measure. That makes sense: measuring the length of an object that is moving requires that we measure the left and right side at the same time. Otherwise, the motion of the object will interfere with our measurements of the length.
+If we want to measure distances $\Delta s$ between two points $(x_1,y_1,z_1)$ and $(x_2,y_2,z_2)$ we do this in 3D Euclidean space as $\Delta s^2 = (x_2-x_1)^2+(y_2-y_1)^2+(z_2-z_1)^2 = \Delta x^2 + \Delta y^2 + \Delta z^2$. These distances are Galileo invariant, observer $S$ and $S'$ moving with $\vec{V}$ measure the same distance $\Delta s^2 = \Delta s^{'2}$. Note that we take these two points at the same time $t$: $t_1=t_2$. Or rephrased: we perform the measurement in the rest frame of the object we measure. That makes sense: measuring the length of an object that is moving requires that we measure the left and right side at the same time. Otherwise, the motion of the object will interfere with our measurements of the length.
 
 The above statement is easily shown by invoking the Galilean Transformation:
 
@@ -32,7 +32,7 @@ t' &= t
 \end{split}$$
 
 
-If we want to measure distances in space time and require that the distance is now Lorentz invariant, we cannot measure distance the same way! If we measure in $S$ the positions at the same time, that will in general be at different times according to $S'$. Time is relative!
+If we want to measure distances in space time and require that the distance is now Lorentz invariant, we cannot measure distance the same way! If we measure in $S$ the positions at the same time, that will in general be at different times according to $S'$. Time is relative.
 
 To do geometry, measure angles etc. we need an inner product and the inner product provides a distance measure (a metric) by the norm. For 3D you know that for two vectors $\vec{r}_1$ and $\vec{r}_2$: $\Delta s^2 = || \vec{r}_1-\vec{r}_2 || ^2 = (\vec{r}_1-\vec{r}_2)\cdot (\vec{r}_1-\vec{r}_2)= \Delta x^2 + \Delta y^2 + \Delta z^2$. Clearly the inner product in 4D space time cannot be defined in the same way.
 
@@ -137,7 +137,7 @@ Of course, as we knew, the length of the interval stays the same: $\Delta s^2 = 
 (ch_spaceT_s_4V)=
 ## 4-vector
 
-The idea of having to work with a 'position' vector with 4 components with an inproduct as we discussed above, is generalized to vectors, i.e. quantities with a direction and a magnitude.
+The idea of having to work with a 'position' vector with 4 components with an inproduct as discussed above, is generalized to vectors, i.e. quantities with a direction and a magnitude.
 
 We define a 4-vector $\vec{A}=A^\mu=(A^0,A^1,A^2,A^3)$ to be a vector that transforms  between two observers $S$ and $S'$ moving with $V$ along the $x$-direction by the LT
 
@@ -167,7 +167,7 @@ $$
 \vec{A}\cdot \vec{B} \equiv A^0B^0 - A^1B^1-A^2B^2-A^3B^3
 $$
 
-This is not a "choice" for the inner product, but follows strictly from the requirement that distance or length should not change under LT. A space with this inner product is called *Minkowski space* or the space has a *Minkowski metric* after [Hermann Minkowski](https://en.wikipedia.org/wiki/Hermann_Minkowski).
+This is not a "choice" for the inner product, but follows strictly from the requirement that distance or length should not change under LT. A space with this inner product is called a *Minkowski space* or the space has a *Minkowski metric* after [Hermann Minkowski](https://en.wikipedia.org/wiki/Hermann_Minkowski).
 
 Notice that time component $(+)$ is treated differently than the spatial components $(-)$ in the inner product. Sometimes the inner product is also called *pseudo Euclidean* as there are $-1$ and $+1$ present in the inner product (instead of only $+1$ for Euclidean space).
 
@@ -186,7 +186,7 @@ This property can be a *very* powerful tool (OK, we constructed it that way). If
 
 If you do not believe that the inner product is LT invariant you can write it out of course (with $\beta \equiv \frac{V}{c}$, a short hand notation that is frequently used).
 	
-We compute $\vec{A}'\cdot \vec{B}'$. We will concentrate on only $A^0B^0 - A^1B^1$, as with the standard Lorentz Transformation the $A^2$ and $A^3$ component are trivial. 
+We compute $\vec{A}'\cdot \vec{B}'$. We will concentrate on only $A^0B^0 - A^1B^1$, as with the standard Lorentz Transformation the $A^2$ and $A^3$ component are trivial (and left out). 
 	
 $$
 	\begin{array}{rcl}
@@ -202,7 +202,7 @@ $$
 (ch_spaceT_s_LC)=
 ## The light cone
 
-Let us consider an event in space time $\vec{X}=X^\mu=(ct,x,y,z)=(x^0,x^1,x^2,x^3)$. For sake of simplicity we only consider one space like component here. In the sketch we have the space axis ($x$ or $x^1$) to the right and the time axis ($ct$ or $x^0$) up. We consider 3 events $A,B,C$ (points in space time) and their connection to the origin $O$
+Let us consider an event in space time $\vec{X}=X^\mu=(ct,x,y,z)=(x^0,x^1,x^2,x^3)$. For sake of simplicity we only consider one space like component here. In the sketch we have the space axis ($x$ or $x^1$) to the right and the time axis ($ct$ or $x^0$) up. We consider three events $A,B,C$ (points in space time) and their connection to the origin $O$
 
 ```{figure} ../images/chx5_lightcone1.svg
 :label: fig:chx5_lightcone1.svg
@@ -211,11 +211,11 @@ Let us consider an event in space time $\vec{X}=X^\mu=(ct,x,y,z)=(x^0,x^1,x^2,x^
 
 ```
 
-- <span style="color:blue">OA</span>: The point $A$ can be reached from $O$ with velocity $v<c$, therefore it is called *causally connected* or *time like*.  For the distance $OA:\Delta s^2$, we see from projection of the coordinates $A$ onto the time and space axis $|x_A-0| < (ct-0) \Rightarrow \Delta s^2 >0$. Because the time component is larger than the space component, it is called *time like*. The distance is positive. 
-- <span style="color:green">OB</span>: The point $B$ can be reached from $O$ only with velocity $v>c$, therefore it is called *non-causally connected* or *space like*.  For the distance $OB:\Delta s^2$, we see from projection of the coordinates $B$ onto the time and space axis $|x_B-0| > (ct-0) \Rightarrow \Delta s^2 <0$. Because the space component is larger than the time component, it is called *space like*. The distance squared is negative. 
-- <span style="color:red">OC</span>: The point $C$ can be reached from $O$ only with velocity $v=c$, therefore it is called *light like* or *null*.  For the distance $OB:\Delta s^2$, we see from projection of the coordinates $C$ onto the time and space axis $|x_C-0| = (ct-0) \Rightarrow \Delta s^2 =0$. Because the space component is equal to the time component, it is called *light like*. The distance is zero. Therefore it is also called *null*.
+- <span style="color:blue">OA</span>: The point $A$ can be reached from $O$ with velocity $v<c$, therefore it is called *causally connected* or *time like*.  For the distance $OA:\Delta s^2$, we see from projection of the coordinates $A$ onto the time and space axis $|x_A-0| < (ct_A-0) \Rightarrow \Delta s^2 >0$. Because the time component is larger than the space component, it is called *time like*. The distance is positive. 
+- <span style="color:green">OB</span>: The point $B$ can be reached from $O$ only with velocity $v>c$, therefore it is called *non-causally connected* or *space like*.  For the distance $OB:\Delta s^2$, we see from projection of the coordinates $B$ onto the time and space axis $|x_B-0| > (ct_B-0) \Rightarrow \Delta s^2 <0$. Because the space component is larger than the time component, it is called *space like*. The distance squared is negative. 
+- <span style="color:red">OC</span>: The point $C$ can be reached from $O$ only with velocity $v=c$, therefore it is called *light like* or *null*.  For the distance $OB:\Delta s^2$, we see from projection of the coordinates $C$ onto the time and space axis $|x_C-0| = (ct_C-0) \Rightarrow \Delta s^2 =0$. Because the space component is equal to the time component, it is called *light like*. The distance is zero. Therefore it is also called *null*.
 
-Here you visually can observe that the sign of the distance using the Minkowski inner product classifies parts of space time.
+Here you can observe that the sign of the distance using the Minkowski inner product classifies parts of space time.
 
 ```{figure} ../images/chx5_lightcone.svg
 :label: fig:chx5_lightcone.svg
@@ -232,7 +232,7 @@ This is even more evident if you look at the light cone in the sketch. The cone 
 
 Now we can have a look at world lines of an observer $S'$ with respect to $S$ traveling with $V$ along the $x-$axis in a graphical manner. The world line of an object is the path that an object travels in the 4-dimensional spacetime.
 
-We plot the coordinate system of $S'$ (<span style="color:blue">blue</span>) in the coordinate system of S (black). 
+We plot the coordinate system of $S'$ (<span style="color:blue">blue</span>) in the coordinate system of $S$ (black). 
 
 ```{figure} ../images/chx5_minkowski1.svg
 :label: fig:chx5_minkowski1.svg
@@ -242,9 +242,9 @@ We plot the coordinate system of $S'$ (<span style="color:blue">blue</span>) in 
 ```
 
 - The time line of $S'$ in $S$ is given by the fact that $x'=0$. From the LT we have $x'=\gamma (x-\frac{V}{c}ct)=0 \Rightarrow x=\frac{V}{c}ct$. The angle $\alpha$ of the $ct'$-line with the $ct$ axis is given by $\tan \alpha = \frac{V}{c}$.
-- The space line of $S'$ in $S$ is given by the fact that $ct'=0$. From the LT we have $ct'=\gamma (ct-\frac{V}{c}x)=0 \Rightarrow ct=\frac{V}{c}xt$. The angle $\alpha$ of the $x'$-line with the $x$ axis is given by $\tan \alpha = \frac{V}{c}$.
+- The space line of $S'$ in $S$ is given by the fact that $ct'=0$. From the LT we have $ct'=\gamma (ct-\frac{V}{c}x)=0 \Rightarrow ct=\frac{V}{c}x$. The angle $\alpha$ of the $x'$-line with the $x$ axis is given by $\tan \alpha = \frac{V}{c}$.
 
-Both lines of $S'$ make the same angle $\alpha$ with the coordinates axis of $S$. They lie symmetric around the light line $x=ct$ (diagonal with $\alpha=45$ deg). The higher the speed $V$ the higher the angle and the closer the lines lie to the light line. See the animation below, where the $(ct',x')$ axis are plotted in the $(ct,x)$ diagram of $S$ for different values of $V/c$.
+Both lines of $S'$ make the same angle $\alpha$ with the coordinates axis of $S$. They lie symmetric around the light line $x=ct$ (diagonal with $\alpha=45 \degree$). The higher the speed $V$ the higher the angle and the closer the lines lie to the light line. See the animation below, where the $(ct',x')$ axis are plotted in the $(ct,x)$ diagram of $S$ for different values of $V/c$.
 
 
 ```{figure} ../images/Minkowski_animation.*
@@ -263,7 +263,7 @@ To further investigate how this plot can help us, let us consider lines of equal
 Left: lines of equal time (green) and equal space coordinate (red) in frame of reference $S$ (left) and $S'$ (right).
 ```
 
-For the frame of reference $S'$ that is only a bit different. 
+For the frame of reference $S'$ that is a bit different. 
 
 - <span style="color:green">Lines of constant time</span> in $S'$ are parallel to $x'$
 - <span style="color:red">Lines of constant space coordinate</span> in $S'$ are parallel to $ct'$
@@ -283,13 +283,14 @@ In the animation below, we see the effect of different values of $V/c$ on the li
 (ch_spaceT_s_Mink_ss_ladder)=
 ### The ladder & barn revisited
 
-We will now take a look back at the [ladder and barn paradox](./ChX3_IntroSpecialRelativity.md#paradox-twins-and-barns). We had a barn of $10\ \mathrm{m}$ wide and a ladder of $26\ \mathrm{m}$ long (both measured in their rest frame). The ladder was moving towards the barn with high velocity. We start by drawing the barn $S$ (black) and ladder $S'$ (<span style="color:blue">blue</span>) coordinate systems in the Minkowski diagram. Now we add the barn world line into the diagram (light blue) with 2 lines of constant space coordinate (parallel to $ct$) in $S$.
+We will now take a look back at the [ladder and barn paradox](./ChX3_IntroSpecialRelativity.md#paradox-twins-and-barns). We had a barn of $10 \; \mathrm{m}$ wide and a ladder of $26 \; \mathrm{m}$ long (both measured in their rest frame). The ladder was moving towards the barn with high velocity. We start by drawing the barn $S$ (black) and ladder $S'$ (<span style="color:blue">blue</span>) coordinate systems in the Minkowski diagram. Now we add the barn world line into the diagram (light blue) with two lines of constant space coordinate (parallel to $ct$) in $S$.
 
 ```{figure} ../images/chx5_mink1.svg
 :label: fig:chx5_mink1.svg
 :width: 70%
 :align: center
 
+.
 ```
 
 Now we can add the <span style="color:red">ladder</span> to $S'$. It has rest length of $26\ \mathrm{m}$ and in the $(x',ct')$ plane it is a world line of constant space coordinate, therefore parallel to $ct'$. The ladder itself is a line of constant time in $ct'$ and therefore parallel to $x'$.
@@ -300,9 +301,10 @@ Now we can add the <span style="color:red">ladder</span> to $S'$. It has rest le
 :width: 70%
 :align: center
 
+.
 ```
 
-As the ladder moves (we move it parallel to $x'$ between the world lines) it will eventually enter the barn and hit the right door of the barn (dashed red line). This event is indicated by the space time point $A$. For $S'$ the other end of the ladder is then still outside the barn at space time point $C$. According to $S'$ the ladder does not fit into the barn.
+As the ladder moves (we move it parallel to $x'$ between the world lines) it will eventually enter the barn and hit the right door of the barn (dashed red line, @fig:chx5_mink3.svg). This event is indicated by the space time point $A$. For $S'$ the other end of the ladder is then still outside the barn at space time point $C$. According to $S'$ the ladder does not fit into the barn.
 
 
 ```{figure} ../images/chx5_mink3.svg
@@ -310,6 +312,7 @@ As the ladder moves (we move it parallel to $x'$ between the world lines) it wil
 :width: 70%
 :align: center
 
+.
 ```
 
 When the ladder hits the right door for $S$ at space time point $A$, he makes a measurement of the ladder. To this end we draw a line of constant time (dashed light blue, parallel to $x$) until it intersects the world line of the ladder at space time point $B$. Observer $S$ measures that the ladder fits into the barn.
@@ -319,6 +322,7 @@ When the ladder hits the right door for $S$ at space time point $A$, he makes a 
 :width: 70%
 :align: center
 
+.
 ```
 
 From this diagram it is obvious that the events $B$ and $C$ are not the same, therefore it is not strange that $S$ and $S'$ disagree about the outcome of the measurement. Both are right! But they would not be able to agree that both doors shut at the same time, to capture the ladder.
@@ -326,7 +330,7 @@ From this diagram it is obvious that the events $B$ and $C$ are not the same, th
 (ch_spaceT_s_Mink_ss_twin)=
 ### The twin paradox
 
-Let there be  two twins, Alice and Bob. Bob leaves earth in a spaceship with relativistic speed $\vec{v}$, while Alice remains back home on earth. At some time Bob turns around, with $-\vec{v}$ and comes back to Alice. Based on time dilation Alice will argue that Bob is younger than she due to $\Delta T = \gamma \Delta T_0$. For the $\gamma$-factor it does not matter if Bob is moving away or approaching as it is quadratic in the velocity. For each year she ages, her brother only ages $1/\gamma$ years. Bob can argue that due to the principle of relativity, he is at rest and his twin sister is moving away and then coming back, therefore she will be younger than he - and we have a paradox.
+Let there be Alice and Bob who are twins. Bob leaves earth in a spaceship with relativistic speed $\vec{v}$, while Alice remains back home on earth. At some time Bob turns around, with $-\vec{v}$ and comes back to Alice. Based on time dilation Alice will argue that Bob is younger than she due to $\Delta T = \gamma \Delta T_0$. For the $\gamma$-factor it does not matter if Bob is moving away or approaching as it is quadratic in the velocity. For each year she ages, her brother only ages $1/\gamma$ years. Bob can argue that due to the principle of relativity, he is at rest and his twin sister is moving away and then coming back, therefore she will be younger than he - and we have a paradox.
 
 This paradox has two issues:
 
