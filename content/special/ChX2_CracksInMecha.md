@@ -353,21 +353,32 @@ The idea was to check the speed of light for two observers $S$ and $S'$. One is 
 
 The experiment essentially consists of a [Michelson interferometer](https://en.wikipedia.org/wiki/Michelson_interferometer). Light is send to a 50/50 beam splitter such that half of the light is reflected towards arm $L_1$ and half is transmitted to arm $L_2$. The mirrors at the end of each arm reflect the light back. On the way back again, half of the light is transmitted and reflected at the beamsplitter, such that half of the light from both arms is now traveling downwards towards the image plane/camera. At the image plane the light from both arms forms an interference pattern, depending on the path length difference induced by the difference of $L_1-L_2$.
 
+`````{figure}
+:label: fig_hist_bernmax
+:class: pull-up
+
+````{figure}
+:class: grid grid-cols-2 items-end gap-4 
+
 ```{figure} ../images/MichelsonMorleyExp.png
 :label: fig:MichelsonMorleyExp.png
-:width: 70%
+:width: 100%
 :align: center
 
-Michelson & Morley setup
 ```
 
 ```{figure} ../images/MM-setup.png
 :label: fig:MM-setup.png
-:width: 280px
+:width: 70%
 :align: center
-
+:class: pull-up
 
 ```
+
+```` 
+
+Michelson & Morley setup
+`````
 
 
 The whole setup is mounted for stability on a heavy table that is floating in liquid mercury, to reduce vibrations coupling to the setup. If now one arm is parallel to the earth's orbit with $V=30 \; \mathrm{km/s}$, while the other is perpendicular to it, there will be some difference between the length of the two paths traveled: $\Delta \lambda_1$. If we rotate the setup by $90 \degree$ (easily done in the mercury bath), then the roles of $L_1$ and $L_2$ are exchanged, leading to another phase shift $\Delta \lambda_2$. Therefore after rotation the fringes of the interference pattern on the detector should shift as

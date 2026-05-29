@@ -169,7 +169,7 @@ $$
 
 The two photons are emitted in opposite directions (in the CM system) with the same frequency.
 
-Filling this into the first equation $hf = m_e \gamma(u)c^2 \approx m_e c^2 = 512 \; \mathrm{keV]$. The speed in the CM frame is typically $u\ll c \Rightarrow \gamma(u)=1$.
+Filling this into the first equation $hf = m_e \gamma(u)c^2 \approx m_e c^2 = 512 \; \mathrm{keV}$. The speed in the CM frame is typically $u\ll c \Rightarrow \gamma(u)=1$.
 
 NB: observe that analysis in the CM frame is often a good idea.
 

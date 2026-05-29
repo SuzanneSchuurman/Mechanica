@@ -424,7 +424,7 @@ Consider the time light travels for the observer $S$ who sees the clock moving w
 
 ```{figure} ../images/chx3_timedilation2.svg
 :label: fig:chx3_timedilation2.svg
-:width: 40%
+:width: 30%
 :align: center
 
 Light path in a moving clock.
