@@ -12,7 +12,7 @@ numbering:
 ## Worked Examples
 
 ```{example} Momentum of an accelerated electron
-Momentum of an accelerated electron: compute the momentum and speed of an electron after acceleration in a potential of $V=300\ \mathrm{kV}$.
+Momentum of an accelerated electron: compute the speed of an electron after acceleration in a potential of $\Delta V=300 \; \mathrm{kV}$.
 
 From $E^2=(mc^2)^2+(pc)^2$ we have $p=\frac{1}{c}\sqrt{E^2-(mc^2)^2}$ and using $E=mc^2+E_{kin}$ we have
 	
@@ -20,11 +20,13 @@ $$
 	p=\frac{1}{c}\sqrt{2mc^2 E_{kin}+E^2_{kin}}
 $$
 	
-With $E_{kin}=300$ keV and $m_e=511$ keV. The speed can be computed from rearranging $E_{kin} = mc^2(\gamma -1)$ to $\frac{v}{c} = \sqrt{1- \frac{(mc^2)^2}{(E_{kin}+mc^2)^2}}=\sqrt{1-\frac{511^2}{811^2}}=0.77$. Please observe how practical it is to use the units eV!      
+With $E_{kin}=300 \; \mathrm{keV}$ and $m_e=511 \; \mathrm{keV}$. The speed can be computed from rearranging $E_{kin} = mc^2(\gamma -1)$ to $\frac{v}{c} = \sqrt{1- \frac{(mc^2)^2}{(E_{kin}+mc^2)^2}}=\sqrt{1-\frac{511^2}{811^2}}=0.77$. 
+
+Note how practical it is to use the units eV!      
 ```
 
-```{example} Decay of a neutral kaon
-Decay of a neutral kaon into three pions. $K^0 \to \pi^- + \pi^+ + \pi^0$. Show that the three pions trajectories are in one plane.
+```{example} Decay of a neutral kaon 
+Decay of a neutral kaon into three pions: $K^0 \to \pi^- + \pi^+ + \pi^0$. Show that the three pions trajectories are in one plane.
 
 In the rest frame of the kaon we have $\vec{p}_K=0$ before the decay. By conservation of momentum we have after the decay $\vec{p}_{\pi^-} + \vec{p}_{\pi^+} +\vec{p}_{\pi^0}=0$. A necessary and sufficient condition for three vectors $\vec{p}_1,\vec{p}_2,\vec{p}_3$ to lie in one plane is that $\vec{p}_1 \cdot (\vec{p}_2 \times \vec{p}_3)=0$ (Remember that this expression gives the volume of the parallelepiped spanned by the three vectors). From the conservation of momentum we have $\vec{p}_1 = -\vec{p}_2 -\vec{p}_3$. Now we can compute $(-\vec{p}_2 -\vec{p}_3)\cdot (\vec{p}_2 \times \vec{p}_3)=-\vec{p}_2\cdot(\vec{p}_2 \times \vec{p}_3)-\vec{p}_3\cdot(\vec{p}_2 \times \vec{p}_3)=0$. The two terms are each zero individually as the term in the bracket is perpendicular to $\vec{p}_2$ and $\vec{p}_3$ respectively. 
 	
@@ -49,7 +51,7 @@ Find the mass and velocity of the other fragment.
 ```{exercise} &#127798;
 :label: 17.2
 
-A particle of mass $m$ is initially at rest (in frame $S$). A photon of frequency $f$ is traveling over the $x$-axis and will be absorbed by the particle. Another photon is emitted. This photon is also traveling over the $x$- axis but in the opposite direction as incoming photon.
+A particle of mass $m$ is initially at rest (in frame $S$). A photon of frequency $f$ is traveling over the $x$-axis and will be absorbed by the particle. Another photon is emitted. This photon is also traveling over the $x$- axis but in the opposite direction as the incoming photon.
 
 The incoming photon energy equals $mc^2$, the emitted photon $\frac{1}{4}mc^2$. Find the velocity and mass of the particle after the process of absorbing and emitting the photons.
 
