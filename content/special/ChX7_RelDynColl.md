@@ -14,11 +14,11 @@ numbering:
 
 In the previous chapter we have seen that 4-momentum is defined by taking the derivative of the 4-velocity with respect to proper time: $P^\mu \equiv \frac{d U^\mu}{d \tau}$. This way, 4-momentum became a 4-vector that transforms according to the Lorentz Transformation.
 
-In Special Relativity, we deal with inertial observers. The particles they encounter can, however, accelerate under the influence of forces. As momentum is now a 4-vector, we need to define a 4-force. Following Newton, momentum changes due to a force: $\frac{d\vec{p}}{dt} = \vec{F}$. In chapter 2 we discussed Newton's second Law in the form $\vec{F} = m \vec{a}$. We saw that the acceleration did not provide any problems: we had rulers and clocks. Hence, we could measure the acceleration using know and measurable concepts like position, distance and time. 
+In Special Relativity, we deal with inertial observers. The particles they encounter can, however, accelerate under the influence of forces. As momentum is now a 4-vector, we need to define a 4-force. Following Newton, momentum changes due to a force: $\frac{d\vec{p}}{dt} = \vec{F}$. In [Newton’s Laws](../classic/2_NewtonsLaws.md) we discussed Newton's second Law in the form $\vec{F} = m \vec{a}$. We saw that the acceleration did not provide any problems: we had rulers and clocks. Hence, we could measure the acceleration using known and measurable concepts like position, distance and time. 
 
 The connection between force and acceleration is of a different nature: it is a physical law, i.e. a formulation that reflects how we think nature works at its principle level. It is a hypothesis; something we need to check over and over. A rule that holds until we find inconsistencies: contradictions between theory and experiment. It takes only one experiment to overthrow a theory.
 
-We postulate, that force is a 4-vector. Moreover, we require that in the limit of $v/c \ll 1$, we recover Newton's second Law from the spatial components of our new 4-vector force law. After all, for low velocities, Classical Mechanics of Newton and Galilei works like a charm. This indicates that we need to differentiate 4-momentum with respect to time. But, if we require force to be a 4-vector, we need to differentiate with respect to proper time. Thus, we postulate:
+We postulate that force is a 4-vector. Moreover, we require that in the limit of $v/c \ll 1$, we recover Newton's second Law from the spatial components of our new 4-vector force law. After all, for low velocities, Classical Mechanics of Newton and Galilei works like a charm. This indicates that we need to differentiate 4-momentum with respect to time. But, if we require force to be a 4-vector, we need to differentiate with respect to proper time. Thus, we postulate:
 
 $$
 \vec{F}=\frac{d\vec{P}}{d\tau}= \gamma(u)\frac{d}{dt}\left ( m\gamma(u)c,m\gamma(u)\vec{u}\right )
@@ -40,7 +40,7 @@ First, the natural extension of the definition of work is now:
 
 $$dW = F^\mu dX^\mu $$
 
-If we repeat what we did in chapter 4, we will replace $dX^\mu$ by $U^\mu \equiv \frac{dX^\mu}{d\tau}$ and instead of $F^\mu$ we write $\frac{dP^\mu}{d\tau}$:
+If we repeat what we did before, we will replace $dX^\mu$ by $U^\mu \equiv \frac{dX^\mu}{d\tau}$ and instead of $F^\mu$ we write $\frac{dP^\mu}{d\tau}$:
 
 $$\begin{split}
 dW &= F^\mu dX^\mu \\ 
@@ -94,7 +94,7 @@ $$
 
 With $E=m\gamma(u)c^2$ and $\vec{p}=m\gamma(u)\vec{u}$.
 
-````{example} head on collision
+````{example} Head on collision
 
 Two elementary particles collide head on, see the figure below.
 
@@ -118,10 +118,10 @@ $$
 
 with $\gamma(u)=\gamma(-u)$. The 4-momentum is conserved per component, from the space component we see $0=M\gamma(v)v\Rightarrow v=0$. With $\gamma(u)=5/3$ and $\gamma(v)=1$ we find for the time-component $2m\frac{5}{3}=M$. 
 
-This leads to $M=\frac{10}{3}m > 2m$. Thus, the energy prior to the collision was composed of energy associated with the masses themselves and with kinetic energy. After the collision, there is no kinetic energy but their is mass-energy and there is more of this than prior to the collision.
+This leads to $M=\frac{10}{3}m > 2m$. Thus, the energy prior to the collision was composed of energy associated with the masses themselves and with kinetic energy. After the collision, there is no kinetic energy but there is mass-energy and there is more of this than prior to the collision.
 ````
 
-```{example} decay of a photon into an electron and positron
+```{example} Decay of a photon into an electron and positron
 
 We discuss if a photon (of sufficient energy $E>1024$ keV) can decay into an electron $e^-$ and positron $e^+$.
 
@@ -137,7 +137,7 @@ $$
 
 ```{example} Electron-positron annihilation
 
-We consider an electron and positron annihilation, resulting in two photons (after the collision). Remember that the decay cannot happen into one photon as shown above (Remember: equations are invariant under time reversal).
+We consider an electron and positron annihilation, resulting in two photons (after the collision). Remember that the decay cannot happen into one photon as shown above (equations are invariant under time reversal).
 
 In the CM of the $e^-e^+$ system we have for the 4-momentum before
 
@@ -145,7 +145,7 @@ $$
 P_{before}^\mu =(m_e \gamma(u)c, m_e \gamma(u)u,0,0)+ (m_e \gamma(-u)c, -m_e \gamma(-u)u,0,0)
 $$
 
-After we have two photons, with different frequencies $f,f'$ and traveling in different directions $\hat{s},\hat{s}'$
+After we have two photons, with for now different frequencies $f,f'$ and traveling in different directions $\hat{s},\hat{s}'$
 
 $$
 P_{after}^\mu = \left ( \frac{hf}{c}, \frac{hf}{c} \hat{s}\right ) + \left ( \frac{hf'}{c}, \frac{hf'}{c}\hat{s}'\right )
@@ -169,19 +169,19 @@ $$
 
 The two photons are emitted in opposite directions (in the CM system) with the same frequency.
 
-Filling this into the first equation $hf = m_e \gamma(u)c^2 \approx m_e c^2 = 512$ keV. The speed in the CM frame is typically $u\ll c \Rightarrow \gamma(u)=1$.
+Filling this into the first equation $hf = m_e \gamma(u)c^2 \approx m_e c^2 = 512 \; \mathrm{keV]$. The speed in the CM frame is typically $u\ll c \Rightarrow \gamma(u)=1$.
 
-NB: please observe that analysis in the CM frame is often a good idea.
+NB: observe that analysis in the CM frame is often a good idea.
 
 ```
 
 ````{example} Compton scattering
 
-[Compton scattering](https://en.wikipedia.org/wiki/Compton_scattering) describes the (elastic) scattering of an incoming photon by a (bound) charged particle, typical an electron. 
+[Compton scattering](https://en.wikipedia.org/wiki/Compton_scattering) describes the (elastic) scattering of an incoming photon by a (bound) charged particle, typically an electron. 
 
-Compton scattering was discovered in 1923 by Arthur Compton. He was investigating the interaction between X-rays (that is high energy photons) and some of the light elements. The classical theory of scattering of electro-magnetic waves with matter could not explain the observations. Compton had to combine quantum mechanics with special relativity to understand the interaction of a high-energy photon and a (loosely) bound electron in the outer shell of an atom. It earned him the Nobel Prize in Physics in 1927. 
+Compton scattering was discovered in 1923 by Arthur Compton. He was investigating the interaction between X-rays (high energy photons) and some of the light elements. The classical theory of scattering of electro-magnetic waves with matter could not explain the observations. Compton had to combine quantum mechanics with special relativity to understand the interaction of a high-energy photon and a (loosely) bound electron in the outer shell of an atom. It earned him the Nobel Prize in Physics in 1927. 
 
-When a high-frequency photon scatters at an electron, it looses some of its energy. Consequently its frequency reduces and it s wave length increases. As energy is conserved, the lost energy shows up in the electron that is emitted, that is 'freed' from the atom.
+When a high-frequency photon scatters at an electron, it looses some of its energy. Consequently its frequency reduces and its wave length increases. As energy is conserved, the lost energy shows up in the electron that is emitted, that is 'freed' from the atom.
 
 ```{figure} ../images/chx7_compton.svg
 :label: fig:chx7_compton.svg
@@ -189,7 +189,7 @@ When a high-frequency photon scatters at an electron, it looses some of its ener
 :align: center
 ```
 
-In its simplest form, we ignore the energy that is needed to free the electron from its nucleus. This is to a certain extent justified as the outer electron has a very small binding energy, that is small compared to the energy transferred between the photon and the electron.
+In its simplest form, we ignore the energy that is needed to free the electron from its nucleus. This is to a certain extent justified as the outer electron has a very small binding energy, that is, small compared to the energy transferred between the photon and the electron.
 
 In the rest frame of the electron, we have for the 4 different 4-momenta:
 
@@ -236,14 +236,14 @@ $$
 \frac{\lambda'}{hc} = \frac{m_ec^2 +\frac{hc}{\lambda}(1-\cos\theta )}{\frac{hc}{\lambda} m_ec^2}
 $$
 
-Now we only multiply both sides by $hc$ and on the right we divide out, to obtain
+Now we multiply both sides by $hc$ and on the right we divide out, to obtain
 
 $$
 \lambda' = \lambda + \frac{h}{m_ec}(1-\cos\theta)
 $$
 
 
-Alternatively, we could try and solve the collision by directly using conservation of momentum. This is much more work than the P^2 trick. The calculation goes as follows.
+Alternatively, we could try and solve the collision by directly using conservation of momentum. This is much more work than the $P^2$ trick. The calculation goes as follows.
 
 In the rest frame of the electron
 
@@ -258,7 +258,7 @@ P_{after}^\mu = &\left ( \frac{hf'}{c},\frac{hf'}{c} \cos\theta, \frac{hf'}{c} \
 & + \left ( m_e\gamma(u)c,\, m_e\gamma(u)u \cos\phi,\, -m_e \gamma(u) u\sin\phi,\,0 \right )
 \end{split}$$
 
-We have 3 equations, but 4 unknowns $(f', u, \phi, \theta)$. Therefore the outgoing frequency $f'$ is not uniquely determined, but dependent on the scattering angle $\theta$. We can eliminate 2 (here $u,\phi$) of the 4 unknowns, to remain with a relation for the other two.
+We have three equations, but four unknowns $(f', u, \phi, \theta)$. Therefore the outgoing frequency $f'$ is not uniquely determined, but dependent on the scattering angle $\theta$. We can eliminate two (here $u,\phi$) of the four unknowns, to remain with a relation for the other two.
 
 For the spatial momentum we have 
 

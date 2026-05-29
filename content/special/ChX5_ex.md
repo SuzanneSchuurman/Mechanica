@@ -44,7 +44,7 @@ Observer $S'$ moves at a constant velocity of $V/c = 12/13$ with respect to $S$.
 
 Consider the two events $E1: (ct_1,x_1) = (3,3)$ and $E2: (ct_2,x_2)= (4,5)$
 
-a.  Compute the distance between the two events, $\Delta s^2$, according to S.  
+a.  Compute the distance between the two events, $\Delta s^2$, according to $S$.  
 b.  Compute the event coordinates according to $S'$.  
 c.  Compute $\Delta s'^2$ and convince yourself that this is of course equal to $\Delta s^2$.
 
@@ -73,12 +73,12 @@ Draw the events in two diagrams. The first one has both $ct$ and $ct'$ as the ve
 
 A spaceship, with $S'$ on board, is moving at $V/c = 3/5$ with respect to Mission Control (where $S$ is located) on earth. Both $S$ and $S'$ have aligned their axes and synchronized their clocks in the usual way. 
 
-Mission control receives at $t=1.7\ \mathrm{ls}$ images from the impact of a meteorite on the moon. The distance from Mission Control to the moon is 1.2ls (according to $S$). This event E1. Event E2 is the impact itself (that is where and when of the impact), Event 3 is the receiving of images of the impact by $S'$. Of course, images travel in space at the speed of light.
+Mission control receives at $t=1.7 \; \mathrm{ls}$ images from the impact of a meteorite on the moon. The distance from Mission Control to the moon is $1.2 \; \mathrm{ls}$ (according to $S$). This is event E1. Event E2 is the impact itself (that is where and when of the impact), Event 3 is the receiving of images of the impact by $S'$. Of course, images travel in space at the speed of light.
 
-a.  Transform the events to $S'$ using a Lorentz Transformation.
-b.  Find the position of $S'$ at the time of the three events according to $S$. This provides additional events.
-c.  Make a $(ct,x)$ diagram in which you plot all the above events. Draw the world line of $S'$ in the diagram.
-d.  Do the same but now for $S'$.
+a.  Transform the events to $S'$ using a Lorentz Transformation.  
+b.  Find the position of $S'$ at the time of the three events according to $S$. This provides additional events.  
+c.  Make a $(ct,x)$ diagram in which you plot all the above events. Draw the world line of $S'$ in the diagram.  
+d.  Do the same but now for $S'$.  
 e.  Make a Minkowski diagram (from the perspective of $S$) and draw the grid-lines of $S'$ for the events E1 and E2.
 
 ```
@@ -114,7 +114,7 @@ $$\begin{split}
 E5: $(ct'_5, x'_5) = (-11/5,14/5)$ and E6: $(ct'_6, x'_6) = (-9/5,16/5)$  
 $$\rightarrow \Delta s^{'2}_{56} = (-11/5+9/5)^2 - (14/5-16/5)^2 = 0 \text{ light like}$$
 
-Of course, for all cases we find $\Delta s'^2 = \Delta s^2 $: distance defined according to our Minkowski inproduct is a Lorentz invariant, i.e. the same for all inertial observers.
+Of course, for all cases we find $\Delta s'^2 = \Delta s^2 $: distance defined according to our Minkowski inner product is a Lorentz invariant, i.e. the same for all inertial observers.
 
 ```
 

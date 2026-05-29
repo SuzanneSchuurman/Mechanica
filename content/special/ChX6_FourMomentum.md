@@ -11,9 +11,9 @@ numbering:
 ## Proper time
 We have seen that in Special Relativity events are described by four coordinates: $(ct,x,y,z)$. Moreover, distance is measured via a inner product $A^\mu \cdot B^\mu = A^0B^0 - A^1B^1 - A^2B^2 - A^3 B^3$. That opens the question: what about other quantities that we use in mechanics? 
 
-If position is $X^\mu = (ct,x,y,z)$ then what is velocity? Is $v^\mu \equiv \frac{dX^\mu}{dt}$ a good choice? It is what we are used to: velocity is change in position over time. However, we need to be careful. We require that our quantities are four-vectors, i.e. they transform according to the Lorentz Transformation. And the length, i.e. the inner product with itself, is the same for all inertial observes.
+If position is $X^\mu = (ct,x,y,z)$ then what is velocity? Is $v^\mu \equiv \frac{dX^\mu}{dt}$ a good choice? It is what we are used to: velocity is change in position over time. However, we need to be careful. We require that our quantities are four-vectors, i.e. they transform according to the Lorentz Transformation. Moreover, the length, i.e. the inner product with itself, is the same for all inertial observes.
 
-However, in our our first choice of the definition, we take the derivative with respect to time. But time is not the same for different observers!
+However, in our first choice of the definition, we take the derivative with respect to time. But time is not the same for different observers!
 
 We do know that the distance $ds^2$ is LT invariant, as is $c^2$, therefore we can combine both into another invariant - of time 
 
@@ -83,7 +83,7 @@ $$
 \frac{d}{d\tau}U^2 = 2\vec{U}\cdot \frac{d}{d\tau}\vec{U}=0
 $$
 
-The counter intuitive stuff happens of course due to the pseudo-Euclidean metric.
+The counter intuitive stuff happens due to the pseudo-Euclidean metric.
 
 (ch_4M_s_4v_ss_3Vt)=
 ### Revisit 3-velocity transformation
@@ -92,7 +92,7 @@ Earlier we transformed the velocity $u$ of a particle in $S$ to $S'$ which was m
 
 The 4-velocity of a particle moving at velocity $\vec{u} = (u_x, u_y, u_z)$ according to observer $S$ is as we have seen:
 
-$$ \vec{U}=(\gamma(u)c,\gamma(u)\vec{u})$$.
+$$ \vec{U}=(\gamma(u)c,\gamma(u)\vec{u})$$
 
 Note that the gamma-factor here is a property of the particle, that is: it is the gamma-factor as $S$ would calculated based on the particle velocity that $S$ observes: $\gamma (u) \equiv \frac{1}{\sqrt{1 - \frac{u^2}{c^2}}}$. It has nothing to do with the gamma-factor that $S$ and $S'$ use in their Lorentz Transformation to exchange information. 
 
@@ -152,20 +152,18 @@ $$
 
 If the total momentum is conserved than this must hold for the components $(m\gamma (u)c,\vec{p})$. 
 
-Note, that we did not write "mass is conserved". We postulate that it is a LT invariant, that is: it is the same for all inertial observers. But that does not imply that for collisions the mass should equal before and after the collision.
+Note, that we did not write "mass is conserved". We postulated that it is a LT invariant, that is: it is the same for all inertial observers. But that does not imply that for collisions the mass should equal before and after the collision.
 
 (ch_4M_s_EMc)=
 ## E=mc²
 
-*The* most famous equation in physics.
-
-We will derive it by looking at N2 in its relativistic form.
+*The* most famous equation in physics: $E=mc^2$. We will derive it by looking at N2 in its relativistic form.
 
 $$
 \vec{F} = \frac{d\vec{p}}{dt} = \frac{d}{dt}(m\gamma(u)\vec{u}) = m\frac{d\vec{u}}{d\tau}
 $$
 
-Kinetic energy was defined as work done on a mass. We again start from that and fill in N2 and take it step by step
+Kinetic energy was defined via work done on a mass. We again start from that and fill in N2 and take it step by step
 
 $$
 \begin{align}
@@ -176,7 +174,7 @@ $$
 \end{align}
 $$
 
-This integration is more difficult than what we had before as the $\gamma(u)$ factor appears additional in the differential (for small velocities we have $\gamma(u)=1$ and  we just get $\frac{1}{2}mu^2$ as before). So, we will first give the outcome and the look into the details:
+This integration is more difficult than what we had before as the $\gamma(u)$ factor appears additional in the differential (for small velocities we have $\gamma(u)=1$ and we just get $\frac{1}{2}mu^2$ as before). So, we will first give the outcome and then look into the details:
 
 $$
 \begin{align}
@@ -185,7 +183,7 @@ $$
 \end{align}
 $$
 
-How did we do this? We apply integration by parts. below is the full derivation. If you have difficulties following the math: don't worry, you will get this in your Calculus courses. For now, if you struggles with it: just skip the derivation and remember the outcome given above.
+How did we do this? We applied integration by parts, below is the full derivation. If you have difficulties following the math: don't worry, you will get this in your Calculus courses. For now, if you struggles with it: just skip the derivation and remember the outcome given above.
 
 +++{"no-pdf": true}
 ```{math}
@@ -202,13 +200,11 @@ How did we do this? We apply integration by parts. below is the full derivation.
 ```
 +++
 
-```{warning} not in pdf yet
-```
-
+<!-- derivation not in pdf -->
 
 **Integration by parts**
 
-Easy to remember integration by parts formula, from the product rule
+Easy to remember integration by parts formula, from the product rule (see [Appendix](../appendix/Calculus.md))
 	
 $$
 	\begin{array}{rcl}
@@ -233,10 +229,10 @@ The limiting cases work out. Very reassuring.
 
 **4-momentum**
 
-Now that we have the kinetic energy, $mc^2(\gamma(u)-1)$, we can compare that with the zeroth component of the 4-Momentum: $P^0 = m \gamma (u) c$. As we expected, the energy has a unit $c$ extra: momentum and energy differ unit wise by $m/s$.
-But we also see that the kinetic energy (even if we divide it by c, i.e. use $E_{kin}/c$ as the zeroth component) it is still not ok. The term $\gamma (u) -1$ should have been $\gamma (u)$.
+Now that we have the kinetic energy, $mc^2(\gamma(u)-1)$, we can compare that with the zeroth component of the 4-Momentum: $P^0 = m \gamma (u) c$. As we expected, the energy has a unit $c$ extra: momentum and energy differ unit wise by $\mathrm{m/s}$.
+But we also see that the kinetic energy (even if we divide it by $c$, i.e. use $E_{kin}/c$ as the zeroth component) it is still not ok. The term $\gamma (u) -1$ should have been $\gamma (u)$.
 
-To cure this, we can add a constant (provide it is LT invariant) to the kinetic energy $E=E_{kin}+mc^2 = m\gamma(u)c^2$. Adding constants to the energy/potential is always allowed as only the change of it is physically relevant (or the relative energies). 
+To cure this, we can add a constant (provided it is LT invariant) to the kinetic energy $E=E_{kin}+mc^2 = m\gamma(u)c^2$. Adding constants to the energy/potential is always allowed as only the change of it is physically relevant (or the relative energies). 
 
 We obtain
 
@@ -260,7 +256,7 @@ $$
 	
 With a different energy (addition of another constant to $E_{kin}$ than what we did above) the length of the 4-momentum would not be LT invariant and $\vec{P}$ not a 4-vector. If we would have used $E=mc^2(\gamma -1)$ then $P^2$ would not be LT invariant. You see this by computing $P^2=\frac{E^2_{kin}}{c^2}-p^2c^2=m^2c^2(2-2\gamma)$.
 
-And we have finally derived *the* most famous equation in physics. We will use, however, $E=m\gamma(u)c^2$ most of the time as we are not always in the rest frame. The equation says essentially that mass is the same as energy. They are different manifestations of the same thing. A particle has energy in itself at rest without being in any potential. 
+We have finally derived *the* most famous equation in physics. We will use, however, $E=m\gamma(u)c^2$ most of the time as we are not always in the rest frame. The equation says essentially that mass is the same as energy. They are different manifestations of the same thing. A particle has energy in itself at rest without being in any potential. 
 
 ```{note}
 As gravitation acts on mass, it should also act on energy if they are the same! This is indeed the case, also photons, massless particles, feel gravity. More about that in Einstein's theory of general relativity. 
@@ -269,23 +265,23 @@ As gravitation acts on mass, it should also act on energy if they are the same! 
 (ch_4M_s_EMc_ss_m)=
 ### Mass in units of energy
 
-The mass of an electron $m_e = 9.13\cdot 10^{-31} \mathrm{kg}$ is often given as $512\ \mathrm{keV}$, [kilo electron Volts]. Mass of all elementary particles is given actually in units of $\mathrm{eV}$.
+The mass of an electron $m_e = 9.13\cdot 10^{-31} \; \mathrm{kg}$ is often given as $512 \; \mathrm{keV}$, [kilo electron Volts]. Mass of all elementary particles is given actually in units of $\mathrm{eV}$.
 
 One electron volt is 
 
 $$
-1\ \mathrm{eV} = 1.6\cdot 10^{-19} \mathrm{C} \cdot 1\mathrm{V} =  1.6\cdot 10^{-19} \mathrm{J}
+1 \; \mathrm{eV} = 1.6\cdot 10^{-19} \; \mathrm{C} \cdot 1 \; \mathrm{V} =  1.6\cdot 10^{-19} \; \mathrm{J}
 $$
 
 The conversion to mass via $E=mc^2$
 
 $$
-m_e c^2 = 8.2 \cdot 10^{-14}\mathrm{J} = \frac{8.2 \cdot 10^{-14}}{1.6\cdot 10^{-19}} = 512\ \mathrm{keV}
+m_e c^2 = 8.2 \cdot 10^{-14} \; \mathrm{J} = \frac{8.2 \cdot 10^{-14}}{1.6\cdot 10^{-19}} = 512 \; \mathrm{keV}
 $$
 
 ### The fame
 
-The origin of the fame is probably twofold. 
+The origin of the fame the equation is probably twofold. 
 
 - Firstly, mass is no longer conversed as was a central pillar in Newton's mechanics. It can be converted. This was shocking for *physicists only*.
 - Secondly, when mass is actually converted into energy e.g. in a nuclear fission bomb or inside the sun with nuclear fusion, the effect is immense. The drop of the two nuclear bombs (little boy and fat man) on Hiroshima and Nagasaki made the equation inglorious world-known;  life changing for *all people*. 
@@ -320,7 +316,11 @@ Einstein triangle.
 ```
 
 
-You can visualize the energy momentum relation with the Einstein triangle shown here, as the relation has the form of $c^2=a^2+b^2$. With the kinetic energy as $E_{kin}=mc^2(\gamma(u)-1)$. $E=E_0+E_{kin}\equiv mc^2 +E_{kin}$.
+You can visualize the energy momentum relation with the Einstein triangle shown here, as the relation has the form of $c^2=a^2+b^2$. With the kinetic energy as $E_{kin}=mc^2(\gamma(u)-1)$:
+
+$$
+E=E_0+E_{kin}\equiv mc^2 +E_{kin}
+$$
 
 (ch_4M_s_EMr_ss_LTi)=
 ### LT invariance of P²
@@ -331,7 +331,7 @@ $$
 P^2 = m^2c^2
 $$
 
-This is of course LT invariant, as $m$ and $c$ are LT invariants (and the momentum is a 4-vector), but more importantly we can use this for computations of [relativistic collisions](./ChX7_RelDynColl.md). By the conservation of 4-momentum we can of course compute all collisions by equating the 4 components of the momentum before and after the collision. It is often, however, mathematically easier to write down the conservation of momentum and then square it. Because you can write down $P^2=m^2c^2$ directly, this saves often computations.
+This is of course LT invariant, as $m$ and $c$ are LT invariants (and the momentum is a 4-vector), but more importantly we can use this for computations of [relativistic collisions](./ChX7_RelDynColl.md). By the conservation of 4-momentum we can compute all collisions by equating the four components of the momentum before and after the collision. However, it is often mathematically easier to write down the conservation of momentum and then square it. Because you can write down $P^2=m^2c^2$ directly, this saves often computations.
 
 (ch_4M_s_photon)=
 ## Photons
@@ -340,18 +340,17 @@ For photons we have the energy given by $E= \hbar \omega$ and the momentum as $p
 The 4-momentum of a photon is 
 
 $$
-\vec{P} = P^\mu = \left ( \frac{E}{c},\vec{p} \right ) = \left ( \frac{\hbar \omega}{c}, \frac{\hbar \omega}{c} \right )
-\left ( \frac{h \nu}{c}, \frac{h \nu}{c} \right )
+\vec{P} = P^\mu = \left ( \frac{E}{c},\vec{p} \right ) = \left ( \frac{\hbar \omega}{c}, \frac{\hbar \omega}{c} \right ) = \left ( \frac{h \nu}{c}, \frac{h \nu}{c} \right )
 $$
 
 It is directly clear that for photons the LT invariant $P^2=0$.
 
-We could substitute the photon 4-momentum into the energy-momentum relation, we find
+We could substitute the photon 4-momentum into the energy-momentum relation. We then find
 
 $$
 E^2 = (pc)^2+(mc^2)^2 \Rightarrow m=0
 $$
- This seems to confirm that photons do not have mass. But we need to be careful: photons do not have a 4-momentum of the form $P^\mu = ( m\gamma c, m\gamma u)$. They can't: (1) their velocity is always c, which would lead to $\infty$ for their $\gamma (c)$, (2) with a mass  $m=0$ we multiply $\gamma c$ by zero. Together, this would gives us $0 \times \infty$ which is not defined in a unique way.
+ This seems to confirm that photons do not have mass. But we need to be careful: photons do not have a 4-momentum of the form $P^\mu = ( m\gamma c, m\gamma u)$. They can't: (1) their velocity is always $c$, which would lead to $\infty$ for their $\gamma (c)$, (2) with a mass $m=0$ we multiply $\gamma c$ by zero. Together, this would gives us $0 \times \infty$ which is not defined in a unique way.
 
 Thus: photons do not have mass. Do not get confused with $E=mc^2$.
 
@@ -363,12 +362,12 @@ Does a photon have a rest frame? It travels with the speed of light $c$ (obvious
 The answers is no and we give three good arguments.
 
 - A rest frame implies that in this frame the object is at rest. But for a photon, traveling at $c$, which is LT invariant, there is no frame at which it is at rest, but only frames with $v=c$.
-- The proper time of a photon is $d\tau^2 = dt^2 -\frac{1}{c^2}d\vec{x}^2$	but this is always equal to 0! A photon does not experience the passage of time, therefore it is reasonable to state that do not have a rest frame.
+- The proper time of a photon is $d\tau^2 = dt^2 -\frac{1}{c^2}d\vec{x}^2$	but this is always equal to 0! A photon does not experience the passage of time, therefore it is reasonable to state that they do not have a rest frame.
 - In the hypothetical rest frame for a photon there would be no electro-magnetic radiation/interaction possible. In this frame e.g. the interaction between electrons would be zero.
 
 (ch_4M_s_photon_ss_dop)=
 ### Doppler revisited
-In chapter 14 we discussed the Doppler effect from a relativistic point of view. With the concept of 4-momentum it is easy to derive the Doppler shift of photons as observed in different frames of reference. We take the usual LT between $S'$ and $S$. In $S$' a photon is moving along the $x'$-direction. It has frequency $f'$. Its 4-momentum is 
+In [Velocity Transformation & Doppler shift](./ChX4_VelotransDoppler.md) we discussed the Doppler effect from a relativistic point of view. With the concept of 4-momentum it is easy to derive the Doppler shift of photons as observed in different frames of reference. We take the usual LT between $S'$ and $S$. In $S$' a photon is moving along the $x'$-direction. It has frequency $f'$. Its 4-momentum is 
 
 $$ P'^\mu_{photon} = \left ( \frac{hf'}{c}, \pm \frac{hf'}{c} \right ) $$
 
@@ -419,9 +418,11 @@ plt.show()
 The $\gamma$ factor increases strongly if the speed approaches the speed of light $u/c\to 1$
 ```
 
-For a massive particle this has strong consequences. In the limit $u\to c$ the factor goes towards infinity. If we consider that the kinetic energy is $E=m(\gamma(u) -1)c^2$, the amount of work done to increase the speed increases with $\gamma$. Therefore no massive particle can move with the speed of light (or faster) as this would require an infinite amount of energy for the acceleration.
+For a massive particle this has strong consequences. In the limit $u\to c$ the $\gamma$-factor goes towards infinity. If we consider that the kinetic energy is $E=m(\gamma(u) -1)c^2$, the amount of work done to increase the speed increases with $\gamma$. Therefore no massive particle can move with the speed of light (or faster) as this would require an infinite amount of energy for the acceleration.
 
-NB: $c$ is the speed of light in vacuum. In matter the speed of light $v$ is smaller than $c$, characterized by the *refractive index*  $n$ as $n=c/v$. This leads e.g. to refraction by [Snell's law](https://en.wikipedia.org/wiki/Snell%27s_law) at an interface. In matter the speed of massive particles can be larger than the speed of light there. This happens e.g. in a nuclear reactor when electrons move faster than the speed of light in water ($0.75c$). As water is a dielectric, the light waves generated from the response to the moving charge lag behind and a phenomena similar to a sonic boom is created. This phenomenon is termed [Cherenkov radiation](https://en.wikipedia.org/wiki/Cherenkov_radiation). If you have the opportunity to see it in a nuclear reactor, we highly recommend to take it. The color is a very intense deep blue.
+```{note}
+$c$ is the speed of light in vacuum. In matter the speed of light $v$ is smaller than $c$, characterized by the *refractive index*  $n$ as $n=c/v$. This leads e.g. to refraction by [Snell's law](https://en.wikipedia.org/wiki/Snell%27s_law) at an interface. In matter, the speed of massive particles can be larger than the speed of light there. This happens e.g. in a nuclear reactor when electrons move faster than the speed of light in water ($0.75c$). As water is a dielectric, the light waves generated from the response to the moving charge lag behind and a phenomena similar to a sonic boom is created. This phenomenon is termed [Cherenkov radiation](https://en.wikipedia.org/wiki/Cherenkov_radiation). If you have the opportunity to see it in a nuclear reactor, we highly recommend to take it. The color is a very intense deep blue.
+```
 
 
 ```{figure} ../images/CherenkovRadiation.jpg

@@ -51,7 +51,7 @@ Find, using the 4-velocity, the velocity of m according to $S$.
 ```{exercise} &#127798; &#127798;
 :label: 16.3
 
-According to $S'$ a photon is emitted at $t'=0$ from position $L_0 = 1\ \mathrm{ls}$. It has a frequency $f_0$. $S'$ is traveling at $V/C = 3/5$ in the positive $x$-direction with respect to $S$. They have synchronized their clocks when their origins coincide.
+According to $S'$ a photon is emitted at $t'=0$ from position $L_0 = 1 \; \mathrm{ls}$. It has a frequency $f_0$. $S'$ is traveling at $V/c = 3/5$ in the positive $x$-direction with respect to $S$. They have synchronized their clocks when their origins coincide.
 Determine the time of detection of the photon by $S'$ and by $S$.
 Find the frequency that $S$ measures. 
 
@@ -62,7 +62,7 @@ Find the frequency that $S$ measures.
 ```{exercise} &#127798; &#127798; &#127798;
 :label: 16.4
 
-In this exercise, the photon is emitted to $S'$ a photon over the $y'$-axis. It has again a frequency $f_0$. $S'$ is traveling at $V/C = 3/5$ in the positive $x$-direction with respect to $S$. They have synchronized their clocks when their origins coincide.
+In this exercise, the photon is emitted to $S'$, according to $S$, over the $y'$-axis. It has again a frequency $f_0$. $S'$ is traveling at $V/C = 3/5$ in the positive $x$-direction with respect to $S$. They have synchronized their clocks when their origins coincide.
 
 Find the frequency that $S$ measures and the angle the traveling photon makes with the $x$-axis. 
 
@@ -110,7 +110,7 @@ U'_1 &= 0 \\
 U'_2 &= \gamma(U') U' = \frac{40}{9} c
 \end{split}$$
 
-LT naar $S$ using $\gamma (V) = \frac{13}{5}$:
+LT to $S$ using $\gamma (V) = \frac{13}{5}$:
 
 $$\begin{split}
 U_0 &= \gamma(V) \left ( U'_0 + \frac{V}{c} U'_1) \right ) = \frac{13}{5} \left ( \frac{41}{9} c + 0 \right ) = \frac{533}{45}c\\
@@ -126,7 +126,7 @@ Similarly:
 
 $$u_y = \frac{U_2}{U_0} = \frac{\gamma(U)u_y}{\gamma(U)c} = \frac{40}{533}c $$
 
-The magnitude of the velocity according to $S4$ is
+The magnitude of the velocity according to $S$ is
 
 $$ u =\sqrt{u^2_x + u^2_y} = \sqrt{\frac{243664}{284089}} c \approx 0.93 c \lt 1 c$$
 
@@ -136,14 +136,14 @@ $$ u =\sqrt{u^2_x + u^2_y} = \sqrt{\frac{243664}{284089}} c \approx 0.93 c \lt 1
 ```{solution} 16.3
 :class: dropdown
 
-According to $S'$ the photon is send at $E_1: (ct'_1, x'_1 ) = (0, 1) ls$. Thus, it is received at $E_2: (ct'_2, x'_2 ) = (1,0)$. Hence, for $S$ event $E_1$ has coordinates:
+According to $S'$ the photon is sent at $E_1: (ct'_1, x'_1 ) = (0, 1) \; \mathrm{ls}$. Thus, it is received at $E_2: (ct'_2, x'_2 ) = (1,0)$. Hence, for $S$ event $E_1$ has coordinates:
 
 $$\begin{split}
-ct_1 &= \frac{5}{4} \left ( 0 + \frac{3}{5} 1 \right ) = \frac{3}{4} ls \\
-x_1 &= \frac{5}{4} \left ( 1 + \frac{3}{5} 0 \right ) = \frac{5}{4} ls 
+ct_1 &= \frac{5}{4} \left ( 0 + \frac{3}{5} 1 \right ) = \frac{3}{4} \; \mathrm{ls} \\
+x_1 &= \frac{5}{4} \left ( 1 + \frac{3}{5} 0 \right ) = \frac{5}{4} \; \mathrm{ls} 
 \end{split}$$
 
-and thus, $S$ receives this photon at $(ct_3, x_3) = ( 2, 0)ls$.
+and thus, $S$ receives this photon at $(ct_3, x_3) = ( 2, 0) \; \mathrm{ls}$.
 
 For $S'$ the 4-Momentum of the photon is: $\left ( \frac{hf_0}{c}, -\frac{hf_0}{c}\right )$. If we transform this to the frame of $S$, we get:
 

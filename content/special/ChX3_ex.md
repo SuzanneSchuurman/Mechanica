@@ -209,7 +209,7 @@ Note: we will come back to the transformation of velocities. That is more subtle
 Special Relativity with LT
 1. E1: $(ct_1, x_1) = (0,0)$ en $(ct_2, x_2) = (ct, -\frac{V}{c}ct)$
 
-LT naar $S'$ with $\frac{V}{c} = \frac{4}{5}$ and $\gamma = \frac{5}{3}$:
+LT to $S'$ with $\frac{V}{c} = \frac{4}{5}$ and $\gamma = \frac{5}{3}$:
 
 $$\begin{split}
 (ct'_1, x'_1) &= (0,0) \\
@@ -235,7 +235,7 @@ ct' &= ct \\
 x' & = x - \frac{V}{c} ct 
 \end{split}$$
 
-GT naar $S'$ with $\frac{V}{c} = \frac{4}{5}$:
+GT to $S'$ with $\frac{V}{c} = \frac{4}{5}$:
 
 $$\begin{split}
 (ct'_1, x'_1) &= (0,0) \\

@@ -137,7 +137,7 @@ Of course, as we knew, the length of the interval stays the same: $\Delta s^2 = 
 (ch_spaceT_s_4V)=
 ## 4-vector
 
-The idea of having to work with a 'position' vector with 4 components with an inproduct as discussed above, is generalized to vectors, i.e. quantities with a direction and a magnitude.
+The idea of having to work with a 'position' vector with 4 components with an inner product as discussed above, is generalized to vectors, i.e. quantities with a direction and a magnitude.
 
 We define a 4-vector $\vec{A}=A^\mu=(A^0,A^1,A^2,A^3)$ to be a vector that transforms  between two observers $S$ and $S'$ moving with $V$ along the $x$-direction by the LT
 
@@ -351,7 +351,7 @@ Extra: We symmetries the problem. Both Alice and Bob move in spaceships away fro
 
 >	They are the same age. You can now reason with symmetry even though both are accelerated. You can also draw the Minkowski-diagram similar to the above and see that both make the same "jump" in the time, and thus are the same age.
 
-````{example} the rabbit and the turtle
+````{example} The rabbit and the turtle
 
 We consider the relativistic race between the well-known rabbit ($R$) with speed $v_R$ and his buddy turtle ($T$) with speed $v_T<v_R$. Both turtle and rabbit are point particles. To give turtle a chance, it does not need to run as far as rabbit $(L_T<L_R)$. The distances are chosen such that an observer at rest (the audience) records that $R$ and $T$ finish at the same time.
 
@@ -388,7 +388,7 @@ For the events C and D, we first draw from A a line of constant time for $R$ (pa
 Both $R$ and $T$ agree that $R$ has won, but the audience does of course not agree.
 ````
 
-````{example} moving particle
+````{example} Moving particle
 Consider a standard situations: $S'$ moving at $V/c=3/5$ with respect to $S$. Clocks are synchronized at $ct'=ct=0$ when $x'=x=0$. 
 
 According to $S$, a particle is moving with $U/c=4/5$ over the x-axis. $S$ describes the trajectory of the particle as $x_p(ct) = \frac{U}{c}ct$.
@@ -413,18 +413,18 @@ We have seen that the length interval $ds^2$ is a Lorentz invariant. Therefore w
 
 ```{figure} ../images/chx5_invariantDs.svg
 :label: fig:chx5_invariantDs.svg
-:width: 80%
+:width: 70%
 :align: center
 
 Image from [](https://doi.org/10.59490/tb.81) 
 ``` 
 
-For $ds^2<0$ we find the corresponding space units (the interval is [space-like](4vector.md#the-light-cone)), and for $ds^2>0$ the corresponding time units (the interval is [time-like](4vector/#the-light-cone). All hyperbola have the light line $ds^2=0$ as asymptotes. 
+For $ds^2<0$ we find the corresponding space units (the interval is [space-like](4vector.md#the-light-cone)), and for $ds^2>0$ the corresponding time units (the interval is [time-like](4vector/#the-light-cone)). All hyperbola have the light line $ds^2=0$ as asymptotes. 
 
 
 ```{example} Circles are not circular??
 
-We define a circle as the set of points (in a plane) that have the same distance to some given point $M$. We can easily extend this to three dimensions: that the circle becomes the surface of a sphere. If we stick to Eucledian spaces, we can do this for any dimension: a spherical surface in n-dimensional space, is the collection of points with the same distance to a given point $M$. Now the point has to be represented by $n$ coordinates. But our measure of distance follows the same inner-product as we use in 2 and three dimensions:
+We define a circle as the set of points (in a plane) that have the same distance to some given point $M$. We can easily extend this to three dimensions: the circle becomes the surface of a sphere. If we stick to Euclidean spaces, we can do this for any dimension: a spherical surface in n-dimensional space, is the collection of points with the same distance to a given point $M$. Now the point has to be represented by $n$ coordinates. But our measure of distance follows the same inner-product as we use in two and three dimensions:
 
 let $\{M_i\} \text{ with } i=1..n$ be a point in n-dimensional space. Then all points $\{X_i\} \text{ with } i=1..n$ that obey the rule
 
@@ -432,9 +432,10 @@ $$ \sum_{i=1}^n ( X_i - M_i)( X_i - M_i)  = R^2 $$
 
 form a spherical surface with distance $R$ to $M$. The above rule is actually the inner product of $\vec{X} - \vec{M}$: $(\vec{X}-\vec{M})\cdot (\vec{X} - \vec{M} ) = R^2$
 
-Without loss of generality, we can chose the origin at $M$. That simplifies notation: $\vec{X} \cdot \vec{X} = R^2$ is now the surface of a sphere of radius R with center $\mathcal{O}$.
+Without loss of generality, we can chose the origin at $M$. That simplifies notation:  
+$\vec{X} \cdot \vec{X} = R^2$ is now the surface of a sphere of radius $R$ with center $\mathcal{O}$.
 
-What if we leave our Eucledian space and go to the Minkowski space of special relativity? We still would define e circle as a set of point with the same distance to a given point. But now, our measure of distance is different.
+What if we leave our Euclidean space and go to the Minkowski space of special relativity? We still would define a circle as a set of points with the same distance to a given point. But now, our measure of distance is different.
 Let's again take the origin as the central point. Then, we are looking for the set of point $\{ X^\mu \}_i$ such that $\vec{X} \cdot \vec{X} = R^2$. This means:
 
 $$ X^0 X^0 - X^1 X^1 - X^2 X^2 - X^3 X^3 = R^2$$
@@ -443,16 +444,14 @@ Or, if we only consider $ct, x$:
 
 $$c^2t^2 - x^2 = R^2$$
 
-These are the 'circles' in Minkowski $ct,x$-space. Of course, we would have the tendency to call them hyperbola, as they have the mathematical expression of a hyperbola. But in fact, the interpretation in Minkowsi space would be that of circles, that is the collection of points with the same distance to the origin. 
+These are the 'circles' in Minkowski ($ct,x$)-space. Of course, we would have the tendency to call them hyperbola, as they have the mathematical expression of a hyperbola. But in fact, the interpretation in Minkowski space would be that of circles, that is the collection of points with the same distance to the origin. 
 
 Note, that $R=0$ now does not reduce the set to a single point, but instead refers to the light lines.
-Second note: we do not have a problem here with negative distances. Thus if we take $R$ to be a pure imaginary number, we will still get hyperbola, but just rotated by 90$^\circ$.
+Second note: we do not have a problem here with negative distances. Thus if we take $R$ to be a pure imaginary number, we will still get hyperbola, but just rotated by $90 \degree$.
 ```
 
 (ch_spaceT_s_LTas)=
 ## LT as a rotation
-
-This part is optional, but insightful.
 
 You can think of the LT as a rotation of the 4 coordinates of Minkowski space time. Obviously it is not a "normal" rotation with a [rotation matrix](https://en.wikipedia.org/wiki/Rotation_matrix) $R\in SO(n)$ as we encountered in change to [polar coordinates](central_forces.md#polar-coordinates). 
 
@@ -477,9 +476,9 @@ The matrix transfers the space time coordinates between two observers moving wit
 
 From the matrix notation it is also clear that for rotations around "different axis", speeds in $x,y,z$ direction, the order of change of frame matters as matrix multiplication does not commute.
 
-In 3D normal space, distance is persevered under rotation with $R\in SO(n)$, in Minkowski space distance is preserved under Lorentz transformation which too is a rotation.
+In 3D normal space, distance is preserved under rotation with $R\in SO(n)$, in Minkowski space distance is preserved under Lorentz transformation which too is a rotation.
 
-You can see the rotation clearer if we introduce the quantity *rapidity* $\alpha$, which is defined as $\tanh \alpha \equiv \frac{V}{c}$ (a relativistic generalization of the modulus of the velocity. It goes from 0 for $v=0$ to $\infty$ for $v=c$). We will not use the rapidity except here, however, it is used for relativistic velocity decompositions. With $\tanh \alpha = \frac{V}{c}$ we can write the Lorentz transformation as (using $\gamma = \frac{1}{\sqrt{1-\tanh^2 \alpha}}=\cosh \alpha$ and $\gamma\beta=\frac{\tanh\alpha}{\sqrt{1-\tanh^2 \alpha}}=\sinh\alpha$)
+You can see the rotation clearer if we introduce the quantity *rapidity* $\alpha$, which is defined as $\tanh \alpha \equiv \frac{V}{c}$ (a relativistic generalization of the modulus of the velocity going from 0 for $v=0$ to $\infty$ for $v=c$). We will not use the rapidity except here, however, it is used for relativistic velocity decompositions. With $\tanh \alpha = \frac{V}{c}$ we can write the Lorentz transformation as (using $\gamma = \frac{1}{\sqrt{1-\tanh^2 \alpha}}=\cosh \alpha$ and $\gamma\beta=\frac{\tanh\alpha}{\sqrt{1-\tanh^2 \alpha}}=\sinh\alpha$)
 
 $$
 \left ( \begin{array}{c}
@@ -497,8 +496,6 @@ ct \\ x \\ y \\z
 $$
 
 Notice the similarity to the [rotation](../classic/Ch6_AngularMomentum.ipynb#torque-analogy-to-n2) with sine and cosine.
-
-
 
 With that LT is a rotation in hyperbolic space with "angle" $\alpha$ (where $\alpha$ is the rapidity), we identify the matrix as $L(\alpha)$. That the [hyperbolic functions](https://en.wikipedia.org/wiki/Hyperbolic_functions#Useful_relations) appear should not be a surprise as they are equivalent to the sine and cosine for the circle, $(ct^2+x^2=1)$, for the hyperbola $(ct^2-x^2=1)$. Notice the relation to the inner products for standard and Minkowski space.
 
