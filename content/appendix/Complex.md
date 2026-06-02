@@ -74,6 +74,59 @@ The complex plane, where the horizontal axis represents the real part and the ve
  Or in polar form like $r e^{i\theta}$, where $r$ is the magnitude and $\theta$ is the angle.
 
 
+```{pyodide}
+import numpy as np
+import matplotlib.pyplot as plt
+from ipywidgets import interact, FloatSlider
+from mpl_toolkits.mplot3d import Axes3D
+
+def euler_plot(theta=0.0):
+    t = np.linspace(0, 4*np.pi, 500)
+    x = t
+    y = np.cos(t)
+    z = np.sin(t)
+
+    fig = plt.figure(figsize=(8, 5))
+    ax = fig.add_subplot(111, projection="3d")
+
+    ax.plot(x, y, z, color="red", linewidth=2, label=r"$e^{i\theta}$")
+    ax.plot(x, y, 0*t, color="green", linewidth=2, label=r"$\cos(\theta)$")
+    ax.plot(x, 0*t, z, color="blue", linewidth=2, label=r"$i\sin(\theta)$")
+
+    ax.scatter(theta, np.cos(theta), np.sin(theta), color="red", s=60)
+    ax.scatter(theta, np.cos(theta), 0, color="green", s=60)
+    ax.scatter(theta, 0, np.sin(theta), color="blue", s=60)
+
+    ax.plot([theta, theta], [0, np.cos(theta)], [np.sin(theta), np.sin(theta)],
+            color="gray", linestyle="--", linewidth=1)
+    ax.plot([theta, theta], [np.cos(theta), np.cos(theta)], [0, np.sin(theta)],
+            color="gray", linestyle="--", linewidth=1)
+
+    ax.set_title(r"$e^{i\theta}=\cos(\theta)+i\sin(\theta)$", fontsize=16)
+    ax.set_xlabel(r"$\theta$")
+    ax.set_ylabel(r"$\mathrm{Re}[e^{i\theta}]$")
+    ax.set_zlabel(r"$\mathrm{Im}[e^{i\theta}]$")
+
+    ax.set_xlim(0, 4*np.pi)
+    ax.set_ylim(-1.1, 1.1)
+    ax.set_zlim(-1.1, 1.1)
+
+    ax.view_init(elev=20, azim=-65)
+    ax.legend()
+    plt.show()
+
+interact(
+    euler_plot,
+    theta=FloatSlider(
+        value=np.pi,
+        min=0,
+        max=4*np.pi,
+        step=0.05,
+        description=r"$\theta$"
+    )
+)
+```
+
 
 (ch-complex-s-idea)=
 ## The idea of i²=-1
