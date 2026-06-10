@@ -156,7 +156,7 @@ Although this sounds silly, when comparing this idea to the sun and the planets,
 ## Conservation of Momentum
 ```{index} conservation of momentum; introduction
 ```
-From Newton's 2$^{\text{nd}}$ and 3$^\text{rd}$ law we can easily derive the law of conservation of momentum. Assume there are only two point-particle (i.e. particles with no size but with mass), that exert a force on each other. No other forces are present. From N2 we have:
+From Newton's 2$^{\text{nd}}$ and 3$^{\text{rd}}$ law we can easily derive the law of conservation of momentum. Assume there are only two point-particle (i.e. particles with no size but with mass), that exert a force on each other. No other forces are present. From N2 we have:
 
 $$ 
 \frac{d\vec{p}_1}{dt} = \vec{F}_{21} \\
@@ -194,7 +194,7 @@ $$
 $$ 
 
 
-Note the importance of the last conclusion: **if objects interact via a mutual force then the total momentum of the objects cannot change.** No matter what the interaction is. This notion is easily extended to more interacting particles. The crux is that particles interact with one another via forces that obey N3. Thus for three interacting point particles we would have (with $ \vec{F}_{ij}$ the force from particle *i* felt by particle *j*):
+Note the importance of the last conclusion: **if objects interact via a mutual force then the total momentum of the objects cannot change,** no matter what the interaction is. This notion is easily extended to more interacting particles. The crux is that particles interact with one another via forces that obey N3. Thus for three interacting point particles we would have (with $ \vec{F}_{ij}$ the force from particle *i* felt by particle *j*):
 
 $$
 \left.
@@ -252,7 +252,7 @@ However, in daily life we experience a clear distinction between past, present a
 ### Force addition, subtraction and decomposition
 ```{index} forces; addition subtraction and decomposition
 ```
-Newton's laws describe how forces affect motion. Applying them often requires combining multiple forces acting on an object , see {numref}`fig_additionF`. This is done through vector addition, subtraction, and decomposition—allowing us to find the net force and to analyze its components in different directions (see [this chapter in the book on linear algebra](https://interactivetextbooks.tudelft.nl/linear-algebra/Chapter1/Vectors.html#arrows-in-the-plane) for a full elaboration on vector addition and subtraction).
+Newton's laws describe how forces affect motion. Applying them often requires combining multiple forces acting on an object, see {numref}`fig_additionF`. This is done through vector addition, subtraction, and decomposition, allowing us to find the net force and to analyze its components in different directions (see [this chapter in the book on linear algebra](https://interactivetextbooks.tudelft.nl/linear-algebra/Chapter1/Vectors.html#arrows-in-the-plane) for a full elaboration on vector addition and subtraction).
 
 ```{figure} ../images/ch2_fig_additionF.svg
 :label: fig_additionF
@@ -281,7 +281,7 @@ $$
 \end{aligned}
 $$
 
-Hence, the net force acting on the particle is $\sqrt{1^2+.5^2}=1.1\text{N}$ and it will accelerate in the direction $\begin{pmatrix} 1 \\ 0.5 \end{pmatrix}$.
+Hence, the net force acting on the particle is $\sqrt{1^2+.5^2}=1.1\text{ N}$ and it will accelerate in the direction $\begin{pmatrix} 1 \\ 0.5 \end{pmatrix}$.
 ```
 ````
 
@@ -370,7 +370,7 @@ Remember from secondary school how to break down a force vector into components.
 (ch_NLaws_sec:_acceleration_gravity)=
 ### Acceleration due to gravity
 
-In most cases the forces acting on an object are not constant. However, there is a classical case that is treated in physics (already at secondary school level) where only one, constant force acts and other forces are neglected. Hence, according to Newton's second law, the acceleration is constant. 
+In most cases the forces acting on an object are not constant. However, there is a classical case that is treated in physics (already at secondary school level): gravitational force, where only one, constant force acts and other forces are neglected. Hence, according to Newton's second law, the acceleration is constant. 
 
 When we first consider only the motion in the z-direction, we can derive:
 
@@ -391,7 +391,7 @@ $$ \label{eq:vert_mot} s(t) = \frac{1}{2}at^2 + v_0t + s_0$$
 ```{exercise} Tossing a stone in the air &#127798;
 :label: ex-toss
 
-At a height of $1.5\ \mathrm{m}$ a stone is tossed in the air with a velocity of $10\ \mathrm{m/s}$. 
+At a height of $1.5\\mathrm{m}$ a stone is tossed vertically in the air with a velocity of $10\ \mathrm{m/s}$. 
 
 1. Calculate the maximum height that it reaches.
 2. Calculate the time it takes to reach this point.
@@ -421,13 +421,13 @@ Initial conditions: $t=0 \rightarrow s(0) = s_0 = 1.5 \: \mathrm{m} \text{ and }
 3. $s(t) = \frac{1}{2}at^2 + v_0t + s_0$. We are interested in the stone hitting the ground. Thus, solve for $s(t)=0$ to find at what time this happens.
 :::
 :::{tab-item} Evaluate
-1. $\dot{s} = at + v_0 = -gt + v_0 = 0 \Rightarrow t = 1.02 \text{s}$  
-$s(1.02) = -\frac{1}{2}*9.81*1.02^2 + 10*1.02 + 1.5 = 6.6 \text{m}$
+1. $\dot{s} = at + v_0 = -gt + v_0 = 0 \Rightarrow t = 1.02 \mathrm{s}$  
+$s(1.02) = -\frac{1}{2}\cdot9.81\cdot1.02^2 + 10\cdot1.02 + 1.5 = 6.6 \mathrm{m}$
 2. See above.
 3.  $s(t) = \frac{1}{2}at^2 + v_0t + s_0 = s_e$  
-$t = \frac{-v_0\pm\sqrt{v_0^2-4(\frac{1}{2}a(s_0-s_e))}}{2\frac{1}{2}a} = \frac{-10\pm\sqrt{10^2-4(\frac{1}{2}(-9.81)(1.5))}}{-9.81}=2.18\text{s}$  
-$v(2.18)=\dot{s}(2.18)=v_0 + at=10-9.81*2.18=-11.3 \: \mathrm{m/s}$  
-Note that $t=-0.14\text{s}$ is another solution, but not physically realistic.
+$t = \frac{-v_0\pm\sqrt{v_0^2-4(\frac{1}{2}a(s_0-s_e))}}{2\frac{1}{2}a} = \frac{-10\pm\sqrt{10^2-4(\frac{1}{2}(-9.81)(1.5))}}{-9.81}=2.18\mathrm{s}$  
+$v(2.18)=\dot{s}(2.18)=v_0 + at=10-9.81\cdot2.18=-11.3 \: \mathrm{m/s}$  
+Note that $t=-0.14\mathrm{s}$ is another solution, but not physically realistic.
 :::
 :::{tab-item} Assess
 The times we calculated are in the right order: First stone is tossed (at $t_0=0$), then it reaches its highest point (at $t_m=1.02 \: \mathrm{s}$). After that it falls and hits the ground at $t_e=2.18 \: \mathrm{s}$. Thus $t_0 \lt t_m \lt t_e$.
@@ -455,7 +455,7 @@ A sketch of the situation where an object is thrown horizontally and the horizon
 
 In the situation given in {numref}`fig_hor_mot` the object is thrown with a horizontal velocity of $v_{x0}$. As no forces in the horizontal direction act on the object (N1), its horizontal motion can be described by
 
-$$s_x(t)=v_{x0}t$$
+$$s_x(t)=v_{x,0}t$$
 
 In the vertical direction only the gravitational force acts (N2), hence the motion can be described by {eq}`eq:vert_mot`. Taking the $y$-direction upward, a starting height $y(0)=H_0$ and $v_y(0)=0$ it becomes:
 
@@ -472,7 +472,7 @@ This motion is visualized in {numref}`fig_parmot`. The trajectory is shown with 
 :width: 70%
 :alt: A plot of the horizontal distance (x-axis) versus the vertical distance (y-axis). For each position along the mass's trajectory, the horizontal and vertical component of its velocity is indicated by an arrow.
 
-The parabolic motion is visualized with blue velocity vectors $v, v_x \text{ and } v_y$ shown at various points along the trajectory.
+The parabolic motion is visualized with blue velocity vectors $v, v_x \text{ and } v_y$ shown at various points along the trajectory for a constant time interval.
 ```
 
 ````
@@ -537,7 +537,7 @@ Note that the distance traveled is independent of the mass!
 
 
 ```{danger}
-Understand that the case above is specific in physics: in most realistic contexts multiple forces are acting upon the object. Hence the equation of motion does not become $s(t) = s_0 + v_0t + 1/2at^2$
+Understand that the case above is specific in physics: in most realistic contexts multiple forces are acting upon the object. Hence the equation of motion does not automatically become $s(t) = s_0 + v_0t + 1/2at^2$
 ```
 
 
@@ -1101,7 +1101,7 @@ We can answer this question by applying Newton 2:
 
 $$ m\frac{dv}{dt} = F \Rightarrow m\frac{dv}{dt} + bv = 0$$
 
-Clearly, we have to solve a differential equation which states that if you take the derivative of $v$ you should get something like $- v$ back. From calculus we know, that exponential function have the feature that when we differentiate them, we get them back. So, we will try $v(t) = A e^{-\mu t}$ with $A$ and $\mu$ to be determined constants.
+Clearly, we have to solve a differential equation which states that if you take the derivative of $v$ you should get something like $- v$ back. From calculus we know, that exponential function have the feature that when we differentiate them, we get them back (see appendix). So, we will try $v(t) = A e^{-\mu t}$ with $A$ and $\mu$ to be determined constants.
 
 We substitute our trial $v$:
 
@@ -1113,7 +1113,7 @@ $$-m A \mu + Ab = 0$$
 
 We see, that also our unknown constant $A$ drops out. And, thus, we find
 
-$$ \mu = \frac{b}{m} $$
+$$ \mu = \frac{b}{m}, \quad b=m\mu$$ 
 
 Next we need to find $A$: for that we need an initial condition, which we have: at $t=0$ is $v=v_0$. So, we know:
 
@@ -1148,6 +1148,8 @@ import ipywidgets
 
 (ch_NLaws_sec:_inertia)=
 ### Inertia
+We often take the idea of mass for granted. It is how heavy something is. However, we can think of mass as the resistance to changing velocity, also called intertia and denoted by m. 
+
 Inertia is denoted by the letter $ m $ for mass. And mass is that property of an object that characterizes its resistance to changing its velocity. Actually, we should have written something like $ m_i $, with subscript i denoting inertia.
 
 Why? There is another property of objects, also called mass, that is part of Newton's Gravitational Law.
@@ -1291,7 +1293,7 @@ Can force be measured using a balance?
 
 The acceleration can be measured when we have a ruler and a clock, i.e. once we have established how to measure distance and how to measure time intervals, we can measure position as a function of time and from that velocity and acceleration.
 
-But how to find mass? We could agree upon a unit mass, an object that represents by definition 1kg. In fact we did. But that is only step one. The next question is: how do we compare an unknown mass to our standard. A first reaction might be: put them on a balance and see how many standard kilograms you need (including fractions of it) to balance the unknown mass. Sounds like a good idea, but is it? Unfortunately, the answer is not  a 'yes'. 
+But how to find mass? We could agree upon a unit mass, an object that represents by definition $1$ kg. In fact we did. But that is only step one. The next question is: how do we compare an unknown mass to our standard. A first reaction might be: put them on a balance and see how many standard kilograms you need (including fractions of it) to balance the unknown mass. Sounds like a good idea, but is it? Unfortunately, the answer is not  a 'yes'. 
 
 As on second thought: the balance compares the pull of gravity. Hence, it 'measures' gravitational mass, rather than inertia. Luckily, Newton's laws help. Suppose we let two objects, our standard mass and the unknown one, interact under their mutual interaction force. Every other force is excluded. Then, on account on N2 we have
 

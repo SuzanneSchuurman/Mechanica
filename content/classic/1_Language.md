@@ -54,7 +54,7 @@ Can we find out what the terminal velocity of this jumper will be and how long i
 
 *Visual representations* help us interpret physical behavior at a glance. Graphs, motion diagrams, free-body diagrams, and vector sketches are all ways to make abstract ideas more tangible.
 - **Drawings** help illustrate the situation: what objects are involved, how they are moving, and what forces act on them.
-- **Graphs** (e.g., position vs. time, velocity vs. time) reveal trends and allow for estimation of slopes and areas, which have physical meanings like velocity and displacement.
+- **Graphs** (e.g., position vs. time, velocity vs. time) reveal trends and allow for estimation of slopes and areas, which have physical meanings like *velocity* and *displacement*.
 
 
 ````{example} Base jumper: Free body diagram
@@ -74,7 +74,7 @@ Force acting on the jumper.
 - $v$ = velocity of jumper (in m/s);  
 - $F_g$ = gravitational force (in N);  
 - $F_f$ = drag force by the air (in N);  
-- $F_b$ = buoyancy (in N): like in water also in air there is an upward force, equal to the weight of the displaced air.
+- $F_b$ = buoyancy (in N): like in water also in air there is an upward force, equal to the weight of the displaced air ($\rho_{\text{air}}V_{\text{p}}g$).
 
 ````
 
@@ -112,7 +112,7 @@ Note that in the example above we neglected directions. In our equations we shou
 (ch_language_s_problem_solving)=
 ## How to solve a physics problem?
 
-One of the most common mistakes made by 'novices' when studying problems in physics is trying to jump as quickly as possible to the solution of a given problem or exercise by picking an equation and slotting in the numbers. For simple questions, this may work. But when stuff gets more complicated, it is almost a certain route to frustration.
+One of the most common mistakes made by 'novices' when studying problems in physics is trying to jump as quickly as possible to the solution of a given problem or exercise by picking an equation and slotting in the numbers. For simple questions, this may work. But when problems get more complicated, it is almost a certain route to frustration.
 
 There is, however, a structured way of problem solving, that is used by virtually all scientists and engineers. Later this will be second nature to you, and you will apply this way of working automatically. It is called IDEA, an acronym that stands for:
 
@@ -139,6 +139,7 @@ The first two steps (Interpret and Develop) typically take up most of the time s
 
 (ch_language_s_example)=
 ### Example
+Let us reconsider our example and use the IDEA approach to solve it. 
 
 ::::{tab-set}
 
@@ -152,7 +153,7 @@ Three forces act on the jumper, shown in the figure below. Finding the terminal 
 
 ```
 
-The buoyancy force is much smaller than the force of gravity (about 0.1%) and we neglect it.
+The buoyancy force is much smaller than the force of gravity (about 0.1%) and we thus may neglect it.
 
 :::
 :::{tab-item} Develop
@@ -183,7 +184,7 @@ $$
 :::{tab-item} Assess
 We may know that raindrops typically reach a terminal velocity of less than $10 \: \mathrm{m/s}$. A terminal velocity of $40 \: \mathrm{m/s}$ seems therefore plausible for a much heavier object. 
 
-***Note*** that we didn't solve the problem entirely! We only calculated the terminal velocity, where the question was how long it would roughly take to reach such a velocity.
+***Note***: We didn't solve the problem entirely! We only calculated the terminal velocity, where the question was how long it would roughly take to reach such a velocity.
 :::
 ::::
 
@@ -229,7 +230,7 @@ We use prefixes to denote these powers of ten in front of the standard units, e.
 ```{note} On quantities and units
 :class: dropdown
 
-Each quantity has a unit. As there are only so many letters in the alphabet (even when including the Greek alphabet), letters are used for multiple quantities. How can we distinguish then meters from mass, both denoted with the letter 'm'? Quantities are expressed in italics ($m$) and units are not ($\mathrm{m}$).
+Each quantity has a unit. As there are only so many letters in the alphabet (even when including the Greek alphabet), letters are used for multiple quantities. How can we distinguish meters from mass, both denoted with the letter 'm'? Quantities are expressed in italics ($m$) and units are not ($\mathrm{m}$).
 
 We make extensively use of the International System of Units (SI) to ensure consistency and precision in measurements across all scientific disciplines. The seven base SI units are:
 
@@ -279,7 +280,7 @@ Clearly this is some kind of differential equation: the change in velocity depen
 
 Many physical phenomena are described by differential equations. That may be because a system evolves in time, or because it changes from location to location. In our treatment of the principles of classical mechanics, we will use differentiation with respect to time a lot. The reason is obviously found in Newton's $2^{nd}$ law: $F = ma$. 
 
-The acceleration $a$ is the derivative of the velocity with respect to time ($a=\frac{dv}{dt}$); velocity in itself is the derivative of position with respect to time ($v=\frac{dx}{dt}$). Or when we use the equivalent formulation with momentum: $\frac{dp}{dt} = F$. So, the change of momentum in time is due to forces. Again, we use differentiation, but now of momentum.
+The acceleration $a$ is the derivative of the velocity with respect to time ($a\equiv\frac{dv}{dt}$); velocity in itself is the derivative of position with respect to time ($v\equiv\frac{dx}{dt}$). Or when we use the equivalent formulation with momentum: $\frac{dp}{dt} = F$. So, the change of momentum in time is due to forces. Again, we use differentiation, but now of momentum.
 
 There are three common ways to denote differentiation. The first one is by 'spelling it out': 
 
@@ -372,7 +373,7 @@ This vector is a 'thing', it exists in space independent of the coordinate syste
 :label: fig_ch1_vec
 :alt: A 2D coordinate system with a vector r, which starts at the origin (0,0) and ends at point P(2,2). 
 
-Some physical quantities (velocity, force etc) can be represented as a vector. The have in common the direction, magnitude and point of application.
+Some physical quantities (velocity, force etc) can be represented as a vector. They have in common the direction, magnitude and point of application.
 ```
 
 A coordinate system allows us to write a representation of the vector in terms of its coordinates. For instance, we could use the familiar Cartesian Coordinate system {x,y,x} and represent $\vec{r}$ as a column.
@@ -403,13 +404,7 @@ $$ \begin{split}
 Note that these representations are equivalent: the difference is in how the unit vectors are named. Also note, that these three representations are all given in terms of vectors. That is important to realize: in contrast to the column notation, now all is written at a single line. But keep in mind: $\hat{x}$ and $\hat{y}$ are perpendicular **vectors**.
 
 ```{important} Other textbooks
-Note that other textbooks may use bold symbols to represent vectors:
-
-$$\vec{F}=m\vec{a}$$
-
-is the same as
-
-$$\mathbf{F}=m\mathbf{a}$$
+Note that other textbooks may use bold symbols to represent vectors: $\vec{F}=m\vec{a}$ is the same as $\mathbf{F}=m\mathbf{a}$.
 ```
 
 +++{"no-pdf": true}
@@ -481,7 +476,7 @@ As an example, let's take velocity. Like in the 1-dimensional case, we can ask o
 $$\vec{v} \equiv \lim_{\Delta t \to 0} \frac{\vec{r}(t+\Delta t) - \vec{r}(t)}{\Delta t} = \frac{d\vec{r}}{dt} $$
 ```
 
-What does it mean? Differentiating is looking at the change of your 'function' when you go from $x$ to $x+dx$:
+What does it mean? Differentiating is looking at the change of your 'function' when you go from $x$ to $x+dx$ (or from $t$ to $t+\Delta t$):
 
 $$\frac{df}{dx} \equiv \lim_{\Delta x \to 0} \frac{f(x + \Delta x ) - f(x)}{\Delta x}$$
 
@@ -548,7 +543,7 @@ The drag force is a little more complicated as the direction of the drag force i
 
 $$\label{eq_Ff} \vec{F_f} = -\frac{1}{2}\rho_{air}C_DA|v|\vec{v}$$
 
-Note that $\hat{z}$ is missing in {eq}`eq_Ff` on purpose. That would be a simplification that is valid in the given situation, but not in general.
+Note that $\hat{z}$ is missing in equation {eq}`eq_Ff` on purpose. That would be a simplification that is valid in the given situation, but not in general.
 ````
 
 (ch_language_s_numerical)=

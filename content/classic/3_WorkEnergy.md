@@ -12,7 +12,7 @@ numbering:
 ```
 (ch_WE_s_work)=
 ## Work
-Work and energy are two important concepts. {index}`Work <Work; definition>` is the transfer of energy that occurs when a force is applied to an object and causes displacement in the direction of that force, calculated as 'force times path' . However, we need a formal definition:
+Work and energy are two important concepts. {index}`Work <Work; definition>` is the transfer of energy that occurs when a force is applied to an object and causes displacement in the direction of that force, calculated as 'force times path'. However, we need a formal definition:
 
 *if a point particle moves from $\vec{r}$ to $\vec{r} + d\vec{r}$ and during this interval a force $\vec{F}$ acts on the particle, then this force has performed an amount of work equal to:*
 
@@ -27,7 +27,7 @@ $$dW = \vec{F} \cdot d\vec{r}$$
 Path of a particle.
 ```
 
-Note that this an *{abbr}`inner product (a mathematical operation that takes two vectors and returns a scalar, measuring how much one vector extends in the direction of the other)`* between two vectors, resulting in a *{abbr}`scalar (a quantity that has only magnitude and no direction,)`* . In other words, work is a number, not a vector. It has no direction. That is one of the advantages over force.
+Note that $\vec{F}\cdot\vec{r}$ is an *{abbr}`inner product (a mathematical operation that takes two vectors and returns a scalar, measuring how much one vector extends in the direction of the other)`* between two vectors, resulting in a *{abbr}`scalar (a quantity that has only magnitude and no direction,)`* . In other words, work is a number, not a vector. It has no direction. That is one of the advantages over force.
 
 $$
 dW = \vec{F} \cdot d\vec{r} = F_x dx + F_y dy + F_z dz
@@ -70,7 +70,7 @@ $$ W_1 + W_2 = \int_1^2 \vec{F}_1 \cdot d\vec{r} + \int_1^2 \vec{F}_2 \cdot d\ve
 ```{exercise} Carrying a weight
 :label: ex_carrying
 
-You carry a heavy backpack $m = 20\ \mathrm{kg}$ from Delft to Rotterdam ($20\ \mathrm{km}$). What is the work that you have done against the gravitational force? 
+You carry a heavy backpack $m = 20\mathrm{\ kg}$ from Delft to Rotterdam ($20\mathrm{\ km}$). What is the work that you have done against the gravitational force? 
 ```
 
 ```{solution} ex_carrying
@@ -150,9 +150,9 @@ $$
 The work done is not the same over this path. This is already obvious from the graph showing the path and the force field: the second path clearly moves against the force, where the first is moving with direction of the force. 
 ```
 
-```{tip} Reminder of path/line integral from Analysis
+```{tip} Reminder of path/line integral from Calculus, see Appendix 
 
-As long as the path can be split along coordinate axis the separation above is a good recipe. If that is not the case, then we need to turn back to the way how things have been introduced in the Analysis class. We need to make a 1D parameterization of the path.
+As long as the path can be split along coordinate axis the separation above is a good recipe. If that is not the case, then we need to turn back to the way how things have been introduced in Calculus class. We need to make a 1D parameterization of the path.
 
 		
 Line integral of a vector valued function $\vec{F}(x,y,z): \mathbb{R}^3\to\mathbb{R}^3$ over a curve ${\cal{C}}$ is given as
@@ -210,7 +210,7 @@ Proof that the velocity of an object released from a height $H$ will reach the v
 ```
 
 ```{exercise}
-A point particle of mass $m=1\mathrm{kg}$ is at $t=0$ at position $x=0$. It has initial velocity $v_0$. From $t=0$ to $t_{stop}=2\mathrm{s}$ it is under the influence of a constant force $F$. This is a 1D problem.
+A point particle of mass $m=1\mathrm{\ kg}$ is at $t=0$ at position $x=0$. It has initial velocity $v_0$. From $t=0$ to $t_{stop}=2\mathrm{\ s}$ it is under the influence of a constant force $F$. This is a 1D problem.
 
 The top graph show the position of the particle. The bottom graph shows the Work done on the particle by the force and the kinetic energy of the particle.
 
@@ -384,9 +384,9 @@ $$
 In words: the integral of the force over a closed path equals the surface integral of the curl of that force. The surface being 'cut out' by the close path. The term $\vec{\nabla} \times \vec{F}$ is called the curl of $F$:, which is a vector. The meaning of the curl and some words on the theorem are given below.
 
 ````{intermezzo} Intermezzo: intuitive proof of Stokes' Theorem 
-Consider a closed curve $\Gamma$ in the $xy$-plane. We would like to calculate the work done when going around this curve. In other words: what is $∮ \vec{F} \cdot d\vec{r}$ if we move along this curve?  
+Consider a closed curve $\Gamma$ in the $xy$-plane. We would like to calculate the work done when going around this curve. In other words: what is $∮ \vec{F} \cdot d\vec{r}$ if we move along this curve?    
 
-We can visualize what we need to do: we cut the curve in small part; compute $\vec{F} \cdot d\vec{r}$ for each part (i.e. the red, green, blue, etc. in {numref}`fig:Stokes2` and sum these to get the total along the curve. If we make the parts infinitesimally small, we go from a (Riemann) sum to an integral. 
+We can visualize what we need to do: we cut the curve in small part; compute $\vec{F} \cdot d\vec{r}$ for each part (i.e. the red, green, blue, etc. in {numref}`fig:Stokes2` and sum these to get the total along the curve. If we make the parts infinitesimally small, we go from a (Riemann) sum to an integral.   
 
 ```{figure} ../images/ch4_Stokes2.svg
 :label: fig:Stokes2
@@ -397,15 +397,15 @@ We can visualize what we need to do: we cut the curve in small part; compute $\v
 Closed path on a grid.
 ```
 
-However, we are going to compute much more: take a look at {numref}`fig:Stokes2`. We have put a grid in the $xy$-plane over a closed curve $\Gamma$. Hence, the interior of our curve is full of squares. We are not only computing the parts along the curve, but also along the sides of alle curves. This will sound like way too much work, but we will see that it actually is a very good idea.
+However, we are going to compute much more: take a look at {numref}`fig:Stokes2`. We have put a grid in the $xy$-plane over a closed curve $\Gamma$. Hence, the interior of our curve is full of squares. We are not only computing the parts along the curve, but also along the sides of alle curves. This will sound like way too much work, but we will see that it actually is a very good idea.  
 
 See {numref}`fig:Stokes2`: we calculate $∮ \vec{F} \cdot d\vec{r}$ counter clockwise for the green square. Than we have at least the green part of our $∮ \vec{F} \cdot d\vec{r}$ done in the right direction. Hence, we compute $\int \vec{F} \cdot d\vec{r}$ along the right side of the green square. We do that from bottom to top as we go counter clockwise along the green square. Let's call that $\int_g \vec{F} \cdot d\vec{r}$.  
 
-Then we move to the blue square and repeat in counter clockwise direction our calculation. But this means that we compute along the left side of blue the square from top to bottom. We will call this $\int_b \vec{F} \cdot d\vec{r}$.  
+Then we move to the blue square and repeat in counter clockwise direction our calculation. But this means that we compute along the left side of blue the square from top to bottom. We will call this $\int_b \vec{F} \cdot d\vec{r}$.   
 
-Next, we will add all contributions. Thus we get $\int_g \vec{F} \cdot d\vec{r} + \int_b \vec{F} \cdot d\vec{r}$. But these two cancel each other as they are exactly the same but done in opposite directions. Thus if we use that $\int_1^2 f dx = - \int_2^1 f dx$ for any integration, it becomes obvious that  $\int_g \vec{F} \cdot d\vec{r} + \int_b \vec{F} \cdot d\vec{r} = 0$.  
+Next, we will add all contributions. Thus we get $\int_g \vec{F} \cdot d\vec{r} + \int_b \vec{F} \cdot d\vec{r}$. But these two cancel each other as they are exactly the same but done in opposite directions. Thus if we use that $\int_1^2 f dx = - \int_2^1 f dx$ for any integration, it becomes obvious that  $\int_g \vec{F} \cdot d\vec{r} + \int_b \vec{F} \cdot d\vec{r} = 0$.   
 
-Note that this will happen for all side of the squares that are in the interior of our curve. Thus, the integral over all squares is exactly the integral along the curve $\Gamma$.  
+Note that this will happen for all side of the squares that are in the interior of our curve. Thus, the integral over all squares is exactly the integral along the curve $\Gamma$.   
 
 It seems, we do a lot of work for nothing. But there is another way of looking at the path-integrals along the squares. If we make the square small enough, the calculation along one square can be approximated:
 
@@ -559,7 +559,7 @@ $$
 
 (ch_WE_s_PE)=
 ## Potential Energy
-This function $V$ is called the potential energy or the potential for short and has a direct connection to the work. A direct consequence of the above is:
+A direct consequence of the above is:
 
 if $ \vec{\nabla} \times \vec{F} = 0 $ everywhere, a function $ V (\vec{r}) $ exists such that $ \vec{F} = -\vec{\nabla}V $
           
@@ -572,6 +572,7 @@ $$
 
 where in the last integral, the lower limit is taken from some, self picked, reference point. The upper limit is the position $ \vec{r} $.
 
+The function $V$ is called the potential energy or the potential for short and has a direct connection to the work. 
 Next to its direct connection to work, the potential is also connected to kinetic energy.
 
 $$
@@ -607,7 +608,7 @@ $$ m\dot{v} + \frac{dV}{dx} = 0 \Rightarrow m\ddot{x} = -\frac{dV}{dx} = F $$
 
 And we have recovered Newton's second law.
 
-In 3 dimensions it is the same procedure. What is a bit more complicated, is using the chain rule. In the above 1-d case we used $\frac{dV}{dt} = \frac{dV(x(t))}{dt} = \frac{dV}{dx}\frac{dx(t)}{dt}$. In 3-d this becomes: 
+In 3 dimensions it is the same procedure. What is a bit more complicated, is using the chain rule. In the above 1-d case we used $\frac{dV}{dt} = \frac{dV(x(t))}{dt} = \frac{dV}{dx}\frac{dx(t)}{dt}$. In 3-d this becomes (see Appendix for the notation): 
 
 $$\frac{dV}{dt} = \frac{dV(\vec{r}(t))}{dt} = \frac{dV}{d\vec{r}}\cdot \frac{d\vec{r}(t)}{dt} = \vec{\nabla} V \cdot \vec{v} $$
 
