@@ -26,7 +26,7 @@ From experience we know that if we want to unscrew a bottle, lift a heavy object
 Lifting is easier using leverage.
 ```
 
-With a relatively small force $F_S$, we can lift the side of a heavy object. The key concept to use here is torque, which in words is loosely formulated: apply the force using a long arm and the force seems to be magnified. The torque is then force multiplied by arm: 
+With a relatively small force $F_S$, we can lift the side of a heavy object. The key concept to use here is torque, which in words is loosely formulated: apply the force using a long arm and the force is magnified. The torque is then force multiplied by arm: 
 
 $\tau = \text{Force} \ \text{times} \ \text{arm}$ 
 
@@ -43,7 +43,7 @@ That is: torque (or krachtmoment in Dutch) is the cross product of 'arm' as a ve
 1. its direction is perpendicular to the force vector $\vec{F}$ *and* perpendicular to the arm $\vec{r}$.
 1. the arm is not a number: it is a vector!
 
-We further know from experience that we can balance torques, like we can balance forces. Rephrased: the net effect of more than one force is found by adding all the forces (as vectors!) and using the net force in Newtons Second Law: $m\vec{a} = \sum \vec{F}_i = \vec{F}_{net}$. From Newtons First Law, we immediately infer: if $\sum \vec{F}_i = \vec{F}_{net}=0$ then the object moves at constant velocity. We can move with the object at this speed and conclude that it from this perspective has zero velocity: it doesn't move, i.e. it is in equilibrium.
+We further know from experience that we can balance torques, like we can balance forces. Rephrased: the net effect of more than one force is found by adding all the forces (as vectors!) and using the net force in Newtons Second Law: $m\vec{a} = \sum \vec{F}_i = \vec{F}_{net}$. From Newtons First Law, we immediately infer: if $\sum \vec{F}_i = \vec{F}_{net}=0$ then the object moves at constant velocity. We can move with the object at this speed and conclude that it (from this perspective) has zero velocity: it doesn't move, i.e. it is in equilibrium.
 
 The same holds for torque: we can work with the sum of all torques that act on an object: $\sum \vec{\tau}_i = \vec{\tau}_{net}$. And if this sum is zero, the object is in equilibrium.
 
@@ -63,7 +63,7 @@ Let's consider a simple example (simple in the sense that we are all familiar wi
 An adult (left) and a child (right) on a seesaw. 
 ```
 
-It is obvious that the adult -seesawing with the child- should sit much closer to the pivot point than the child. That is: we assume that the mass of the adult is greater than that of the child.
+It is obvious that the adult, seesawing with the child, should sit much closer to the pivot point than the child. That is: we assume that the mass of the adult is greater than that of the child.
 
 Let's turn this picture into one that captures the essence and includes the necessary physical quantities, and then draw a free-body diagram.
 
@@ -108,10 +108,10 @@ This guarantees that the seesaw does not change its velocity, and as it does not
 
 But this doesn't guarantee that the seesaw doesn't rotate around the pivot point. For that we need that the 'leverages' on the left and right side 'perform' the same.  
 Making this precise: the torques exerted on the seesaw must also equate to zero.  
-We have 3 forces, thus 3 torques: $-Mg$ with arm $L$, $-mg$ with arm $l$ and $F_p$ with arm zero.
+We have $3$ forces, thus $3$ torques: $-Mg$ with arm $L$, $-mg$ with arm $l$ and $F_p$ with arm zero.
 
 Now we need to be even more precise: torque is a vector and it is made as a cross product of the vector 'arm' and the force.   
-We have already drawn an $x$-coordinate in the figure, that will allow us to write the 'arm' as a vector. After all, we need to evaluate the cross product $\vec{r} \times \vec{F}$. We do that for the three forces, starting on the left:
+We have already drawn an $x$-coordinate in the figure, that will allow us to write the 'arm' as a vector. After all, we need to evaluate the cross product $\vec{r} \times \vec{F}$. We do that for the three forces, starting with the bigger mass on the left side:
 
 $$\vec{\tau}_1 = -L\hat{x} \times (-Mg)\hat{z} = MLg \, \hat{x} \times \hat{z} = MLg \left ( -\hat{y} \right ) = -MLg \, \hat{y}$$
 
@@ -189,7 +189,7 @@ Before answering: first we need to think about **direction of rotation**. Does i
 
 Again the seesaw will give guidance. Suppose we remove the smaller mass all together. Then, it is obvious: the 'heavy' left side will rotate to the ground and the light right side upwards. From the point of view we are standing: the seesaw will rotate counter clockwise. 
 
-We will use the corkscrew rule or right hand rule to give that a direction: rotate a corkscrew clockwise and the screw will move into the cork away from you; rotate a corkscrew counter clockwise and it will move out of the cork, towards you. Of course, in stead of a corkscrew you can think of a screwdriver or a water tap: closing is rotating 'clock wise, opening the tap is counter clockwise. 
+We will use the corkscrew rule or right hand rule to give that a direction: rotate a corkscrew clockwise and the screw will move into the cork away from you; rotate a corkscrew counter clockwise and it will move out of the cork, towards you. Of course, in stead of a corkscrew you can think of a screwdriver or a water tap: closing is rotating 'clock wise, opening the tap is counter clockwise (righty tighty, lefty loosy). 
 
 ```{figure} ../images/ch6_RotatingDirection.svg
 :label: fig:ch6_SeeSaw5.svg
@@ -202,7 +202,7 @@ The rotation is given by the black arrow. You can find it by using the corkscrew
 
 With this, we can define the direction of rotation better than via clock or counter clock wise. In our seesaw example, we will say: if the seesaw rotates clockwise, its rotation is described by a vector that points in the positive $y$-direction as given in the figure, that is pointing into the paper (or screen).
 
-Now, we can couple this to the direction of the torque. We saw -taking the origin at the pivot point- two torques acting on the seesaw. The large mass has its torque pointing in the negative $y$-direction: it points out of the screen/paper. And this torque tries to rotate the seesaw counter clockwise. On the other hand, the small mass has a torque pointing in the positive $y$-direction which is in line with it trying to rotate the seesaw clockwise.    
+Now, we can couple this to the direction of the torque. We saw, taking the origin at the pivot point, two torques acting on the seesaw. The large mass has its torque pointing in the negative $y$-direction: it points out of the screen/paper. And this torque tries to rotate the seesaw counter clockwise. On the other hand, the small mass has a torque pointing in the positive $y$-direction which is in line with it trying to rotate the seesaw clockwise.    
 Which of the two is 'strongest' determines the direction of rotation: if $MgL > mgl$ then the net torque is in the minus-$y$ direction. That is, the torque of the larger mass is more negative than the smaller one is positive: $-MgL + mgl <0 $ and the net torque points towards us.
 
 The quantity that goes with this, is the angular momentum. It is defined as 
@@ -213,7 +213,7 @@ $$\vec{l} \equiv \vec{r} \times \vec{p}$$
 
 ```
 
-Note that it is a cross product as well. Hence it is a vector itself. Further note that $\vec{r} \times \vec{p} \neq \vec{p} \times \vec{r}$. The order matters! First $\vec{r}$ then $\vec{p}$. If you do it the other way around, you unwillingly have introduced a minus sign that should not be there.  
+Note that it is a cross product as well. Hence angular momentum is a vector itself. Further note that $\vec{r} \times \vec{p} \neq \vec{p} \times \vec{r}$. The order matters! First $\vec{r}$ then $\vec{p}$. If you do it the other way around, you unwillingly have introduced a minus sign that should not be there.  
 Furthermore, note that since $\vec{l} \equiv \vec{r} \times \vec{p}$, $\vec{l}$ is perpendicular to the plane formed by $\vec{r}$ and $\vec{p}$.
 
 ```{figure} ../images/ch6_AngularMomentum.svg
@@ -236,7 +236,7 @@ $$
 
 $$
 \frac{d \vec{l}}{dt} = \frac{d (\vec{r} \times \vec{p} )}{dt}
-=  \underbrace{\underbrace{\frac{d \vec{r}}{dt}}_{=\vec{v}} \times \vec{p} }_{=0 \text{ since } \vec{v} // \vec{p}}+ \vec{r} \times \underbrace{\frac{d\vec{p}}{dt}}_{\text{ N2: }= \vec{F} } 
+=  \underbrace{\underbrace{\frac{d \vec{r}}{dt}}_{=\vec{v}} \times \vec{p} }_{=0 \text{ since } \vec{v} // \vec{p}}+ \vec{r} \times\underbrace{\frac{d\vec{p}}{dt}}_{\text{ N2: }= \vec{F} } 
 =  \vec{r} \times \vec{F}
 $$
 
@@ -249,7 +249,7 @@ $$\frac{d \vec{l}}{dt} = \vec{r} \times \vec{F}$$
 
 ```
 
-Again, note that the right hand side is a cross product, so the order does matter.
+Again, note that the right hand side is a cross product, so the order *does* matter.
 
 With the torque denoted by $\vec{\tau}$, we have
 
@@ -349,7 +349,7 @@ However, the particle position does change over time. So: is its angular momentu
 That is easy to find out. We could take 'N2' for angular momentum:
 
 $$
-\frac{d \vec{l}}{dt} = \vec{r} \times \underbrace{\vec{F}}_{\substack{=0 \\ \text{ free particle} }} = 0 \Rightarrow \vec{l} = \text{const}
+\frac{d \vec{l}}{dt} = \vec{r} \times \underbrace{\vec{F}}_{\substack{=0 \\ \text{ free particle} }} = 0 \Rightarrow \vec{l} = \text{const.}
 $$
 
 Clearly, the angular momentum of a free particle is constant. Moreover, the momentum of a free particle is also constant. But what about the position vector: isn't that changing over time and eventually becomes very, very long? Why does that not change $\vec{r} \times \vec{p}$?     
@@ -371,7 +371,7 @@ Later in time it is at position $\vec{r}_2$. Still, its angular momentum is perp
 ## Examples & Exercises
 ````{important} Example: Throwing a basketball
 
-As seen in class: one person throws a basketball to another via a bounce on the ground, the basketball starts to spin after hitting the ground although initially it did not.
+A popular demonstration: one person throws a basketball to another via a bounce on the ground, the basketball starts to spin after hitting the ground although initially it did not.
 	
 ```{figure} ../images/ch6_basketball.svg
 :label: fig:ch6_basketball.svg
@@ -382,14 +382,14 @@ As seen in class: one person throws a basketball to another via a bounce on the 
 A bouncing basketball.
 ```
 
-When the ball hits the ground a friction force is acting on the ball. This force will apply a torque on the ball. The friction is directed opposite to the direction of motion. The arm $\vec{r}$ from the center of the ball to where the force is acting, is downwards. Using the right-hand rule we find that the torque is pointing in the plane of the screen, and thus the rotation is clockwise (forwards spin).
+When the ball hits the ground a friction force is acting on the ball. This force will apply a torque on the ball. The friction is directed opposite to the direction of motion. The arm $\vec{r}$ from the center of the ball to where the force is acting, is downwards. Using the right-hand rule ($\tau = \vec{r}\times\vec{F}$) we find that the torque is pointing in the plane of the screen, and thus the rotation is clockwise (forwards spin).
 
 The forwards momentum of the ball is reduced by the action of the force. The upwards components is just flipped by the bounce on the ground. Therefore the outgoing ball is bouncing up at a steeper angle than it is was incoming.
 
 ````
 
 ````{important} Conservation of angular momentum \& spinning wheel
-As seen in class, we have a student sitting on a chair that can rotate (swivel chair). The student is holding a bicycle wheel in horizontal position. 
+In another popular demonstration, we have a student sitting on a chair that can rotate (swivel chair). The student is holding a bicycle wheel in horizontal position. 
 
 	
 ```{figure} ../images/studentwheel.png
@@ -556,7 +556,7 @@ The reason to identify this class is in the consequences it has for the angular 
 Suppose, a particle of mass $m$ is subject to a central force. Then we can immediately infer that its angular momentum is a constant:
 
 $$
-\text{if } \vec{F} = |\vec{F}(\vec{r})| \hat{r} \text{ then } \frac{d\vec{l}}{dt} = \vec{r} \times \vec{F} =  |\vec{F}(\vec{r})| \vec{r} \times \hat{r} = 0
+\text{if  } \vec{F} = |\vec{F}(\vec{r})| \hat{r} \text{  then  } \frac{d\vec{l}}{dt} = \vec{r} \times \vec{F} =  |\vec{F}(\vec{r})| \vec{r} \times \hat{r} = 0
 $$
 
 where we have used that $\vec{r}$ and $\hat{r}$ are always parallel so their cross-product is zero.
@@ -586,27 +586,27 @@ Before we embark at the problem of the earth moving under the influence of the s
 
 ````{intermezzo} Intermezzo: Tycho Brahe & Johannes Kepler
 
-We find ourselves back in the Late Renaissance, that is around 1550-1600 AD. In Europe, the first signs of the scientific revolution can be found. Copernicus proposed his heliocentric view of the solar system. Galilei used his telescope to study the planets and found further evidence for the heliocentric idea. In Denmark, Tycho Brahe (1546-1601) made astronomical observations with data of unprecedented precision. He did so without the telescope as the first records of telescopes date back to around 1608 AD. 
+We find ourselves back in the Late Renaissance, that is around 1550-1600 AD. In Europe, the first signs of the scientific revolution can be found. Copernicus proposed his heliocentric view of the solar system. Galilei used his telescope to study the planets and found further evidence for the heliocentric idea. In Denmark, Tycho Brahe (1546-1601) made astronomical observations with data of unprecedented precision. He did so without the telescope as the first records of telescopes date back to around 1608 AD.  
 
 ```{figure} ../images/BraheFam.png
 :label: fig:BraheFam.png
 :width: 400px
-:alt: Painted portraits of Tycho and Sophia Brahe. Both are wearing black gowns and a traditional ruff (ruffled collar) around their necks. Tycho is painted with a unique moustache. Sophia is painted with a small dogs alongside her. 
+:alt: Painted portraits of Tycho and Sophia Brahe. Both are wearing black gowns and a traditional ruff (ruffled collar) around their necks. Tycho is painted with a unique moustache. Sophia is painted with a small dogs alongside her.  
 :align: center
 
 left:Tycho Brahe (1546-1601) - right: Sophia Brahe (1559-1643). From Wikimedia Commons 
 ([L](https://commons.wikimedia.org/wiki/File:Tycho_Brahe.JPG), [R](https://commons.wikimedia.org/wiki/File:Sophie_Brahe_portrait.jpg)), public domain.
 ```
 
-Brahe initially studied law, but developed a keen interest in astronomy. He was heavily influenced by the solar eclipse of August 21$^{st}$ in 1560. The eclipse had been predicted via the theory of celestial motion at that time. However, the prediction was off by a day. This led Brahe to the conclusion that in order to advance celestial science, many more and much better observations were needed. He devoted much of his time in achieving this. One of his best assistants was his younger sister, Sophie.
+Brahe initially studied law, but developed a keen interest in astronomy. He was heavily influenced by the solar eclipse of August 21$^{st}$ in 1560. The eclipse had been predicted via the theory of celestial motion at that time. However, the prediction was off by a day. This led Brahe to the conclusion that in order to advance celestial science, many more and much better observations were needed. He devoted much of his time in achieving this. One of his best assistants was his younger sister, Sophie.  
 
-On November 11$^{th}$ 1572, Brahe observed a bright, new star in the constellation Cassiopeia (it consists of five bright stars forming a M or W). That was another event that made him decide to spend his days (or rather nights &#128522; ) gathering astronomical data. The general believe in those days was still that everything beyond the Moon was eternal, never changing. So, this new star, that all in a sudden appeared, must be closer to the earth than the Moon itself. Brahe set out to measure its daily parallax against the five stars of Cassiopeia. But he didn't observe any parallax. Consequently, the new star's position had to be farther out than the Moon and the other planets that did show daily parallax. Moreover, Brahe kept measuring for months and still found no parallax. That meant that this new star was even further out than the known planets that show no daily parallax but did so for periods of month. Brahe reached the conclusion that this new 'thing' thus could not be yet another planet, but that it was a star. Another nail to the coffin of the Aristotle view. Brahe wrote a small book about it, called De Nova Stella (published in 1573). He uses the term 'nova' for a new star. We see this back in our name for the phenomenon observed by Brahe: we call it a supernova. By now it is known that this new star, this supernova is some 8,000 light years away from us. Brahe was upset by those who denied the new findings. In his introduction of De Nova Stella he writes (given here in our modern words): "Oh, coarse characters. Oh, blind spectators of heaven". The work and the booklet made his name in Europe as a leading scientist and astronomer.
+On November 11$^{th}$ 1572, Brahe observed a bright, new star in the constellation Cassiopeia (it consists of five bright stars forming a M or W). That was another event that made him decide to spend his days (or rather nights &#128522; ) gathering astronomical data. The general believe in those days was still that everything beyond the Moon was eternal, never changing. So, this new star, that all in a sudden appeared, must be closer to the earth than the Moon itself. Brahe set out to measure its daily parallax against the five stars of Cassiopeia. But he didn't observe any parallax. Consequently, the new star's position had to be farther out than the Moon and the other planets that did show daily parallax. Moreover, Brahe kept measuring for months and still found no parallax. That meant that this new star was even further out than the known planets that show no daily parallax but did so for periods of month. Brahe reached the conclusion that this new 'thing' thus could not be yet another planet, but that it was a star. Another nail to the coffin of the Aristotle view. Brahe wrote a small book about it, called De Nova Stella (published in 1573). He uses the term 'nova' for a new star. We see this back in our name for the phenomenon observed by Brahe: we call it a supernova. By now it is known that this new star, this supernova is some 8,000 light years away from us. Brahe was upset by those who denied the new findings. In his introduction of De Nova Stella he writes (given here in our modern words): "Oh, coarse characters. Oh, blind spectators of heaven". The work and the booklet made his name in Europe as a leading scientist and astronomer.  
 
-In the winter of 1577-1578 a comet, known as the "Great Comet" appeared in the skies. It was observed by many all over the globe (from the Aztecs in the America's via European researchers to the Arabic world, India all the way to Japan). Brahe made thousands of recordings, some simultaneously done in Denmark (close to Copenhagen) and Prague. That way, Brahe could establish that the comet was much beyond the Moon.
+In the winter of 1577-1578 a comet, known as the "Great Comet" appeared in the skies. It was observed by many all over the globe (from the Aztecs in the America's via European researchers to the Arabic world, India all the way to Japan). Brahe made thousands of recordings, some simultaneously done in Denmark (close to Copenhagen) and Prague. That way, Brahe could establish that the comet was much beyond the Moon.  
 
-At the end of his life, Brahe moved to Prague to become the official imperial astronomer under the protection of Rudolf II, the Holy Roman Emperor. In the later part of his life, Brahe had Johannes Kepler as his assistant. 
+At the end of his life, Brahe moved to Prague to become the official imperial astronomer under the protection of Rudolf II, the Holy Roman Emperor. In the later part of his life, Brahe had Johannes Kepler as his assistant.   
 
-Kepler was 6 years old when the Great Comet appeared in the sky. He recorded in his writings that his mother had taken him to a high place to look at it. At the age of nine, he witnessed a lunar eclipse in which the Moon is in the Earth shadow, darkening it and turning quite red. As a child he suffered from smallpox making his vision weak and limited ability to use his hands. This made it difficult for him to make astronomical observations. It pushed him to mathematics. But there he was confronted with the Ptolemaic and the Copernican view on planetary motion. Kepler became a math professor at the Protestant Stiftsschüle in Graz. He wrote his ideas about the universe, following the thoughts of Copernicus in a book, that was read by Tycho Brahe. This brought him into contact with Brahe. In 1600 Kepler and his family moved to Prague as a consequence of political and religious oppression. He was appointed as assistant to Brahe and worked with Brahe on a new star catalogue and planetary tables. Brahe died unexpectedly on October 24th 1601. Two days later, Kepler was appointed as his successor. 
+Kepler was 6 years old when the Great Comet appeared in the sky. He recorded in his writings that his mother had taken him to a high place to look at it. At the age of nine, he witnessed a lunar eclipse in which the Moon is in the Earth shadow, darkening it and turning quite red. As a child he suffered from smallpox making his vision weak and limited ability to use his hands. This made it difficult for him to make astronomical observations. It pushed him to mathematics. But there he was confronted with the Ptolemaic and the Copernican view on planetary motion. Kepler became a math professor at the Protestant Stiftsschüle in Graz. He wrote his ideas about the universe, following the thoughts of Copernicus in a book, that was read by Tycho Brahe. This brought him into contact with Brahe. In 1600 Kepler and his family moved to Prague as a consequence of political and religious oppression. He was appointed as assistant to Brahe and worked with Brahe on a new star catalogue and planetary tables. Brahe died unexpectedly on October 24th 1601. Two days later, Kepler was appointed as his successor.  
 
 ```{figure} ../images/Kepler.jpg
 :label: fig:Kepler.jpg
@@ -753,7 +753,7 @@ interact(sim_kep, t_sim=widgets.IntSlider(min=0, max=N-1, step=int(N/15), value=
 
 It is important to realize, that Kepler came to his laws by -what we would now call- curve fitting. That is, he was looking for a generic description of the orbits of planets that would match the Brahe data. He abandoned the Copernicus idea of circles with epi-circles with the sun in the center of the orbit. Instead he arrived at ellipses with the sun out of the center, in one of the focal points of the ellipse. 
 
-But, there was no scientific theory backing this up. It is purely 'data-fitting'. Nevertheless, it is a major step forward in the thinking about our universe and solar system. It radically changed from the idea that the universe is 'eternal', that is for ever the same and build up of circles and spheres: the mathematical objects with highest symmetry showing how perfect the creation of the universe is.
+But, there was no scientific theory backing this up. It is purely 'data-fitting'. Nevertheless, it was a major step forward in the thinking about our universe and solar system. It radically changed from the idea that the universe is 'eternal', that is for ever the same and build up of circles and spheres: the mathematical objects with highest symmetry showing how perfect the creation of the universe is.
 
 Kepler had formulated his laws by 1619 AD. It would take another 60 years before Isaac Newton showed that these laws are actually imbedded in his first principle approach: all that is needed is Newton's second law and his Gravitational Law.  
 
@@ -795,13 +795,13 @@ with $M$ the mass of the sun and $m$ that of the planet. $r$ is now the distance
 
 **Second Observation:** The force is of the form $\vec{F}({\vec{r}}) = f(r) \hat{r}$  
 
-**Second conclusion:** Thus, we do know that a potential energy can be associated with it. It is a conservative force. This also implies that the mechanical energy of the planet, that is the sum of kinetic en potential energy, is a constant over time. In other words, there is no frictional force and the motion can continue forever. This seems to be inline with our observation of the universe: the time scales are so large that friction must be small.
+**Second conclusion:** Thus, we do know that a potential energy can be associated with it. It is a conservative force. This also implies that the mechanical energy of the planet, that is the sum of kinetic and potential energy, is a constant over time. In other words, there is no frictional force and the motion can continue forever. This seems to be inline with our observation of the universe: the time scales are so large that friction must be small.
 
 ### Constant Angular Momentum: Equal Area Law
 
 The first clue towards the Kepler Laws comes from angular momentum. Let's consider the earth-sun system (ignoring all other planets in our solar system). As we saw above, gravity with the sun pinned in the origin, is a central force and thus
 
-$$\frac{d\vec{l}}{dt} = \vec{r} \times \left ( -G\frac{mM}{r^2} \frac{\vec{r}}{r} \right ) = 0$$
+$$\frac{d\vec{l}}{dt} = \vec{r} \times \vec{F} = \vec{r} \times \left ( -G\frac{mM}{r^2} \frac{\vec{r}}{r} \right ) = 0$$
 
 Thus, $\vec{l} = \text{const.}$ both in length and in direction. From the latter, we can infer that the motion of the earth around the sun is in a plane. Hence, we deal with a 2-dimensional problem. 
 
@@ -821,17 +821,17 @@ Instead of concentrating on the motion of the earth, we focus on the area traced
 
 The total area traced out by the earth orbit during $dt$ is thus in good approximation:
 
-$$ dA = A_1 + A_2 = \frac{1}{2} \left ( r v_\perp + v_{//}v_\perp dt \right ) dt$$
+$$ dA = A_1 + A_2 = \frac{1}{2} \left ( r v_{_v\perp _r} + v_{_v//_r}v_{_v\perp _r} dt \right ) dt$$
 
 We divide both sides by $dt$ and take the limit $dt \rightarrow 0$:
 
-$$ \frac{dA}{dt} = ( \frac{1}{2} r v_\perp + \frac{1}{2}v_\perp v_//dt ) \rightarrow \frac{1}{2} r v_\perp $$
+$$ \frac{dA}{dt} = ( \frac{1}{2} r v_\perp + \frac{1}{2}v_\perp v_{//}dt ) \rightarrow \frac{1}{2} r v_\perp $$
 
 In stead of $v_\perp$ we can also write $\frac{p_\perp}{m}$:
 
 $$ \frac{dA}{dt} = \frac{1}{2m} r p_\perp $$
 
-But $r p_\perp $ is the magnitude of $\vec{r} \times \vec{p}$. And that is the magnitude of the angular momentum: $l = || \vec{r} \times \vec{p} || = r p_\perp$!!!
+But $r p_\perp $ is the magnitude of $\vec{r} \times \vec{p}$, which is the magnitude of the angular momentum: $l = || \vec{r} \times \vec{p} || = r p_\perp$!!!
 
 We know $l$ is constant, thus we have found:
 
@@ -846,17 +846,15 @@ We can set the constant $C$ to zero at some point in time $t_0$ and start counti
 (ch_AM_s_NT_ss_NT2)=
 ### Newton's theory and Kepler's Laws - part 2
 
-We have:
+Summarized:
 
-- The sun is replaced by a force field originating at the origin. This force field is a central force. 
-    1. Thus, the angular momentum is conserved.
-    1. The orbit is in a plane: we deal with a 2-dimensional problem.
+- The sun is replaced by a force field originating at the origin. This force field is a central force. Hence, the angular momentum is conserved. The orbit is in a plane: we deal with a 2-dimensional problem.
 - The force is conserved: a potential exists.
 
 
-Based on these, we will derive Kepler's laws only using Newtonian Mechanics. This is easiest in polar coordinates $(r, \phi )$. However, in this course we do not deal with these coordinates. We will thus give a coarse overview of the steps that should be taken.
+Based on these, we will derive Kepler's laws only using Newtonian Mechanics. This is easiest in polar coordinates $(r, \phi )$. However, at beginner level we do not deal with these coordinates. We will thus give a coarse overview of the steps that should be taken (see Appendix).
 
-The first thing we notice, is that the constant angular momentum provides a constraint on the relation between $\vec{r}$ and $\vec{p}$. This constraint can be used to rewrite the kinetic energy $E_{kin} = \frac{1}{2} m v^2$ into $E_{kin} = \frac{1}{2}m\dot{r}^2 + \frac{l^2}{2mr^2}$. 
+A thing to notice, is that the constant angular momentum provides a constraint on the relation between $\vec{r}$ and $\vec{p}$. This constraint can be used to rewrite the kinetic energy $E_{kin} = \frac{1}{2} m v^2$ into $E_{kin} = \frac{1}{2}m\dot{r}^2 + \frac{l^2}{2mr^2}$. 
 
 What does this mean? The coordinate $r$ is the distance from the sun to the earth. Its time derivative $(\dot{r} = \frac{dr}{dt} = v_r)$ is the velocity of the earth away from the sun. This is called the radial component of the velocity. {numref}`fig:ch6_Vradial.svg` illustrates this.
 
@@ -867,10 +865,10 @@ What does this mean? The coordinate $r$ is the distance from the sun to the eart
 :alt:  A mass is orbit is drawn with its velocity vector decomposed into a parallel and a perpendicular component. 
 :align: center
 
-The coordinate $r$ is the distance from the sun to the earth. Its time derivative $(\dot{r} = \frac{dr}{dt} = v_r)$ is the velocity of the earth away from the sun. 
+The coordinate $r$ is the distance from the sun to the earth. Its time derivative $(\dot{r} = \frac{dr}{dt} = v_{//})$ is the velocity of the earth away from the sun. 
 ```
 
-It is important to realize that $\dot{r}$ tells us if we are moving such that we are getting closer to the sun or further away. But it does not tells us how we move 'around' the sun. For that we need the information of the component of the velocity perpendicular to $\vec{r}$ (the other dashed vector in the figure).
+It is important to realize that $\dot{r}$ tells us if we are moving such that we are getting closer to the sun or further away. But it does not tells us how we move 'around' the sun. For that we need the information of the component of the velocity perpendicular to $\vec{r}$ ($v_\perp$, the other dashed vector in the figure).
 
 So, it seems that we are working with incomplete information. And in a sense we do. But it will turn out to be very useful to understand the physics of the earth's orbit. 
 
@@ -884,9 +882,9 @@ V(r) &= -\int_{r_{ref}}^r \vec{F}_g \cdot d\vec{r} \\
 
 Thus, energy conservation can be written as:
 
-$$ \frac{1}{2} m (v_x^2 + v_y^2) - -G\frac{mM}{r} = E_0 = const $$
+$$ \frac{1}{2} m (v_x^2 + v_y^2) - -G\frac{mM}{\sqrt{x^2 + y^2}} = E_0 = const $$
 
-As expected: we have an equation with two unknowns $(x(t), y(t))$. Once we solved the problem, we will thus have the coordinates of the planet's trajectory as a function of time. However, we will not do that. Reason: it is complicated and we don't need it! What we need is to find what kind of figure the trajectory is. 
+As expected: we have an equation with two unknowns $(x(t), y(t))$. Once we solved the problem, we will thus have the coordinates of the planet's trajectory as a function of time. However, we will not do that. Reason: it is complicated and we don't need it! What we want is to find what kind of figure the trajectory is. 
 
 Our first step is to bring the number of unknowns in the energy equation down from two to one. For that, we use $E_{kin} = \frac{1}{2}m\dot{r}^2 + \frac{l^2}{2mr^2}$. 
 
