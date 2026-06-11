@@ -12,28 +12,27 @@ numbering:
 
 ::::{tab-set}
 :::{tab-item} Interpret the problem
+On the highway, an overtaking maneuver begins when two cars are about $50 \; \mathrm{m}$ apart and ends when the faster car has passed the other car and is $40 \; \mathrm{m}$ ahead of it. Car 1 is traveling at $98 \; \mathrm{km/h}$ and car 2 at $103 \; \mathrm{km/h}$.
 
-HIER DE INTERPRETATIE
-
+- Calculate the distance traveled by car 2 for this move.
+- What happens when a ball is tossed out of the window when the cars are next to each other? Consider it from car 1 $\rightarrow$ car 2 and the other way around.
+- How would the trajectory of the ball be described by the different drivers, and for a person next to the road?
 ::: 
 :::{tab-item} Develop the solution
-
-HIER DE DEVELOPMENT
-
+The relative velocity is $5 \; \mathrm{km/h} = 1.4 \; \mathrm{m/s}$.
 ::: 
 :::{tab-item} Evaluate the problem
+$t = \frac{s}{v} = \frac{90}{1.4}= 64.8 \; \mathrm{s}$ 
 
-HIER DE EVALUATE
+The total distance traveled by car is $1854 \mathrm{m}$!
 
-::: 
-:::{tab-item} Assess the problem
-
-HIER DE ASSESS
-
+Although the cars are next to each other, they have a relative velocity to each other. The ball can therefore not be caught by the other. For the thrower the ball remains parallel to their own car. For the catcher the ball seems to travel backwards (other direction than the var is moving). A person next to the scene will always see the ball moving in the same direction of the cars.
 ::: 
 ::::
 
-## Superballs
+
+## Examples
+````{example} Superballs
 
 In class you have seen the *Superballs* example. Let's dive more deep into what is happening.
 
@@ -90,9 +89,10 @@ $$ v' = \frac{\frac{m}{M}-1}{\frac{m}{M}+1} v $$
 For $M \gg m$ you indeed see $v'=-v$. Thus the smaller ball will have a smaller velocity than reasoned above *and* the larger ball with also have a smaller velocity (in the experiment you can clearly notice that it does not fly as high as when it drops without the small ball on top). In real life, the balls also deform which makes the collision inelastic.
 
 In a later chapter we will deal with collisions and pay attention to this limit $M \gg m$ in much more detail.
+````
 
-## Examples
-````{example} 8.1
+
+````{example} Bicycling
 
 Consider yourself biking at a constant velocity on an unlikely day with zero wind. Still, you experience a frictional force from the air, with the following observation: the faster you bike, the larger this force. An experimentalist is trying to measure the friction force of the air and relate it to your velocity. She finds that, by and large, these forces turn out to scale with the square of your velocity $v_b$
 
@@ -114,7 +114,7 @@ You quickly realize that a proper description of the air friction must depend on
 $$ F_f \propto (v_b - v_{air} )^2 $$
 ````
 
-````{example} 8.2
+````{example} in the rain
 
 Riding a bike while it rains. You have done this hundreds of times. Your front gets soaked, while the backside of your coat stays dry. Or if you have a passenger on your carrier he/she will not get wet, while you take all the water. From a GT to the reference frame of the biker it is obvious  why this is the case. The rain is not falling straight from the sky, but at an angle towards him. 
 
@@ -186,7 +186,7 @@ According to your observation, $m$ has zero velocity. But you see the table movi
 ```{exercise} &#127798;
 :label: 8.3
 
-Finally, it is winter. And this time, there is lots of fresh snow! You get engaged in a great snowball fight. Your opponent has run out of 'ammunition' and runs away. She is at a distance $L = 2 \mathrm{m}$ when she starts running at a speed of $5 \mathrm{m/s}$. You throw your last snowball at her at a speed of $10 \mathrm{m/s}$.   
+Finally, it is winter. And this time, there is lots of fresh snow! You get engaged in a great snowball fight. Your opponent has run out of 'ammunition' and runs away. She is at a distance $L = 2 \; \mathrm{m}$ when she starts running at a speed of $5 \; \mathrm{m/s}$. You throw your last snowball at her at a speed of $10 \; \mathrm{m/s}$.   
 Determine when and where the snowball hits her. Do that three times:
 
 - Your perspective;
@@ -286,30 +286,30 @@ It is a 1-dimensional problem, so an $x$-axis will do. We denote the velocity of
 $$x_s(t) = v_s t$$
 $$x_o(t) = L + v_o t$$
 require: $x_s(t^*) = x_o(t^*)$
-$$\rightarrow t^* = \frac{L}{v_s - v_o} = 0.4 s \rightarrow x^* = v_s t^* = 4m$$
+$$\rightarrow t^* = \frac{L}{v_s - v_o} = 0.4 \; \mathrm{s} \rightarrow x^* = v_s t^* = 4 \; \mathrm{m}$$
 
 2. Your opponent's perspective  
-$$v'_s = v_s - v_0 =5m/s$$
+$$v'_s = v_s - v_0 =5 \; \mathrm{m/s}$$
 require: $x'_s(t'^*) = 0$ since $S'$ is in $x'=0$. Thus
 
 $$x'_s(t'^*) = -L +v'_s t'^* = 0 \rightarrow t'^* = \frac{L}{v'_s} = 0.4 $$
 Same time of course. Position: your opponent concludes she is not moving and this she is hit at $x'=0$.
 
 3. The snowballs perspective.  
-According to the snowball $v"_o = v_o - v_s = -5m/s$. Thus,
+According to the snowball $v"_o = v_o - v_s = -5\; \mathrm{m/s}$. Thus,
 $$x"_o = L + v"_o t$$
 require: $x"_o(t"^*) = 0$
 
-$$x"_o(t"^*) = L + v"_s t"^* \rightarrow t"^* = -\frac{L}{v"_o} = 0.4s$$
+$$x"_o(t"^*) = L + v"_s t"^* \rightarrow t"^* = -\frac{L}{v"_o} = 0.4\; \mathrm{s}$$
 And, again the snowball will conclude that it all happened in its origin.
 
 Galilean Transformation  
 We now have three different time/place coordinates for the event 'snowball hits opponent'.
 
 $$\begin{split}
-S: (x_h,t_h) &= (4m, 0.4s)\\
-S': (x'_h,t'_h) &= (0m, 0.4s)\\
-S": (x"_h,t"_h) &= (0m, 0.4s)
+S: (x_h,t_h) &= (4\; \mathrm{m}, 0.4\; \mathrm{s})\\
+S': (x'_h,t'_h) &= (0\; \mathrm{m}, 0.4\; \mathrm{s})\\
+S": (x"_h,t"_h) &= (0\; \mathrm{m}, 0.4\; \mathrm{s})
 \end{split}$$
 
 We could have found this directly from a GT.  
@@ -318,12 +318,12 @@ $$\begin{split}
 x' &= x - L - v_o t\\
 t' &= t
 \end{split}$$
-Thus: $x'_h = x_h - L - v_o t_h = 0$ and we get indeed $(x'_h,t'_h) = (0\mathrm{m}, 0.4\mathrm{s})$
+Thus: $x'_h = x_h - L - v_o t_h = 0$ and we get indeed $(x'_h,t'_h) = (0\; \mathrm{m}, 0.4\; \mathrm{s})$
 
 b. We do a similar exercise for $S$ to $S"$:
 $$\begin{split}
 x" &= x - v_s t \\
 t" &= t
 \end{split}$$
-Thus: $x"_h = x_h - v_s t_h = 0$ and we get $(x"_h,t"_h) = (0\mathrm{m}, 0.4\mathrm{s})$
+Thus: $x"_h = x_h - v_s t_h = 0$ and we get $(x"_h,t"_h) = (0\; \mathrm{m}, 0.4\; \mathrm{s})$
 ````

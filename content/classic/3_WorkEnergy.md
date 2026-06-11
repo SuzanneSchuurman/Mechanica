@@ -47,7 +47,7 @@ See also the chapter in the [linear algebra book on the inner product](https://i
 
 (ch_WE_s_KE)=
 ## Kinetic Energy
-{index}`Kinetic energy <Energy; kinetic>` is defined and derived using the definition of work and Newton's $ 2^{nd} $ Law.
+{index}`Kinetic energy <Energy; kinetic>` is defined and derived using the definition of work and Newton's $ 2^{\text{nd}} $ Law.
 
 The following holds: if work is done on a particle, then its kinetic energy must change. And vice versa: if the kinetic energy of an object changes, then work must have been done on that particle. The following {index}`derivation <Energy; kinetic; derivation>` shows this.
 
