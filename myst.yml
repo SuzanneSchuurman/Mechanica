@@ -21,23 +21,12 @@ project:
 extends:
   - toc.yml
   - export.yml
-  - plugins.yml
+  - plugins.yml  
+  - https://gitlab.tudelft.nl/oicm/assets/-/raw/main/style.yml?ref_type=heads
   
 
 
 site:
-  template: book-theme
-  options:
-    logo: style/tudelft.png
-    logo_dark: style/tudelft-dark.png
-    favicon: style/favicon.ico
-    folders: true
-    hide_authors: true
-    enable_service_worker: false
-    execute_js: true
-    style: ./style/custom.css
-  parts:
-    footer: style/footer.md
 
   actions:
     - title: Feedback

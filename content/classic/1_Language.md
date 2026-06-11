@@ -70,11 +70,11 @@ The situation of the base jumper is sketched in {numref}`fig:HailStoneFriction` 
 Force acting on the jumper. 
 ```
 
-- $m$ = mass of jumper (in kg);  
-- $v$ = velocity of jumper (in m/s);  
-- $F_g$ = gravitational force (in N);  
-- $F_f$ = drag force by the air (in N);  
-- $F_b$ = buoyancy (in N): like in water also in air there is an upward force, equal to the weight of the displaced air.
+- $m$ = mass of jumper (in $\mathrm{kg}$);  
+- $v$ = velocity of jumper (in $\mathrm{m/s}$);  
+- $F_g$ = gravitational force (in $\mathrm{N}$);  
+- $F_f$ = drag force by the air (in $\mathrm{N}$);  
+- $F_b$ = buoyancy (in $\mathrm{N}$): like in water also in air there is an upward force, equal to the weight of the displaced air.
 
 ````
 
@@ -277,7 +277,7 @@ Clearly this is some kind of differential equation: the change in velocity depen
 (ch_language_s_differentiation)=
 ### Differentiation
 
-Many physical phenomena are described by differential equations. That may be because a system evolves in time, or because it changes from location to location. In our treatment of the principles of classical mechanics, we will use differentiation with respect to time a lot. The reason is obviously found in Newton's $2^{nd}$ law: $F = ma$. 
+Many physical phenomena are described by differential equations. That may be because a system evolves in time, or because it changes from location to location. In our treatment of the principles of classical mechanics, we will use differentiation with respect to time a lot. The reason is obviously found in Newton's $2^{\text{nd}}$ law: $F = ma$. 
 
 The acceleration $a$ is the derivative of the velocity with respect to time ($a=\frac{dv}{dt}$); velocity in itself is the derivative of position with respect to time ($v=\frac{dx}{dt}$). Or when we use the equivalent formulation with momentum: $\frac{dp}{dt} = F$. So, the change of momentum in time is due to forces. Again, we use differentiation, but now of momentum.
 
