@@ -9,9 +9,7 @@ kernelspec:
 ---
 
 # Two Body Problem: Kepler revisited
-```{index} two body problem, Kepler
 
-```
 Newton must have realized that his analysis of the Kepler laws was not 100% correct. After all, the sun is not fixed in space and even though its mass is much larger than any of the planets revolving it, it will have to move under the influence of the gravitational force by the planets. Take for example, the sun and earth as our system. By the account of Newton's third law, the Earth also exerts a force on the Sun. Therefore, the Sun has to move as well; thus, we must revisit the Earth-Sun analysis and incorporate that the Sun isn't fixed in space.  
 
 
@@ -144,8 +142,7 @@ With $V_i$ the potential related to the external force on particle $i$ and $V_{i
 
 
 ## Angular Momentum
-```{index} two-body problem; angular momentum
-```
+
 
 The total angular momentum is, like the total momentum, defined as the sum of the angular momentum of the two particles:
 

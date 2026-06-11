@@ -7,12 +7,9 @@ numbering:
 (ch_WE)=
 # Work and Energy
 
-```{index} work; energy
-
-```
 (ch_WE_s_work)=
 ## Work
-Work and energy are two important concepts. {index}`Work <Work; definition>` is the transfer of energy that occurs when a force is applied to an object and causes displacement in the direction of that force, calculated as 'force times path'. However, we need a formal definition:
+Work and energy are two important concepts. Work is the transfer of energy that occurs when a force is applied to an object and causes displacement in the direction of that force, calculated as 'force times path'. However, we need a formal definition:
 
 *if a point particle moves from $\vec{r}$ to $\vec{r} + d\vec{r}$ and during this interval a force $\vec{F}$ acts on the particle, then this force has performed an amount of work equal to:*
 
@@ -47,9 +44,9 @@ See also the chapter in the [linear algebra book on the inner product](https://i
 
 (ch_WE_s_KE)=
 ## Kinetic Energy
-{index}`Kinetic energy <Energy; kinetic>` is defined and derived using the definition of work and Newton's $ 2^{\text{nd}} $ Law.
+Kinetic energy is defined and derived using the definition of work and Newton's $ 2^{\text{nd}} $ Law.
 
-The following holds: if work is done on a particle, then its kinetic energy must change. And vice versa: if the kinetic energy of an object changes, then work must have been done on that particle. The following {index}`derivation <Energy; kinetic; derivation>` shows this.
+The following holds: if work is done on a particle, then its kinetic energy must change. And vice versa: if the kinetic energy of an object changes, then work must have been done on that particle. The following derivation shows this.
 
 $$
 W_{12} = \int_1^2 \vec{F} \cdot d\vec{r} = \int_1^2 \vec{F} \cdot \frac{d\vec{r}}{dt}dt = \int_1^2 \vec{F} \cdot \vec{v} dt \\

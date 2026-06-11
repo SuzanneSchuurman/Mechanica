@@ -10,8 +10,6 @@ kernelspec:
 
 (ch_AM)=
 # Angular Momentum, Torque & Central Forces 
-```{index} Torque, Angular momentum, Kepler, Central forces
-```
 
 (ch_AM_s_torq)=
 ## Torque & Angular Momentum
@@ -1121,8 +1119,7 @@ Trajectory of Haley's comet. From [Wikimedia Commons](https://commons.wikimedia.
 
 (ch_AM_s_DM)=
 ## Speed of the planets & dark matter
-```{index} Dark matter
-```
+
 Starting from Kepler 3, we can compute the orbital speed of a planet around the sun
 
 

@@ -44,10 +44,10 @@ $$ \vec{F}_{21} = -\vec{F}_{12} $$
 ```
 
 
-{index}`N1 <Newton; first law>` has, in fact, been formulated by Galileo Galilei. Newton has, in his N2, build upon it: N1 is included in N2, after all:  
+N1  has, in fact, been formulated by Galileo Galilei. Newton has, in his N2, build upon it: N1 is included in N2, after all:  
 if $\vec{F} = 0$, then $\frac{d\vec{p}}{dt} = 0 \rightarrow \vec{p} = \text{constant} \rightarrow \vec{v} = \text{constant}$, provided $m$ is a constant. 
 
-Most people know {index}`N2 <Newton; second law>`as 
+Most people know N2 as 
 
 $$ \vec{F} = m \vec{a} $$
 
@@ -154,8 +154,7 @@ Although this sounds silly, when comparing this idea to the sun and the planets,
 
 (ch_NLaws_sec:_conservation)=
 ## Conservation of Momentum
-```{index} conservation of momentum; introduction
-```
+
 From Newton's 2$^{\text{nd}}$ and 3$^{\text{rd}}$ law we can easily derive the law of conservation of momentum. Assume there are only two point-particle (i.e. particles with no size but with mass), that exert a force on each other. No other forces are present. From N2 we have:
 
 $$ 
@@ -220,8 +219,7 @@ For a system of $N$ particles, extension is straight forward.
 
 
 ````{intermezzo} Intermezzo: Isaac Newton
-```{index} Newton; life
-``` 
+
 At the end of the year of Galilei's death, Isaac Newton was born in Woolsthorpe-by-Colsterworth in England. He is regarded as the founder of classical mechanics and with that he can be seen as the father of physics. 
 
 ```{figure} ../images/ch2_Newton.jpg
@@ -250,8 +248,7 @@ However, in daily life we experience a clear distinction between past, present a
 
 (ch_NLaws_sec:_forces)=
 ### Force addition, subtraction and decomposition
-```{index} forces; addition subtraction and decomposition
-```
+
 Newton's laws describe how forces affect motion. Applying them often requires combining multiple forces acting on an object, see {numref}`fig_additionF`. This is done through vector addition, subtraction, and decomposition, allowing us to find the net force and to analyze its components in different directions (see [this chapter in the book on linear algebra](https://interactivetextbooks.tudelft.nl/linear-algebra/Chapter1/Vectors.html#arrows-in-the-plane) for a full elaboration on vector addition and subtraction).
 
 ```{figure} ../images/ch2_fig_additionF.svg
