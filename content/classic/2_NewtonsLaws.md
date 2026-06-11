@@ -12,7 +12,7 @@ kernelspec:
 
 (ch_NLaws)=
 # Newton's Laws
-Now we turn to one of the most profound breakthroughs in the history of science: the laws of motion formulated by Isaac {index}`Newton <Newton>`. These laws provide a systematic framework for understanding how and why objects move. They form the backbone of classical mechanics. Using these three laws we can predict the motion of a falling apple, a car accelerating down the road, or a satellite orbiting Earth (though some adjustments are required in this context to make use of e.g. GPS!). More than just equations, they express deep principles about the nature of force, mass, and interaction.
+Now we turn to one of the most profound breakthroughs in the history of science: the laws of motion formulated by Isaac Newton. These laws provide a systematic framework for understanding how and why objects move. They form the backbone of classical mechanics. Using these three laws we can predict the motion of a falling apple, a car accelerating down the road, or a satellite orbiting Earth (though some adjustments are required in this context to make use of e.g. GPS!). More than just equations, they express deep principles about the nature of force, mass, and interaction.
 
 In this chapter, you will begin to develop the core physicist’s skill: building a simplified model of the real world, applying physical principles, and using mathematical tools to reach meaningful conclusions.
 
@@ -391,7 +391,7 @@ $$ \label{eq:vert_mot} s(t) = \frac{1}{2}at^2 + v_0t + s_0$$
 ```{exercise} Tossing a stone in the air &#127798;
 :label: ex-toss
 
-At a height of $1.5\\mathrm{m}$ a stone is tossed vertically in the air with a velocity of $10\ \mathrm{m/s}$. 
+At a height of $1.5\; \mathrm{m}$ a stone is tossed vertically in the air with a velocity of $10\ \mathrm{m/s}$. 
 
 1. Calculate the maximum height that it reaches.
 2. Calculate the time it takes to reach this point.
@@ -427,7 +427,7 @@ $s(1.02) = -\frac{1}{2}\cdot9.81\cdot1.02^2 + 10\cdot1.02 + 1.5 = 6.6 \mathrm{m}
 3.  $s(t) = \frac{1}{2}at^2 + v_0t + s_0 = s_e$  
 $t = \frac{-v_0\pm\sqrt{v_0^2-4(\frac{1}{2}a(s_0-s_e))}}{2\frac{1}{2}a} = \frac{-10\pm\sqrt{10^2-4(\frac{1}{2}(-9.81)(1.5))}}{-9.81}=2.18\mathrm{s}$  
 $v(2.18)=\dot{s}(2.18)=v_0 + at=10-9.81\cdot2.18=-11.3 \: \mathrm{m/s}$  
-Note that $t=-0.14\mathrm{s}$ is another solution, but not physically realistic.
+Note that $t=-0.14\; \mathrm{s}$ is another solution, but not physically realistic.
 :::
 :::{tab-item} Assess
 The times we calculated are in the right order: First stone is tossed (at $t_0=0$), then it reaches its highest point (at $t_m=1.02 \: \mathrm{s}$). After that it falls and hits the ground at $t_e=2.18 \: \mathrm{s}$. Thus $t_0 \lt t_m \lt t_e$.
@@ -544,7 +544,7 @@ Understand that the case above is specific in physics: in most realistic context
 ```{exercise} Constant acceleration due to gravity &#127798;
 :label: Const_g
 We assumed a constant acceleration due to gravity. However, the gravitational force is given by $F=-G\frac{mM}{r^2}$.  
-Calculate at what height above the earth the acceleration due to gravity has 'significantly' changed from $9.81 \mathrm{m/s}^2$, say to $9.80 \mathrm{m/s}^2$.
+Calculate at what height above the earth the acceleration due to gravity has 'significantly' changed from $9.81 \; \mathrm{m/s}^2$, say to $9.80 \; \mathrm{m/s}^2$.
 ```
 
 ````{solution} Const_g
@@ -1019,7 +1019,6 @@ First a sketch: draw what is needed, no more, no less.
 :name: fig:Example2
 :width: 20%
 :alt: At the top, a small gray circle is drawn to denote the mass. At the bottom, a large blue circle is drawn to denote Earth. An arrow points downward from the center of the small mass, and is labelled -mg. An upward arrow points from the Earth's center, and is labelled mg.  
-align: center
 ```
 :::
 
@@ -1064,7 +1063,7 @@ $$ p_e + p_o = 0 \Rightarrow v_e = - \frac{m_o}{m_e} v_o = \frac{m_o}{m_e} \sqrt
 
 :::{tab-item} Assess
 
-We found that the particle changed its momentum from $p_i=0$ to $p_f=-mv$. The earth compensates for this, to keep momentum conserved. That gave that earth got a tiny, tiny upwards velocity. We could estimate the displacement of the earth. Suppose, the particle has mass $m$=1kg and is dropped from a height $H=100\mathrm{m}$. Then we get for the velocity of the mass upon impact: $v=-44.3\mathrm{m/s}$ and a falling time $\Delta t=4.5\mathrm{s}$. For the earth we thus find that during the process the velocity is smaller than $v_e$ and thus, the distance traveled by earth towards the mass is less than $\Delta x_e \lt v_e \Delta t = 1.6 \cdot 10^{-24}\mathrm{m}$. Indeed completely negligible, the size of the nucleus of an atom is many orders of magnitude bigger!
+We found that the particle changed its momentum from $p_i=0$ to $p_f=-mv$. The earth compensates for this, to keep momentum conserved. That gave that earth got a tiny, tiny upwards velocity. We could estimate the displacement of the earth. Suppose, the particle has mass $m$=1kg and is dropped from a height $H=100\; \mathrm{m}$. Then we get for the velocity of the mass upon impact: $v=-44.3\; \mathrm{m/s}$ and a falling time $\Delta t=4.5\; \mathrm{s}$. For the earth we thus find that during the process the velocity is smaller than $v_e$ and thus, the distance traveled by earth towards the mass is less than $\Delta x_e \lt v_e \Delta t = 1.6 \cdot 10^{-24}\; \mathrm{m}$. Indeed completely negligible, the size of the nucleus of an atom is many orders of magnitude bigger!
 
 :::
 
@@ -1138,9 +1137,27 @@ If we inspect and assess our solution, we see: the particle slows down (as is to
 
 import numpy as np
 import matplotlib.pyplot as plt
-import ipywidgets
+from ipywidgets import interact, FloatSlider
 
-#code to study the x(t) formula above
+def plot_x(m=1.0, v0=10.0, b=0.5):
+    t = np.linspace(0, 20, 500)
+    x = (m * v0 / b) * (1 - np.exp(-(b / m) * t))
+
+    plt.figure(figsize=(8, 5))
+    plt.plot(t, x)
+    plt.ylim(0,100)
+    plt.xlabel("t")
+    plt.ylabel("x(t)")
+    plt.title(r"$x(t)=\frac{mv_0}{b}\left(1-e^{-\frac{b}{m}t}\right)$")
+    plt.grid(True)
+    plt.show()
+
+interact(
+    plot_x,
+    m=FloatSlider(value=1.0, min=1, max=6.0, step=0.5),
+    v0=FloatSlider(value=10.0, min=0.0, max=20.0, step=0.5),
+    b=FloatSlider(value=0.5, min=0.1, max=5.0, step=0.1),
+)
 ```
 
 ````

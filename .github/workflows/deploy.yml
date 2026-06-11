@@ -33,6 +33,10 @@ jobs:
         with:
           node-version: 23
 
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"          
       - name: Install MyST Markdown
         run: npm install -g mystmd
 
@@ -41,25 +45,6 @@ jobs:
           BASE_URL: /${{ github.event.repository.name }}
         run: myst build --execute --html
       
-      - name: Build HTML (math) into subpath
-        run: |
-          # Check out math branch into a separate folder
-          git worktree add ../_math_build math
-      
-          # Build math with BASE_URL pointing to /<repo>/math
-          cd ../_math_build
-          BASE_URL=/${{ github.event.repository.name }}/math myst build --execute --html
-      
-          # Copy math site into main site's build folder under /math
-          cd -
-          rm -rf _build/html/math
-          mkdir -p _build/html/math
-          cp -a ../_math_build/_build/html/. _build/html/math/
-      
-          # Clean up worktree
-          git worktree remove ../_math_build --force
-
-
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

@@ -407,6 +407,11 @@ Note that these representations are equivalent: the difference is in how the uni
 Note that other textbooks may use bold symbols to represent vectors: $\vec{F}=m\vec{a}$ is the same as $\mathbf{F}=m\mathbf{a}$.
 ```
 
+```{tip}
+Push the ON-button at the top right and the play button next to launch the python app below.
+```
+
+
 +++{"no-pdf": true}
 ```{code-cell} python
 :tag: hide-input
