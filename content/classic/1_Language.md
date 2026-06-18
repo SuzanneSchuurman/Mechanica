@@ -67,7 +67,7 @@ The situation of the base jumper is sketched in {numref}`fig:HailStoneFriction` 
 :align: center
 :alt: A free body diagram of a base jumper of mass m, with downward velocity and gravitational force, and upward buoyant and friction force.
 
-Force acting on the jumper. 
+The different forces acting on the jumper. 
 ```
 
 - $m$ = mass of jumper (in $\mathrm{kg}$);  
@@ -122,7 +122,7 @@ There is, however, a structured way of problem solving, that is used by virtuall
 :alt: A flow diagram linking the four steps of IDEA.
 :align: center
 
-IDEA 
+IDEA: a structured way of problem solving
 ```
 
 * **Interpret** - First think about the problem. What does it mean? Usually, making a sketch helps. ***Actually:*** *always start with a sketch*;
@@ -622,7 +622,8 @@ $$\frac{dx}{dt} = v \Rightarrow x_{i+1} = x_i + v_i \Delta t$$
 With the above rules, we can write an iterative code:
 
 ```{code-cell} Python
-:tag: hide-input
+:tag: [hide-input,skip-execution]
+:linenos:
 
 # Simulation of a base jumper 
 

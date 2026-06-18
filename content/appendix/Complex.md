@@ -29,7 +29,7 @@ x = data.real
 y = data.imag
 
 # plot the complex numbers
-plt.scatter(x, y, 'k.')
+plt.scatter(x, y, color='k', marker='.')
 plt.ylabel('Imaginary')
 plt.xlabel('Real')
 plt.show()
@@ -57,8 +57,8 @@ x, x2 = data.real, data2.real
 y, y2 = data.imag, data2.imag
 
 # plot the complex numbers
-plt.scatter(x, y, 'k.')
-plt.scatter(x2, y2, 'r.')
+plt.scatter(x, y, color='k', marker='.')
+plt.scatter(x2, y2, color='r', marker='.')
 plt.ylabel('Imaginary')
 plt.xlabel('Real')
 plt.show()

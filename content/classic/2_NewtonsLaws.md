@@ -141,7 +141,7 @@ Note that this example could also be solved by N2 in the form of $F = ma$. It is
 ```{exercise} Newton's third law &#127798;
 :label: ex_ch2_N3
 
-The [base jumper from chapter 1](http://localhost:3000/content/classic/ch0-language#representations) just jumped from the tall building. According to Newton's third law there are two coupled forces. Which are these, and what is the consequence of these two forces?
+The [base jumper from chapter 1](#ch_language_s_representations) just jumped from the tall building. According to Newton's third law there are two coupled forces. Which are these, and what is the consequence of these two forces?
 ```
 
 ```{solution} ex_ch2_N3
