@@ -494,7 +494,7 @@ plt.xlim(-.5*N, N)
 plt.ylim(-.5*N, N)
 plt.xlabel('x')
 plt.ylabel('y')
-plt.savefig('../../images/StokesTheoremExample.png', dpi=300)
+# plt.savefig('../images/StokesTheoremExample.png', dpi=300)
 plt.show()
 ```
 

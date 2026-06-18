@@ -38,7 +38,7 @@ At time $t = 0$ both masses have velocity $0$. The rope is taut at all times.
 1. (2 points) Calculate the acceleration of both masses.
 
 ## Question 4
-Observer S’ moves relative to observer S with speed $V/c = 3/5$ in the positive x-direction. The x and x’ axes are parallel. When the origins of S and S’ coincide, the clocks in S and S’ are set to $𝑡 = 𝑡’ = 0$.
+Observer S’ moves relative to observer S with speed $V/c = 3/5$ in the positive x-direction. The x and x’ axes are parallel. When the origins of S and S’ coincide, the clocks in S and S’ are set to $𝑡 = 𝑡' = 0$.
 
 At $c𝑡 = 1 \; \mathrm{ls}$ a photon with frequency $f_0$ is emitted from the origin of S that moves in the positive x-direction. This is event E1.
 
@@ -53,7 +53,7 @@ The photon reflects subsequently on a mirror that is at rest in S’. For S’ t
 
 
 ## Question 5
-Observer S’ moves relative to observer S with speed $V/c = 3/5$ in the positive x-direction. The x and x’ axes are parallel. When the origins of S and S’ coincide, the clocks in S and S’ are set to $𝑡 = 𝑡’ = 0$.
+Observer S’ moves relative to observer S with speed $V/c = 3/5$ in the positive x-direction. The x and x’ axes are parallel. When the origins of S and S’ coincide, the clocks in S and S’ are set to $𝑡 = 𝑡' = 0$.
 
 In the frame of S’, a mass $m$ with speed $4/5 c$ collides (relativistically) with a stationary particle with mass $5m$. After the collision there is 1 particle.  
 1. (1 point) Give the definition of four-momentum for a particle with mass $m$ and speed $u$.  
