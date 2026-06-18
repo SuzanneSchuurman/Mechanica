@@ -232,7 +232,7 @@ In {numref}`Figure {number} <fig:Scattering2D3D.png>` scattering in a 2D world a
 Already in the 18$^{\text{th}}$ century, work was done on what we call the kinetic theory of gases. The Swiss scientist Daniel Bernoulli proposed that gases were a large collection of molecules, i.e tiny particles moving in all directions. According to Bernoulli, their collision with walls was felt macroscopically as pressure and their averaged kinetic energy was in essence the temperature of the gas.
 
 `````{figure}
-:label: fig_hist_bernmax
+:label: fig_hist_bernmax2
 :class: pull-up
 ````{figure}
 :class: grid grid-cols-2 items-end gap-4 
@@ -290,7 +290,7 @@ For really high temperatures ($\sim 2000 \; \mathrm{K}$) for both O$_2$ and H$_2
 
 
 
-(ch_Cracks_s_Ruth)=
+(ch_Cracks_s_Maxeq)=
 ## The problem with Maxwell's equations
 
 In the early 1860s [Maxwell](https://en.wikipedia.org/wiki/James_Clerk_Maxwell) extended Ampères' law, in combination with Gauss and Faraday laws. This led to four coupled differential equations describing the generation of electromagnetic fields from charges and currents. They are now just known as *the Maxwell equations*. They read in modern (differential) notation as follows for the electric  $\vec{E}(\vec{r},t)$ and magnetic $\vec{B}(\vec{r},t)$ field in free space

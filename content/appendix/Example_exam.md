@@ -40,7 +40,7 @@ At time $t = 0$ both masses have velocity $0$. The rope is taut at all times.
 ## Question 4
 Observer S’ moves relative to observer S with speed $V/c = 3/5$ in the positive x-direction. The x and x’ axes are parallel. When the origins of S and S’ coincide, the clocks in S and S’ are set to $𝑡 = 𝑡’ = 0$.
 
-At $c𝑡 = 1𝑙𝑠$ a photon with frequency $f_0$ is emitted from the origin of S that moves in the positive x-direction. This is event E1.
+At $c𝑡 = 1 \; \mathrm{ls}$ a photon with frequency $f_0$ is emitted from the origin of S that moves in the positive x-direction. This is event E1.
 
 The photon is detected by S' (at her origin) at some later time. This is event E2.
 
