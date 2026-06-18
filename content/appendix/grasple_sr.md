@@ -158,3 +158,15 @@ site:
 :label: 122041
 :title: FourParticles
 ```
+
+```{grasple} https://embed.grasple.com/exercises/7813e72b-a1db-45c8-a463-343fa3f1530e?id=122155
+:label: 122155
+:title: Distance
+```
+
+
+
+```{grasple} https://embed.grasple.com/exercises/581d9a45-d094-418e-be91-6660d5a64897?id=122159
+:label: 122159
+:title: Inner Product
+```

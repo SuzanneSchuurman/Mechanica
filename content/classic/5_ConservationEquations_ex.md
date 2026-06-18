@@ -150,6 +150,10 @@ Ball bouncing at a wall.
 
 
 ## Exercises
+```{grasple} https://embed.grasple.com/exercises/35644657-f9be-4481-b6a5-cbd838af2f95?id=121969
+:label: 121969
+:title: CoG
+```
 
 ````{exercise} &#127798;
 :label: 8.1

@@ -5,64 +5,14 @@ site:
   hide_title_block: true
       
 ---
-+++ {"class": "col-screen"}
-```{grasple} https://embed.grasple.com/exercises/0b0af83f-731e-4171-b051-e64f510140cb?id=121935
-:label: 121935
-:title: A large swing
-```
-
-```{grasple} https://embed.grasple.com/exercises/c752ba16-0548-4161-9fbc-82de66f0750a?id=121758
-:label: 121758
-:title: Angular Momentum and collision
-```
-
-```{grasple} https://embed.grasple.com/exercises/7fd61e6c-01bf-4e67-b25d-b9f1f7e6d78c?id=121771
-:label: 121771
-:title: Angular Momentum and free particle
-```
-
-```{grasple} https://embed.grasple.com/exercises/241ac393-90de-484e-a967-934186a12c20?id=121757
-:label: 121757
-:title: Angular Momentum and rope
-```
-
-```{grasple} https://embed.grasple.com/exercises/90d7e7c4-d08c-47e4-b47b-a476433e1a53?id=121753
-:label: 121753
-:title: Atwood 1
-```
-
-```{grasple} https://embed.grasple.com/exercises/81e7037b-fdb5-4cba-9666-2902396b18f9?id=122311
-:label: 122311
-:title: Atwood 2
-```
-
-```{grasple} https://embed.grasple.com/exercises/367d1ac3-4ffa-4c7a-9b85-3c03b7277a71?id=116975
-:label: 116975
-:title: Atwood1
-```
-
-```{grasple} https://embed.grasple.com/exercises/a296df9b-54df-40bb-8084-3032ba9d2480?id=116976
-:label: 116976
-:title: Atwood2
-```
+<!-- +++ {"class": "col-screen"} -->
 
 
 
-```{grasple} https://embed.grasple.com/exercises/35644657-f9be-4481-b6a5-cbd838af2f95?id=121969
-:label: 121969
-:title: CoG
-```
-
-```{grasple} https://embed.grasple.com/exercises/9c5089ee-ffbb-4cc3-a730-98221b4dde74?id=121952
-:label: 121952
-:title: Damping
-```
 
 
-```{grasple} https://embed.grasple.com/exercises/7649c4da-5c46-4885-96be-6582f3815305?id=122020
-:label: 122020
-:title: Damping 2
-```
+
+
 
 ```{grasple} https://embed.grasple.com/exercises/57e94d49-0d52-4b73-9bec-9fa63baefe7b?id=121756
 :label: 121756
@@ -71,22 +21,7 @@ site:
 
 
 
-```{grasple} https://embed.grasple.com/exercises/7813e72b-a1db-45c8-a463-343fa3f1530e?id=122155
-:label: 122155
-:title: Distance
-```
 
-
-
-```{grasple} https://embed.grasple.com/exercises/e4c1da9d-3c7e-4f1c-a6fc-d50553b01760?id=118576
-:label: 118576
-:title: Fexp
-```
-
-```{grasple} https://embed.grasple.com/exercises/fa2ae531-94a8-46a3-bef2-27fb2ecf42dc?id=122338
-:label: 122338
-:title: Flying bird
-```
 
 ```{grasple} https://embed.grasple.com/exercises/44df7d5c-d3fc-45b1-894b-ce0fd3344b91?id=116730
 :label: 116730
@@ -113,10 +48,6 @@ site:
 :title: Force 5
 ```
 
-```{grasple} https://embed.grasple.com/exercises/22a216bf-9360-4437-a387-a191dc0df221?id=121808
-:label: 121808
-:title: Elastic Collision
-```
 
 
 
@@ -143,20 +74,9 @@ site:
 ```
 
 
-```{grasple} https://embed.grasple.com/exercises/b47bbf50-5bc9-4c2d-9789-86504c2738f6?id=121809
-:label: 121809
-:title:Inelastic collision
-```
 
-```{grasple} https://embed.grasple.com/exercises/581d9a45-d094-418e-be91-6660d5a64897?id=122159
-:label: 122159
-:title: Inner Product
-```
 
-```{grasple} https://embed.grasple.com/exercises/ec756e9e-92a0-4858-9c46-2955e739972d?id=121749
-:label: 121749
-:title: KineticEnergy 1
-```
+
 
 ```{grasple} https://embed.grasple.com/exercises/7c34b996-de5b-4cda-9fc4-6d5054062544?id=121752
 :label: 121752
