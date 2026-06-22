@@ -487,11 +487,8 @@ Animation of the pendulum: red is the true pendulum, blue the small angle approx
 In the widget below, you can vary the initial angle and observe that indeed for a small angle the red mass and the other two follow the same trajectory. But if you increase the initial angle, the red mass behaves differently: it oscillates slower and the time trace of angle as a function of time is no longer sinusoidal.
 
 
-```{warning} Content missing, will be updated
-app needs to be checked
-```
-
 ```{code-cell} python
+:tag: hide-input
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.animation import FuncAnimation
@@ -701,7 +698,7 @@ We will investigate various cases.
 
 ::::{tab-set}
 
-:::{tab-item} D = b²-4mk $\lt$ 0
+:::{tab-item} D = b²-4mk < 0
 
 In this case, the square root in $\lambda$ is imaginary and we can write it as $i\sqrt{4mk - b^2}$. This gives us for the two possibilities of $\lambda$
 
@@ -852,11 +849,10 @@ Here the pendula are coupled via the ground. This influence is called *weak coup
 1. Example of resonance: [sound waves are exciting a glass](https://www.youtube.com/watch?v=CdUoFIZSuX0). By changing the frequency of the sound waves to the resonance frequency, the glass starts oscillating with increasing amplitude until it finally breaks.
 
 2. Driven harmonic oscillator with damping.
-```{warning}
-App below needs updating
-```
 
 ```{code-cell} python
+:tag: hide-input
+
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.animation import FuncAnimation
